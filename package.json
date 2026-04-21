@@ -1,0 +1,16 @@
+{
+  "name": "nihongo-memo",
+  "version": "1.0.0",
+  "description": "Japanese vocabulary memorization app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": ["japanese", "flashcards", "vocabulary", "learning"],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^41.2.1"
+  }
+}
