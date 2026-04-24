@@ -1,0 +1,8654 @@
+[
+  {
+    "english": "who",
+    "romaji": "dare",
+    "hiragana": "だれ",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "who(polite)",
+    "romaji": "donata",
+    "hiragana": "どなた",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "what",
+    "romaji": "nani",
+    "hiragana": "なに",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "where",
+    "romaji": "doko",
+    "hiragana": "どこ",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "when",
+    "romaji": "itsu",
+    "hiragana": "いつ",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "why",
+    "romaji": "naze",
+    "hiragana": "なぜ",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "how",
+    "romaji": "dou",
+    "hiragana": "どう",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "how (polite)",
+    "romaji": "ikaga",
+    "hiragana": "いかが",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "which (out of two choices)",
+    "romaji": "docchi",
+    "hiragana": "どっち",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "which (out of three or more choices)",
+    "romaji": "dore",
+    "hiragana": "どれ",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "how many / how old",
+    "romaji": "ikutsu",
+    "hiragana": "いくつ",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "how much",
+    "romaji": "ikura",
+    "hiragana": "いくら",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "yes",
+    "romaji": "hai",
+    "hiragana": "はい",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "yeah",
+    "romaji": "un",
+    "hiragana": "うん",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "yeah",
+    "romaji": "ee",
+    "hiragana": "ええ",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "no",
+    "romaji": "iie",
+    "hiragana": "いいえ",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "nah",
+    "romaji": "uun",
+    "hiragana": "ううん",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "Good morning",
+    "romaji": "Ohayou gozaimasu",
+    "hiragana": "おはようございます",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "Good evening",
+    "romaji": "Konban wa",
+    "hiragana": "こんばんは",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "Good night",
+    "romaji": "Oyasuminasai",
+    "hiragana": "おやすみなさい",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "Goodbye",
+    "romaji": "Sayounara",
+    "hiragana": "さようなら",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "Bye",
+    "romaji": "Jaa ne",
+    "hiragana": "じゃあね",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "See you later",
+    "romaji": "Mata ne",
+    "hiragana": "またね",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "See you tomorrow",
+    "romaji": "Mata ashita",
+    "hiragana": "またあした",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "Take care",
+    "romaji": "Ki o tsukete",
+    "hiragana": "きをつけて",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "Hello (on the phone)",
+    "romaji": "Moshi moshi (some people pronounce this mushi mushi)",
+    "hiragana": "もしもし",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "I'm leaving",
+    "romaji": "Ittekimasu",
+    "hiragana": "いってきます",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "Have a good one",
+    "romaji": "Itterasshai",
+    "hiragana": "いってらっしゃい",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "I'm home",
+    "romaji": "Tadaima",
+    "hiragana": "ただいま",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "Welcome back",
+    "romaji": "Okaerinasai",
+    "hiragana": "おかえりなさい",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "(Said before eating or receiving something)",
+    "romaji": "Itadakimasu",
+    "hiragana": "いただきます",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "Thank you for the meal",
+    "romaji": "Gochisousama deshita",
+    "hiragana": "ごちそうさまでした",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "Please come in",
+    "romaji": "Irasshaimase",
+    "hiragana": "いらっしゃいませ",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "(Said when entering someone's home)",
+    "romaji": "Ojamashimasu",
+    "hiragana": "おじゃまします",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "Good work today",
+    "romaji": "Otsukaresama deshita",
+    "hiragana": "おつかれさまでした",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "Please. (Do as you like.)",
+    "romaji": "Douzo",
+    "hiragana": "どうぞ",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "honorific speech",
+    "romaji": "sonkeigo",
+    "hiragana": "そんけいご",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "humble speech",
+    "romaji": "kenjougo",
+    "hiragana": "けんじょうご",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "to come / to go / to be",
+    "romaji": "irassharu",
+    "hiragana": "いらっしゃる",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "to come / to go / to be",
+    "romaji": "oide ni naru",
+    "hiragana": "おいでになる",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "to come / to go",
+    "romaji": "mairu",
+    "hiragana": "まいる",
+    "notes": "This word can be confusing because it also has some non-humble homonyms which use the same kanji. They include to be madly in love, to be defeated, to be annoyed.",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "to do",
+    "romaji": "itasu",
+    "hiragana": "いたす",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "to do",
+    "romaji": "nasaru",
+    "hiragana": "なさる",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "to see / to look",
+    "romaji": "goran ni naru",
+    "hiragana": "ごらんになる",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "to say",
+    "romaji": "ossharu",
+    "hiragana": "おっしゃる",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "to eat / to drink / to receive",
+    "romaji": "itadaku",
+    "hiragana": "いただく",
+    "notes": "This is actually one of the first words we learned, that we use before we eat something, but as you can see, it has other contexts as well.",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "Nice to meet you. / Please. (polite)",
+    "romaji": "Yoroshiku onegaishimasu. / Onegaishimasu",
+    "hiragana": "よろしくおねがいします。/ おねがいします",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "How are you?",
+    "romaji": "Ogenki desu ka?",
+    "hiragana": "おげんきですか",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "I'm called ____. (polite)",
+    "romaji": "____ to moushimasu",
+    "hiragana": "____ ともうします",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "Excuse me. / I'm sorry",
+    "romaji": "Sumimasen",
+    "hiragana": "すみません",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "Excuse me. (polite) / Goodbye",
+    "romaji": "Shitsurei shimasu",
+    "hiragana": "しつれいします",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "Sorry",
+    "romaji": "Gomennasai",
+    "hiragana": "ごめんなさい",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "Thank you very much",
+    "romaji": "Doumo arigatou gozaimasu",
+    "hiragana": "どうもありがとうございます",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "You're welcome. / No problem",
+    "romaji": "Dou itashimashite. / Iie iie",
+    "hiragana": "どういたしまして。/ いいえいいえ",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "meeting",
+    "romaji": "kaigi",
+    "hiragana": "かいぎ",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "morning",
+    "romaji": "asa",
+    "hiragana": "あさ",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "evening",
+    "romaji": "yuugata",
+    "hiragana": "ゆうがた",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "night",
+    "romaji": "yoru",
+    "hiragana": "よる",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "last night",
+    "romaji": "yuube",
+    "hiragana": "ゆうべ",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "this morning",
+    "romaji": "kesa",
+    "hiragana": "けさ",
+    "notes": "",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "woman pleaser",
+    "romaji": "feminisuto",
+    "hiragana": "フェミニスト",
+    "notes": "This word does not refer to a woman's rights advocate, but quite the opposite. It refers to a man who pampers and takes care of women, often financially.",
+    "section": "Greetings & Basics"
+  },
+  {
+    "english": "human",
+    "romaji": "ningen",
+    "hiragana": "にんげん",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "humanity",
+    "romaji": "jinrui",
+    "hiragana": "じんるい",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "man",
+    "romaji": "otokonohito",
+    "hiragana": "おとこのひと",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "boy",
+    "romaji": "otokonoko",
+    "hiragana": "おとこのこ",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "woman",
+    "romaji": "onnanohito",
+    "hiragana": "おんなのひと",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "girl",
+    "romaji": "onnanoko",
+    "hiragana": "おんなのこ",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "baby",
+    "romaji": "akachan",
+    "hiragana": "あかちゃん",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "youth, young person",
+    "romaji": "wakamono",
+    "hiragana": "わかもの",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "I, myself",
+    "romaji": "watashi",
+    "hiragana": "わたし",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "I, myself",
+    "romaji": "watakushi",
+    "hiragana": "わたくし",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "I, myself",
+    "romaji": "boku",
+    "hiragana": "ぼく",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "I, myself",
+    "romaji": "atashi",
+    "hiragana": "あたし",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "girl",
+    "romaji": "shoujo",
+    "hiragana": "しょうじょ",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "boy",
+    "romaji": "shounen",
+    "hiragana": "しょうねん",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "How do you do?",
+    "romaji": "Hajimemashite",
+    "hiragana": "はじめまして",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "he / boyfriend",
+    "romaji": "kare",
+    "hiragana": "かれ",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "she / girlfriend",
+    "romaji": "kanojo",
+    "hiragana": "かのじょ",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "humble suffix",
+    "romaji": "sama",
+    "hiragana": "さま",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "plural suffix",
+    "romaji": "tachi",
+    "hiragana": "たち",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "boy suffix",
+    "romaji": "kun",
+    "hiragana": "くん",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "girl suffix",
+    "romaji": "chan",
+    "hiragana": "ちゃん",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "teacher / doctor suffix",
+    "romaji": "sensei",
+    "hiragana": "せんせい",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "senior suffix",
+    "romaji": "senpai",
+    "hiragana": "せんぱい",
+    "notes": "Since we don't know any verbs yet, having example sentences isn't the best way to practice these words. What I want you to do is: go about your day, and if you see someone, try to think of the appropriate pronoun for them, and also think of the suffix that you would attach to their name. This will be great practice!",
+    "section": "People"
+  },
+  {
+    "english": "junior suffix",
+    "romaji": "kouhai",
+    "hiragana": "こうはい",
+    "notes": "Since we don't know any verbs yet, having example sentences isn't the best way to practice these words. What I want you to do is: go about your day, and if you see someone, try to think of the appropriate pronoun for them, and also think of the suffix that you would attach to their name. This will be great practice!",
+    "section": "People"
+  },
+  {
+    "english": "adult",
+    "romaji": "otona",
+    "hiragana": "おとな",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "child",
+    "romaji": "kodomo",
+    "hiragana": "こども",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "person",
+    "romaji": "hito",
+    "hiragana": "ひと",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "people",
+    "romaji": "hitobito",
+    "hiragana": "ひとびと",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "(humble) person",
+    "romaji": "kata",
+    "hiragana": "かた",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "everyone",
+    "romaji": "minna",
+    "hiragana": "みんな",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "woman",
+    "romaji": "ooeru",
+    "hiragana": "オーエル",
+    "notes": "As you can see, these words are taken from English. OL stands for Office Lady.",
+    "section": "People"
+  },
+  {
+    "english": "not necessarily / not always the case",
+    "romaji": "kanarazushimo",
+    "hiragana": "かならずしも",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "the sky",
+    "romaji": "sora",
+    "hiragana": "そら",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "a large number of people",
+    "romaji": "oozei",
+    "hiragana": "おおぜい",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "the world",
+    "romaji": "sekai",
+    "hiragana": "せかい",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "the same",
+    "romaji": "onaji",
+    "hiragana": "おなじ",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "other / the rest",
+    "romaji": "hoka",
+    "hiragana": "ほか",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "one person",
+    "romaji": "hitori",
+    "hiragana": "ひとり",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "two people",
+    "romaji": "futari",
+    "hiragana": "ふたり",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "the day before yesterday",
+    "romaji": "ototoi",
+    "hiragana": "おととい",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "the day after tomorrow",
+    "romaji": "asatte",
+    "hiragana": "あさって",
+    "notes": "",
+    "section": "People"
+  },
+  {
+    "english": "my father",
+    "romaji": "chichi",
+    "hiragana": "ちち",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "father",
+    "romaji": "tousan",
+    "hiragana": "とうさん",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "my mother",
+    "romaji": "haha",
+    "hiragana": "はは",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "mother",
+    "romaji": "kaasan",
+    "hiragana": "かあさん",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "my older brother",
+    "romaji": "ani",
+    "hiragana": "あに",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "older brother",
+    "romaji": "niisan",
+    "hiragana": "にいさん",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "my older sister",
+    "romaji": "ane",
+    "hiragana": "あね",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "older sister",
+    "romaji": "neesan",
+    "hiragana": "ねえさん",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "parents",
+    "romaji": "ryoushin",
+    "hiragana": "りょうしん",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "my younger brother",
+    "romaji": "otouto",
+    "hiragana": "おとうと",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "younger brother",
+    "romaji": "otoutosan",
+    "hiragana": "おとうとさん",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "my younger sister",
+    "romaji": "imouto",
+    "hiragana": "いもうと",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "younger sister",
+    "romaji": "imoutosan",
+    "hiragana": "いもうとさん",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "my grandfather",
+    "romaji": "sofu",
+    "hiragana": "そふ",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "grandfather",
+    "romaji": "jiisan",
+    "hiragana": "じいさん",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "my grandmother",
+    "romaji": "sobo",
+    "hiragana": "そぼ",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "grandmother",
+    "romaji": "baasan",
+    "hiragana": "ばあさん",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "family",
+    "romaji": "kazoku",
+    "hiragana": "かぞく",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "my husband",
+    "romaji": "otto",
+    "hiragana": "おっと",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "your husband",
+    "romaji": "goshujin",
+    "hiragana": "ごしゅじん",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "my wife",
+    "romaji": "tsuma",
+    "hiragana": "つま",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "your wife",
+    "romaji": "okusan",
+    "hiragana": "おくさん",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "my son",
+    "romaji": "musuko",
+    "hiragana": "むすこ",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "your son",
+    "romaji": "musukosan",
+    "hiragana": "むすこさん",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "my daughter",
+    "romaji": "musume",
+    "hiragana": "むすめ",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "your daughter",
+    "romaji": "ojousan",
+    "hiragana": "おじょうさん",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "grandchild",
+    "romaji": "mago",
+    "hiragana": "まご",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "your grandchild",
+    "romaji": "omagosan",
+    "hiragana": "おまごさん",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "uncle",
+    "romaji": "oji",
+    "hiragana": "おじ",
+    "notes": "Don't confuse this word with grandfather.",
+    "section": "Family"
+  },
+  {
+    "english": "your uncle",
+    "romaji": "ojisan",
+    "hiragana": "おじさん",
+    "notes": "Don't confuse this word with grandfather.",
+    "section": "Family"
+  },
+  {
+    "english": "aunt",
+    "romaji": "oba",
+    "hiragana": "おば",
+    "notes": "Don't confuse this word with grandmother.",
+    "section": "Family"
+  },
+  {
+    "english": "your aunt",
+    "romaji": "obasan",
+    "hiragana": "おばさん",
+    "notes": "Don't confuse this word with grandmother.",
+    "section": "Family"
+  },
+  {
+    "english": "cousin",
+    "romaji": "itoko",
+    "hiragana": "いとこ",
+    "notes": "The kanji for this word depends on the gender of the cousin. It can be written six different ways, but is always pronounced the same. The word is usually just written without kanji, however. The order in the brackets above is as follows: male cousins, older male cousin, younger male cousin, female cousins, older female cousin, younger female cousin.",
+    "section": "Family"
+  },
+  {
+    "english": "siblings",
+    "romaji": "kyoudai",
+    "hiragana": "きょうだい",
+    "notes": "Similar to cousin, the kanji for this word can be written four different ways, however, the kanji for two brothers is most often used, even when referring to women. The order above is male siblings, mixed siblings with younger sister, female siblings, mixed siblings with younger brother.",
+    "section": "Family"
+  },
+  {
+    "english": "in law",
+    "romaji": "girino",
+    "hiragana": "ぎりの",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "sisters",
+    "romaji": "shimai",
+    "hiragana": "しまい",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "niece",
+    "romaji": "mei",
+    "hiragana": "めい",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "nephew",
+    "romaji": "oi",
+    "hiragana": "おい",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "lesson / class",
+    "romaji": "jugyou",
+    "hiragana": "じゅぎょう",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "song",
+    "romaji": "uta",
+    "hiragana": "うた",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "reason",
+    "romaji": "riyuu",
+    "hiragana": "りゆう",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "season",
+    "romaji": "kisetsu",
+    "hiragana": "きせつ",
+    "notes": "",
+    "section": "Family"
+  },
+  {
+    "english": "nurse",
+    "romaji": "kangoshi",
+    "hiragana": "かんごし",
+    "notes": "",
+    "section": "Occupations"
+  },
+  {
+    "english": "female nurse",
+    "romaji": "kangofu",
+    "hiragana": "かんごふ",
+    "notes": "",
+    "section": "Occupations"
+  },
+  {
+    "english": "politician",
+    "romaji": "seijika",
+    "hiragana": "せいじか",
+    "notes": "",
+    "section": "Occupations"
+  },
+  {
+    "english": "lawyer",
+    "romaji": "bengoshi",
+    "hiragana": "べんごし",
+    "notes": "",
+    "section": "Occupations"
+  },
+  {
+    "english": "firefighter",
+    "romaji": "shouboushi",
+    "hiragana": "しょうぼうし",
+    "notes": "",
+    "section": "Occupations"
+  },
+  {
+    "english": "police officer",
+    "romaji": "keisatsukan",
+    "hiragana": "けいさつかん",
+    "notes": "",
+    "section": "Occupations"
+  },
+  {
+    "english": "soldier",
+    "romaji": "heishi",
+    "hiragana": "へいし",
+    "notes": "",
+    "section": "Occupations"
+  },
+  {
+    "english": "architect",
+    "romaji": "kenchikuka",
+    "hiragana": "けんちくか",
+    "notes": "",
+    "section": "Occupations"
+  },
+  {
+    "english": "singer",
+    "romaji": "kashu",
+    "hiragana": "かしゅ",
+    "notes": "",
+    "section": "Occupations"
+  },
+  {
+    "english": "engineer",
+    "romaji": "enjinia",
+    "hiragana": "エンジニア",
+    "notes": "",
+    "section": "Occupations"
+  },
+  {
+    "english": "doctor",
+    "romaji": "isha",
+    "hiragana": "いしゃ",
+    "notes": "",
+    "section": "Occupations"
+  },
+  {
+    "english": "physician",
+    "romaji": "ishi",
+    "hiragana": "いし",
+    "notes": "",
+    "section": "Occupations"
+  },
+  {
+    "english": "dentist",
+    "romaji": "shikai",
+    "hiragana": "しかい",
+    "notes": "",
+    "section": "Occupations"
+  },
+  {
+    "english": "professor / teacher",
+    "romaji": "kyouju",
+    "hiragana": "きょうじゅ",
+    "notes": "",
+    "section": "Occupations"
+  },
+  {
+    "english": "school student",
+    "romaji": "gakusei",
+    "hiragana": "がくせい",
+    "notes": "",
+    "section": "Occupations"
+  },
+  {
+    "english": "police man",
+    "romaji": "keikan",
+    "hiragana": "けいかん",
+    "notes": "",
+    "section": "Occupations"
+  },
+  {
+    "english": "student / pupil",
+    "romaji": "seito",
+    "hiragana": "せいと",
+    "notes": "",
+    "section": "Occupations"
+  },
+  {
+    "english": "elementary school student",
+    "romaji": "shougakusei",
+    "hiragana": "しょうがくせい",
+    "notes": "",
+    "section": "Occupations"
+  },
+  {
+    "english": "middle school student",
+    "romaji": "chuugakusei",
+    "hiragana": "ちゅうがくせい",
+    "notes": "",
+    "section": "Occupations"
+  },
+  {
+    "english": "high school student",
+    "romaji": "koukousei",
+    "hiragana": "こうこうせい",
+    "notes": "",
+    "section": "Occupations"
+  },
+  {
+    "english": "university student",
+    "romaji": "daigakusei",
+    "hiragana": "だいがくせい",
+    "notes": "Again, compare the kanji in this word to the others for pronunciation.",
+    "section": "Occupations"
+  },
+  {
+    "english": "police",
+    "romaji": "keisatsu",
+    "hiragana": "けいさつ",
+    "notes": "This refers to the organization, not the individual officers.",
+    "section": "Occupations"
+  },
+  {
+    "english": "heel",
+    "romaji": "kakato",
+    "hiragana": "かかと",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "shin",
+    "romaji": "sune",
+    "hiragana": "すね",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "knee",
+    "romaji": "hiza",
+    "hiragana": "ひざ",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "thigh",
+    "romaji": "momo",
+    "hiragana": "もも",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "face",
+    "romaji": "kao",
+    "hiragana": "かお",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "lips",
+    "romaji": "kuchibiru",
+    "hiragana": "くちびる",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "stomach",
+    "romaji": "onaka",
+    "hiragana": "おなか",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "nail",
+    "romaji": "tsume",
+    "hiragana": "つめ",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "wrist",
+    "romaji": "tekubi",
+    "hiragana": "てくび",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "palm of hand",
+    "romaji": "te-no-hira",
+    "hiragana": "てのひら",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "buttocks",
+    "romaji": "shiri",
+    "hiragana": "しり",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "liver",
+    "romaji": "kanzou",
+    "hiragana": "かんぞう",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "liver",
+    "romaji": "kimo",
+    "hiragana": "きも",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "waist, hip",
+    "romaji": "koshi",
+    "hiragana": "こし",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "heart",
+    "romaji": "shinzou",
+    "hiragana": "しんぞう",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "blood",
+    "romaji": "chi",
+    "hiragana": "ち",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "skin",
+    "romaji": "hada",
+    "hiragana": "はだ",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "skin",
+    "romaji": "hifu",
+    "hiragana": "ひふ",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "bone",
+    "romaji": "hone",
+    "hiragana": "ほね",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "diarrhea",
+    "romaji": "geri",
+    "hiragana": "げり",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "to smell",
+    "romaji": "kagu",
+    "hiragana": "かぐ",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "head",
+    "romaji": "atama",
+    "hiragana": "あたま",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "body",
+    "romaji": "karada",
+    "hiragana": "からだ",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "arm",
+    "romaji": "ude",
+    "hiragana": "うで",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "hand",
+    "romaji": "te",
+    "hiragana": "て",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "leg / foot",
+    "romaji": "ashi",
+    "hiragana": "あし",
+    "notes": "In Japanese, the leg and foot are one unit.",
+    "section": "Body"
+  },
+  {
+    "english": "finger",
+    "romaji": "yubi",
+    "hiragana": "ゆび",
+    "notes": "In Japanese, for toes, they literally say foot finger.",
+    "section": "Body"
+  },
+  {
+    "english": "eye",
+    "romaji": "me",
+    "hiragana": "め",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "ear",
+    "romaji": "mimi",
+    "hiragana": "みみ",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "nose",
+    "romaji": "hana",
+    "hiragana": "はな",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "mouth",
+    "romaji": "kuchi",
+    "hiragana": "くち",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "chair",
+    "romaji": "isu",
+    "hiragana": "いす",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "to wear (head)",
+    "romaji": "kaburu",
+    "hiragana": "かぶる",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "to wear (legs)",
+    "romaji": "haku",
+    "hiragana": "はく",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "tooth",
+    "romaji": "ha",
+    "hiragana": "は",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "to hand over",
+    "romaji": "watasu",
+    "hiragana": "わたす",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "heart / core",
+    "romaji": "kokoro",
+    "hiragana": "こころ",
+    "notes": "This refers to your metaphorical heart, not your physical one.",
+    "section": "Body"
+  },
+  {
+    "english": "to research",
+    "romaji": "kenkyuu suru",
+    "hiragana": "けんきゅうする",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "hair / fur",
+    "romaji": "ke",
+    "hiragana": "け",
+    "notes": "This is used for animals.",
+    "section": "Body"
+  },
+  {
+    "english": "beard",
+    "romaji": "hige",
+    "hiragana": "ひげ",
+    "notes": "This word is used for all types of facial hair, with the three kanji representing the three English words respectively. These are probably not the most important kanji to memorize.",
+    "section": "Body"
+  },
+  {
+    "english": "neck",
+    "romaji": "kubi",
+    "hiragana": "くび",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "chest",
+    "romaji": "mune",
+    "hiragana": "むね",
+    "notes": "This is the body part, not the box of gold.",
+    "section": "Body"
+  },
+  {
+    "english": "straight ahead / straight forward",
+    "romaji": "massugu",
+    "hiragana": "まっすぐ",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "back side",
+    "romaji": "ura",
+    "hiragana": "うら",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "twenty years old",
+    "romaji": "hatachi",
+    "hiragana": "はたち",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "to earn (salary)",
+    "romaji": "kasegu",
+    "hiragana": "かせぐ",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "year",
+    "romaji": "toshi",
+    "hiragana": "とし",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "last year",
+    "romaji": "kyonen",
+    "hiragana": "きょねん",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "year before last",
+    "romaji": "issakunen",
+    "hiragana": "いっさくねん",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "this year",
+    "romaji": "kotoshi",
+    "hiragana": "ことし",
+    "notes": "",
+    "section": "Body"
+  },
+  {
+    "english": "food",
+    "romaji": "tabemono",
+    "hiragana": "たべもの",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "drinks",
+    "romaji": "nomimono",
+    "hiragana": "のみもの",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "meat",
+    "romaji": "niku",
+    "hiragana": "にく",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "vegetables",
+    "romaji": "yasai",
+    "hiragana": "やさい",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "fruit",
+    "romaji": "kudamono",
+    "hiragana": "くだもの",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "rice",
+    "romaji": "kome",
+    "hiragana": "こめ",
+    "notes": "Kome refers to the rice itself. Gohan refers to a bowl of rice.",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "breakfast",
+    "romaji": "asagohan",
+    "hiragana": "あさごはん",
+    "notes": "Japanese people traditionally eat rice with every meal, therefore morning rice bowl became the word for breakfast. The second word, choushoku means early meal, and is used more often to refer to anything that is eaten in the morning. The same rule applies to the next two words.",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "lunch",
+    "romaji": "hirugohan",
+    "hiragana": "ひるごはん",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "dinner",
+    "romaji": "bangohan",
+    "hiragana": "ばんごはん",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "chopsticks",
+    "romaji": "hashi",
+    "hiragana": "はし",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "water",
+    "romaji": "mizu",
+    "hiragana": "みず",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "milk",
+    "romaji": "gyuunyuu",
+    "hiragana": "ぎゅうにゅう",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "green tea",
+    "romaji": "ocha",
+    "hiragana": "おちゃ",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "black tea",
+    "romaji": "koucha",
+    "hiragana": "こうちゃ",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "bread",
+    "romaji": "pan",
+    "hiragana": "パン",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "egg",
+    "romaji": "tamago",
+    "hiragana": "たまご",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "fish",
+    "romaji": "sakana",
+    "hiragana": "さかな",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "plate / dish",
+    "romaji": "osara",
+    "hiragana": "おさら",
+    "notes": "This can also refer to bowls, any type of dish.",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "small bowl",
+    "romaji": "chawan",
+    "hiragana": "ちゃわん",
+    "notes": "This is a small bowl used for rice or tea. The word itself actually means tea bowl.",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "boxed lunch",
+    "romaji": "obentou",
+    "hiragana": "おべんとう",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "stomach",
+    "romaji": "hara",
+    "hiragana": "はら",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "to be empty",
+    "romaji": "suku",
+    "hiragana": "すく",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "to decrease / to diminish",
+    "romaji": "heru",
+    "hiragana": "へる",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "many / full of",
+    "romaji": "ippai",
+    "hiragana": "いっぱい",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "candy",
+    "romaji": "ame",
+    "hiragana": "あめ",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "snacks",
+    "romaji": "okashi",
+    "hiragana": "おかし",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "alcohol",
+    "romaji": "osake",
+    "hiragana": "おさけ",
+    "notes": "In Western countries, sake refers to only rice wine, but in Japan, it refers to any type of alcohol.",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "pig",
+    "romaji": "buta",
+    "hiragana": "ぶた",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "cow",
+    "romaji": "ushi",
+    "hiragana": "うし",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "animal",
+    "romaji": "doubutsu",
+    "hiragana": "どうぶつ",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "rice growing in a field",
+    "romaji": "ine",
+    "hiragana": "いね",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "wheat, barley, oats",
+    "romaji": "mugi",
+    "hiragana": "むぎ",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "yam, potato, taro",
+    "romaji": "imo",
+    "hiragana": "いも",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "beans, peas",
+    "romaji": "mame",
+    "hiragana": "まめ",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "Japanese white radish",
+    "romaji": "daikon",
+    "hiragana": "だいこん",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "mandarin orange",
+    "romaji": "mikan",
+    "hiragana": "ミカン",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "banana",
+    "romaji": "banana",
+    "hiragana": "バナナ",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "pear",
+    "romaji": "nashi",
+    "hiragana": "ナシ",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "chestnut tree",
+    "romaji": "kuri",
+    "hiragana": "クリ",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "peach",
+    "romaji": "momo",
+    "hiragana": "モモ",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "tomato",
+    "romaji": "tomato",
+    "hiragana": "トマト",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "watermelon",
+    "romaji": "suika",
+    "hiragana": "スイカ",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "to cook (do cuisine)",
+    "romaji": "ryouri suru",
+    "hiragana": "りょうりする",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "salt",
+    "romaji": "shio",
+    "hiragana": "しお",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "sugar",
+    "romaji": "satou",
+    "hiragana": "さとう",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "vegetable store",
+    "romaji": "yaoya",
+    "hiragana": "やおや",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "to fish",
+    "romaji": "tsuru",
+    "hiragana": "つる",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "tea lounge / coffee shop",
+    "romaji": "kissaten",
+    "hiragana": "きっさてん",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "heating",
+    "romaji": "danbou",
+    "hiragana": "だんぼう",
+    "notes": "This kanji as well as the previous ones are important to learn if you ever hope to operate the controls of a Japanese air conditioner.",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "price",
+    "romaji": "nedan",
+    "hiragana": "ねだん",
+    "notes": "",
+    "section": "Food & Drink"
+  },
+  {
+    "english": "kimono",
+    "romaji": "kimono",
+    "hiragana": "きもの",
+    "notes": "",
+    "section": "Clothing"
+  },
+  {
+    "english": "sleeve",
+    "romaji": "sode",
+    "hiragana": "そで",
+    "notes": "",
+    "section": "Clothing"
+  },
+  {
+    "english": "lapel, collar",
+    "romaji": "eri",
+    "hiragana": "えり",
+    "notes": "",
+    "section": "Clothing"
+  },
+  {
+    "english": "button",
+    "romaji": "botan",
+    "hiragana": "ボタン",
+    "notes": "",
+    "section": "Clothing"
+  },
+  {
+    "english": "zipper, zipper fastener",
+    "romaji": "chakku",
+    "hiragana": "チャック",
+    "notes": "",
+    "section": "Clothing"
+  },
+  {
+    "english": "belt",
+    "romaji": "beruto",
+    "hiragana": "ベルト",
+    "notes": "",
+    "section": "Clothing"
+  },
+  {
+    "english": "somewhat / a little bit",
+    "romaji": "chotto",
+    "hiragana": "ちょっと",
+    "notes": "",
+    "section": "Clothing"
+  },
+  {
+    "english": "western style clothes",
+    "romaji": "youfuku",
+    "hiragana": "ようふく",
+    "notes": "",
+    "section": "Clothing"
+  },
+  {
+    "english": "Japanese style clothes",
+    "romaji": "wafuku",
+    "hiragana": "わふく",
+    "notes": "",
+    "section": "Clothing"
+  },
+  {
+    "english": "hate",
+    "romaji": "kirai",
+    "hiragana": "きらい",
+    "notes": "",
+    "section": "Clothing"
+  },
+  {
+    "english": "really hate",
+    "romaji": "daikirai",
+    "hiragana": "だいきらい",
+    "notes": "",
+    "section": "Clothing"
+  },
+  {
+    "english": "jacket / overcoat",
+    "romaji": "uwagi",
+    "hiragana": "うわぎ",
+    "notes": "",
+    "section": "Clothing"
+  },
+  {
+    "english": "to undress",
+    "romaji": "nugu",
+    "hiragana": "ぬぐ",
+    "notes": "",
+    "section": "Clothing"
+  },
+  {
+    "english": "hat",
+    "romaji": "boushi",
+    "hiragana": "ぼうし",
+    "notes": "",
+    "section": "Clothing"
+  },
+  {
+    "english": "pants / trousers",
+    "romaji": "zubon",
+    "hiragana": "ズボン",
+    "notes": "",
+    "section": "Clothing"
+  },
+  {
+    "english": "shoes",
+    "romaji": "kutsu",
+    "hiragana": "くつ",
+    "notes": "",
+    "section": "Clothing"
+  },
+  {
+    "english": "to wash clothes",
+    "romaji": "sentaku suru",
+    "hiragana": "せんたくする",
+    "notes": "",
+    "section": "Clothing"
+  },
+  {
+    "english": "address / residence",
+    "romaji": "juusho",
+    "hiragana": "じゅうしょ",
+    "notes": "",
+    "section": "Clothing"
+  },
+  {
+    "english": "a tatami mat",
+    "romaji": "tatami",
+    "hiragana": "たたみ",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "door panel",
+    "romaji": "tobira",
+    "hiragana": "とびら",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "door",
+    "romaji": "doa",
+    "hiragana": "ドア",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "futon",
+    "romaji": "futon",
+    "hiragana": "ふとん",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "house, home",
+    "romaji": "ie",
+    "hiragana": "いえ",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "elevator",
+    "romaji": "erebētaa",
+    "hiragana": "エレベーター",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "escalator",
+    "romaji": "esukarētaa",
+    "hiragana": "エスカレーター",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "nail, spike",
+    "romaji": "kugi",
+    "hiragana": "くぎ",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "string, cord",
+    "romaji": "himo",
+    "hiragana": "ひも",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "rope, string",
+    "romaji": "nawa",
+    "hiragana": "なわ",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "pocket, bag",
+    "romaji": "fukuro",
+    "hiragana": "ふくろ",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "sculpture, engraving",
+    "romaji": "choukoku",
+    "hiragana": "ちょうこく",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "stationery ​",
+    "romaji": "bunbougu",
+    "hiragana": "ぶんぼうぐ",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "ink",
+    "romaji": "inku",
+    "hiragana": "インク",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "pen",
+    "romaji": "pen",
+    "hiragana": "ペン",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "ball-point pen",
+    "romaji": "bourupen",
+    "hiragana": "ボールペン",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "brush for writing or painting",
+    "romaji": "fude",
+    "hiragana": "ふで",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "chalk",
+    "romaji": "chouku",
+    "hiragana": "チョーク",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "eraser",
+    "romaji": "keshigomu",
+    "hiragana": "けしゴム",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "pencil sharpener",
+    "romaji": "enpitsu-kezuri",
+    "hiragana": "えんぴつけずり",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "ruler",
+    "romaji": "jougi",
+    "hiragana": "じょうぎ",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "notebook",
+    "romaji": "nouto",
+    "hiragana": "ノート",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "book cover",
+    "romaji": "kabaa",
+    "hiragana": "カバー",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "scissors",
+    "romaji": "hasami",
+    "hiragana": "はさみ",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "stapler",
+    "romaji": "hotchikisu",
+    "hiragana": "ホッチキス",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "personal computer",
+    "romaji": "pasokon",
+    "hiragana": "パソコン",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "room",
+    "romaji": "heya",
+    "hiragana": "へや",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "desk",
+    "romaji": "tsukue",
+    "hiragana": "つくえ",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "pencil",
+    "romaji": "enpitsu",
+    "hiragana": "えんぴつ",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "paper",
+    "romaji": "kami",
+    "hiragana": "かみ",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "book",
+    "romaji": "hon",
+    "hiragana": "ほん",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "phone",
+    "romaji": "denwa",
+    "hiragana": "でんわ",
+    "notes": "Cell phone is a rare word that uses sometimes uses katakana. The kanji doesn't refer to a cell phone specifically, but rather, anything carried in your hand.",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "cell phone",
+    "romaji": "keetai",
+    "hiragana": "ケータイ",
+    "notes": "Cell phone is a rare word that uses sometimes uses katakana. The kanji doesn't refer to a cell phone specifically, but rather, anything carried in your hand.",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "fountain pen",
+    "romaji": "mannenhitsu",
+    "hiragana": "まんねんひつ",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "things / luggage",
+    "romaji": "nimotsu",
+    "hiragana": "にもつ",
+    "notes": "This often refers to luggage but also just things you are carrying or taking with you somewhere.",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "newspaper",
+    "romaji": "shinbun",
+    "hiragana": "しんぶん",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "bathroom",
+    "romaji": "otearai",
+    "hiragana": "おてあらい",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "kitchen",
+    "romaji": "daidokoro",
+    "hiragana": "だいどころ",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "window",
+    "romaji": "mado",
+    "hiragana": "まど",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "classroom",
+    "romaji": "kyoushitsu",
+    "hiragana": "きょうしつ",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "textbook",
+    "romaji": "kyoukasho",
+    "hiragana": "きょうかしょ",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "to call (do phone)",
+    "romaji": "denwa suru",
+    "hiragana": "でんわする",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "bath",
+    "romaji": "ofuro",
+    "hiragana": "おふろ",
+    "notes": "Instead of take, in Japanese we say enter a bath.",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "key / lock",
+    "romaji": "kagi",
+    "hiragana": "かぎ",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "bag / basket / purse",
+    "romaji": "kaban",
+    "hiragana": "かばん",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "box",
+    "romaji": "hako",
+    "hiragana": "はこ",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "money",
+    "romaji": "okane",
+    "hiragana": "おかね",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "household",
+    "romaji": "katei",
+    "hiragana": "かてい",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "goods / things",
+    "romaji": "shinamono",
+    "hiragana": "しなもの",
+    "notes": "This usually refers to things being sold, a store's goods.",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "bookshelf",
+    "romaji": "hondana",
+    "hiragana": "ほんだな",
+    "notes": "I bet you don’t know the difference between a book shelf and a book case! Don’t worry, no one knows in Japanese either. If we deconstruct the kanji, bookshelf literally means book ledge and book case literally means book box.",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "book case",
+    "romaji": "honbako",
+    "hiragana": "ほんばこ",
+    "notes": "I bet you don’t know the difference between a book shelf and a book case! Don’t worry, no one knows in Japanese either. If we deconstruct the kanji, bookshelf literally means book ledge and book case literally means book box.",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "garden",
+    "romaji": "niwa",
+    "hiragana": "にわ",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "to open",
+    "romaji": "aku",
+    "hiragana": "あく",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "bill (money)",
+    "romaji": "okaikei",
+    "hiragana": "おかいけい",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "roof",
+    "romaji": "yane",
+    "hiragana": "やね",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "floor",
+    "romaji": "yuka",
+    "hiragana": "ゆか",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "next to / next door to",
+    "romaji": "tonari",
+    "hiragana": "となり",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "whole amount / everything",
+    "romaji": "subete",
+    "hiragana": "すべて",
+    "notes": "",
+    "section": "Home & Objects"
+  },
+  {
+    "english": "cheetah",
+    "romaji": "chītaa",
+    "hiragana": "チーター",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "horse",
+    "romaji": "uma",
+    "hiragana": "うま",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "sheep",
+    "romaji": "hitsuji",
+    "hiragana": "ひつじ",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "monkey",
+    "romaji": "saru",
+    "hiragana": "さる",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "mouse, rat",
+    "romaji": "nezumi",
+    "hiragana": "ねずみ",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "tiger",
+    "romaji": "tora",
+    "hiragana": "とら",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "wolf",
+    "romaji": "oukami",
+    "hiragana": "オオカミ",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "rabbit",
+    "romaji": "usagi",
+    "hiragana": "うさぎ",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "dragon",
+    "romaji": "ryuu",
+    "hiragana": "りゅう",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "deer",
+    "romaji": "shika",
+    "hiragana": "しか",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "toad",
+    "romaji": "gama",
+    "hiragana": "がま",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "lion",
+    "romaji": "shishi",
+    "hiragana": "しし",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "giraffe",
+    "romaji": "kirin",
+    "hiragana": "キリン",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "elephant",
+    "romaji": "zou",
+    "hiragana": "ぞう",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "chicken",
+    "romaji": "niwatori",
+    "hiragana": "にわとり",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "sparrow",
+    "romaji": "suzume",
+    "hiragana": "すずめ",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "crow, raven",
+    "romaji": "karasu",
+    "hiragana": "からす",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "eagle",
+    "romaji": "washi",
+    "hiragana": "わし",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "hawk, falcon",
+    "romaji": "taka",
+    "hiragana": "たか",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "red snapper",
+    "romaji": "tai",
+    "hiragana": "たい",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "shrimp, lobster",
+    "romaji": "ebi",
+    "hiragana": "えび",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "sardine",
+    "romaji": "iwashi",
+    "hiragana": "いわし",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "tuna",
+    "romaji": "maguro",
+    "hiragana": "まぐろ",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "bonito",
+    "romaji": "katsuo",
+    "hiragana": "かつお",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "pike",
+    "romaji": "sanma",
+    "hiragana": "さんま",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "mackerel",
+    "romaji": "saba",
+    "hiragana": "さば",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "squid",
+    "romaji": "ika",
+    "hiragana": "イカ",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "octopus",
+    "romaji": "tako",
+    "hiragana": "タコ",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "butterfly",
+    "romaji": "chou",
+    "hiragana": "ちょう",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "moth",
+    "romaji": "ga",
+    "hiragana": "ガ",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "cicada",
+    "romaji": "semi",
+    "hiragana": "せみ",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "dragonfly",
+    "romaji": "tonbo",
+    "hiragana": "トンボ",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "grasshopper",
+    "romaji": "batta",
+    "hiragana": "バッタ",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "spider",
+    "romaji": "kumo",
+    "hiragana": "クモ",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "firefly",
+    "romaji": "hotaru",
+    "hiragana": "ホタル",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "housefly",
+    "romaji": "hae",
+    "hiragana": "ハエ",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "mosquito, gnat",
+    "romaji": "ka",
+    "hiragana": "カ",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "cockroach",
+    "romaji": "gokiburi",
+    "hiragana": "ゴキブリ",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "snail",
+    "romaji": "katatsumuri",
+    "hiragana": "カタツムリ",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "slug",
+    "romaji": "namekuji",
+    "hiragana": "ナメクジ",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "earthworm",
+    "romaji": "mimizu",
+    "hiragana": "ミミズ",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "shellfish",
+    "romaji": "kai",
+    "hiragana": "かい",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "shell",
+    "romaji": "kaigara",
+    "hiragana": "かいがら",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "lizard",
+    "romaji": "tokage",
+    "hiragana": "トカゲ",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "snake",
+    "romaji": "hebi",
+    "hiragana": "へび",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "bear",
+    "romaji": "kuma",
+    "hiragana": "くま",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "dog",
+    "romaji": "inu",
+    "hiragana": "いぬ",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "cat",
+    "romaji": "neko",
+    "hiragana": "ねこ",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "bird",
+    "romaji": "tori",
+    "hiragana": "とり",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "delicate / subtle",
+    "romaji": "bimyou",
+    "hiragana": "びみょう",
+    "notes": "This word is often used idiomatically by itself to say: I'm not entirely certain what your saying is true, or, What you just said has raised more questions than answers. What the speaker is saying, is that the situation has become delicate, because it would be impolite to ask certain questions to get the truthful answers.",
+    "section": "Animals"
+  },
+  {
+    "english": "insect",
+    "romaji": "mushi",
+    "hiragana": "むし",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "physical education",
+    "romaji": "taiiku",
+    "hiragana": "たいいく",
+    "notes": "",
+    "section": "Animals"
+  },
+  {
+    "english": "weather",
+    "romaji": "tenki",
+    "hiragana": "てんき",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "to be sunny",
+    "romaji": "hareru",
+    "hiragana": "はれる",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "to be cloudy",
+    "romaji": "kumoru",
+    "hiragana": "くもる",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "snow",
+    "romaji": "yuki",
+    "hiragana": "ゆき",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "indoors",
+    "romaji": "shitsunai",
+    "hiragana": "しつない",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "outside",
+    "romaji": "soto",
+    "hiragana": "そと",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "place / location",
+    "romaji": "basho",
+    "hiragana": "ばしょ",
+    "notes": "This word is used for physical locations, not abstractly.",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "place / spot",
+    "romaji": "tokoro",
+    "hiragana": "ところ",
+    "notes": "This word is more often used abstractly, and is also used in a few grammar constructions, which we will learn in Volume Two.",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "sun",
+    "romaji": "taiyou",
+    "hiragana": "たいよう",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "clear weather",
+    "romaji": "hare",
+    "hiragana": "はれ",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "cloudy",
+    "romaji": "kumori",
+    "hiragana": "くもり",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "thunder, lightning",
+    "romaji": "kaminari",
+    "hiragana": "かみなり",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "typhoon",
+    "romaji": "taifuu",
+    "hiragana": "たいふう",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "storm",
+    "romaji": "arashi",
+    "hiragana": "あらし",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "hot water",
+    "romaji": "yu",
+    "hiragana": "ゆ",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "ice",
+    "romaji": "kouri",
+    "hiragana": "こおり",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "steam",
+    "romaji": "yuge",
+    "hiragana": "ゆげ",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "gas",
+    "romaji": "gasu",
+    "hiragana": "ガス",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "earth, ground",
+    "romaji": "tsuchi",
+    "hiragana": "つち",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "metal, metallic",
+    "romaji": "kinzoku",
+    "hiragana": "きんぞく",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "mud, mire, clay, plaster",
+    "romaji": "doro",
+    "hiragana": "どろ",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "smoke, tobacco, opium",
+    "romaji": "kemuri",
+    "hiragana": "けむり",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "iron [Fe]",
+    "romaji": "tetsu",
+    "hiragana": "てつ",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "gold [Au]; money",
+    "romaji": "kin",
+    "hiragana": "きん",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "silver [Ag]; wealth",
+    "romaji": "gin",
+    "hiragana": "ぎん",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "lead [Pb]",
+    "romaji": "namari",
+    "hiragana": "なまり",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "train",
+    "romaji": "densha",
+    "hiragana": "でんしゃ",
+    "notes": "This refers to an electric train, opposed to a steam engine. Most all public trains in Japan are electric.",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "grass",
+    "romaji": "kusa",
+    "hiragana": "くさ",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "cloud",
+    "romaji": "kumo",
+    "hiragana": "くも",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "forest",
+    "romaji": "mori",
+    "hiragana": "もり",
+    "notes": "This kanji is three trees, an even bigger amount!",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "star",
+    "romaji": "hoshi",
+    "hiragana": "ほし",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "lake",
+    "romaji": "mizuumi",
+    "hiragana": "みずうみ",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "island",
+    "romaji": "shima",
+    "hiragana": "しま",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "mountain",
+    "romaji": "yama",
+    "hiragana": "やま",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "tree / wood",
+    "romaji": "ki",
+    "hiragana": "き",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "street",
+    "romaji": "michi",
+    "hiragana": "みち",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "beach / sea",
+    "romaji": "umi",
+    "hiragana": "うみ",
+    "notes": "This word refers to the water, not the sand. In English we usually say Let’s go to the beach, but in Japanese they will say Let’s go to the sea.",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "to set about / to start",
+    "romaji": "torikakaru",
+    "hiragana": "とりかかる",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "fire",
+    "romaji": "kaji",
+    "hiragana": "かじ",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "Sunday",
+    "romaji": "nichiyoubi",
+    "hiragana": "にちようび",
+    "notes": "This means day of the Sun.",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "Summer",
+    "romaji": "natsu",
+    "hiragana": "なつ",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "Winter",
+    "romaji": "fuyu",
+    "hiragana": "ふゆ",
+    "notes": "",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "TV star",
+    "romaji": "tarento",
+    "hiragana": "タレント",
+    "notes": "This refers to people on TV, many of whom are famous for nothing other than being on TV.",
+    "section": "Nature & Weather"
+  },
+  {
+    "english": "red",
+    "romaji": "aka",
+    "hiragana": "あか",
+    "notes": "",
+    "section": "Colors"
+  },
+  {
+    "english": "yellow",
+    "romaji": "kiiro",
+    "hiragana": "きいろ",
+    "notes": "",
+    "section": "Colors"
+  },
+  {
+    "english": "green",
+    "romaji": "midori",
+    "hiragana": "みどり",
+    "notes": "Green is a relatively recent color in Japanese. Before it's introduction, Japanese people saw blue and green as the same color. This word can also refer to greenery, as in plants.",
+    "section": "Colors"
+  },
+  {
+    "english": "blue",
+    "romaji": "ao",
+    "hiragana": "あお",
+    "notes": "",
+    "section": "Colors"
+  },
+  {
+    "english": "purple",
+    "romaji": "murasaki",
+    "hiragana": "むらさき",
+    "notes": "",
+    "section": "Colors"
+  },
+  {
+    "english": "brown",
+    "romaji": "chairo",
+    "hiragana": "ちゃいろ",
+    "notes": "",
+    "section": "Colors"
+  },
+  {
+    "english": "black",
+    "romaji": "kuro",
+    "hiragana": "くろ",
+    "notes": "",
+    "section": "Colors"
+  },
+  {
+    "english": "white",
+    "romaji": "shiro",
+    "hiragana": "しろ",
+    "notes": "",
+    "section": "Colors"
+  },
+  {
+    "english": "bright",
+    "romaji": "akarui",
+    "hiragana": "あかるい",
+    "notes": "",
+    "section": "Colors"
+  },
+  {
+    "english": "dark",
+    "romaji": "kurai",
+    "hiragana": "くらい",
+    "notes": "This word can also mean gloomy or depressing.",
+    "section": "Colors"
+  },
+  {
+    "english": "pink",
+    "romaji": "pinku",
+    "hiragana": "ピンク",
+    "notes": "",
+    "section": "Colors"
+  },
+  {
+    "english": "grey",
+    "romaji": "haiiro",
+    "hiragana": "はいいろ",
+    "notes": "",
+    "section": "Colors"
+  },
+  {
+    "english": "orange",
+    "romaji": "orenji",
+    "hiragana": "オレンジ",
+    "notes": "",
+    "section": "Colors"
+  },
+  {
+    "english": "color",
+    "romaji": "iro",
+    "hiragana": "いろ",
+    "notes": "",
+    "section": "Colors"
+  },
+  {
+    "english": "hundred",
+    "romaji": "hyaku",
+    "hiragana": "ひゃく",
+    "notes": "",
+    "section": "Colors"
+  },
+  {
+    "english": "one",
+    "romaji": "ichi",
+    "hiragana": "いち",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "two",
+    "romaji": "ni",
+    "hiragana": "に",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "three",
+    "romaji": "san",
+    "hiragana": "さん",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "five",
+    "romaji": "go",
+    "hiragana": "ご",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "six",
+    "romaji": "roku",
+    "hiragana": "ろく",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "seven",
+    "romaji": "shichi",
+    "hiragana": "しち",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "eight",
+    "romaji": "hachi",
+    "hiragana": "はち",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "nine",
+    "romaji": "kyuu",
+    "hiragana": "きゅう",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "ten",
+    "romaji": "juu",
+    "hiragana": "じゅう",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "zero",
+    "romaji": "rei",
+    "hiragana": "れい",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "two",
+    "romaji": "futa",
+    "hiragana": "ふた",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "three",
+    "romaji": "mi",
+    "hiragana": "み",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "four",
+    "romaji": "yo",
+    "hiragana": "よ",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "six",
+    "romaji": "mu",
+    "hiragana": "む",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "seven",
+    "romaji": "nana",
+    "hiragana": "なな",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "eight",
+    "romaji": "ya",
+    "hiragana": "や",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "nine",
+    "romaji": "kokono",
+    "hiragana": "ここの",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "ten",
+    "romaji": "too",
+    "hiragana": "とお",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "meter",
+    "romaji": "mētoru",
+    "hiragana": "メートル",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "litre",
+    "romaji": "rittoru",
+    "hiragana": "リットル",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "gram",
+    "romaji": "guramu",
+    "hiragana": "グラム",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "kilo-",
+    "romaji": "kiro",
+    "hiragana": "キロ",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "milli-",
+    "romaji": "miri",
+    "hiragana": "ミリ",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "centimeter",
+    "romaji": "senchi",
+    "hiragana": "センチメートル",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "inch",
+    "romaji": "inchi",
+    "hiragana": "インチ",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "four",
+    "romaji": "yon",
+    "hiragana": "よん",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "one, one thing",
+    "romaji": "hitotsu",
+    "hiragana": "ひとつ",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "two, two things",
+    "romaji": "futatsu",
+    "hiragana": "ふたつ",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "three, three things",
+    "romaji": "mittsu",
+    "hiragana": "みっつ",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "four, four things",
+    "romaji": "yottsu",
+    "hiragana": "よっつ",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "five, five things",
+    "romaji": "itsutsu",
+    "hiragana": "いつつ",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "six, six things",
+    "romaji": "muttsu",
+    "hiragana": "むっつ",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "seven, seven things",
+    "romaji": "nanatsu",
+    "hiragana": "ななつ",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "eight, eight things",
+    "romaji": "yattsu",
+    "hiragana": "やっつ",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "nine, nine things",
+    "romaji": "kokonotsu",
+    "hiragana": "ここのつ",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "none / several",
+    "romaji": "ikutsumo",
+    "hiragana": "いくつも",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "not many / not often",
+    "romaji": "amari",
+    "hiragana": "あまり",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "sentence",
+    "romaji": "bun",
+    "hiragana": "ぶん",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "height / stature",
+    "romaji": "se",
+    "hiragana": "せ",
+    "notes": "This word is used for the height of humans, not buildings or mountains.",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "thousand",
+    "romaji": "sen",
+    "hiragana": "せん",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "ten thousand",
+    "romaji": "man",
+    "hiragana": "まん",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "number (numeric)",
+    "romaji": "bangou",
+    "hiragana": "ばんごう",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "to count",
+    "romaji": "kazoeru",
+    "hiragana": "かぞえる",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "number / amount / count",
+    "romaji": "kazu",
+    "hiragana": "かず",
+    "notes": "This is the noun of the previous verb.",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "number / figure / digit",
+    "romaji": "suuji",
+    "hiragana": "すうじ",
+    "notes": "This doesn't refer to the number set itself, but rather figures or summations on documents and things like that.",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "account / finance / accountant",
+    "romaji": "kaikei",
+    "hiragana": "かいけい",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "half",
+    "romaji": "han",
+    "hiragana": "はん",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "often",
+    "romaji": "tabitabi",
+    "hiragana": "たびたび",
+    "notes": "",
+    "section": "Numbers & Counting"
+  },
+  {
+    "english": "the future (far)",
+    "romaji": "mirai",
+    "hiragana": "みらい",
+    "notes": "This usually refers to the far future, with spaceships and robots.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "the future (near)",
+    "romaji": "shourai",
+    "hiragana": "しょうらい",
+    "notes": "This usually refers to the foreseeable future.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "the last / end / final",
+    "romaji": "saigo",
+    "hiragana": "さいご",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "the first / start / beginning",
+    "romaji": "saisho",
+    "hiragana": "さいしょ",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "the past / ancient times / a long time ago",
+    "romaji": "mukashi",
+    "hiragana": "むかし",
+    "notes": "This refers to things that happened long ago. But because time is relative, if it feels like a long time for the speaker, even a few days or weeks can feel like ancient times.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "the past",
+    "romaji": "kako",
+    "hiragana": "かこ",
+    "notes": "This refers to the more recent past.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "local train",
+    "romaji": "kakuekiteisha",
+    "hiragana": "かくえきていしゃ",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "semi-express train",
+    "romaji": "junkyuu",
+    "hiragana": "じゅんきゅう",
+    "notes": "Though these are two different words, these trains are faster than local trains, but slower than the express trains. JR will use semi-express while the Metro will use rapid.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "rapid train",
+    "romaji": "kaisoku",
+    "hiragana": "かいそく",
+    "notes": "Though these are two different words, these trains are faster than local trains, but slower than the express trains. JR will use semi-express while the Metro will use rapid.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "express train",
+    "romaji": "kyuukou",
+    "hiragana": "きゅうこう",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "limited express train",
+    "romaji": "tokkyuu",
+    "hiragana": "とっきゅう",
+    "notes": "This is the fastest of the trains and sometimes requires a premium. However, it is not often, and usually when it does, the train will look different than the other trains, so don't worry about getting on a train without paying enough.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "already / yet (question)",
+    "romaji": "mou",
+    "hiragana": "もう",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "gradually / soon",
+    "romaji": "dandan",
+    "hiragana": "だんだん",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "occasionally",
+    "romaji": "tamani",
+    "hiragana": "たまに",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "previous / before / ahead / future",
+    "romaji": "saki",
+    "hiragana": "さき",
+    "notes": "This can be confusing because it has two completely opposite meanings. However, from the tense of the sentence you can understand which meaning it is.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "now / current / present",
+    "romaji": "genzai",
+    "hiragana": "げんざい",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "finally / at last",
+    "romaji": "yatto",
+    "hiragana": "やっと",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "to be late",
+    "romaji": "okureru",
+    "hiragana": "おくれる",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "recently",
+    "romaji": "saikin",
+    "hiragana": "さいきん",
+    "notes": "This is the most basic word for recently",
+    "section": "Time & Days"
+  },
+  {
+    "english": "the other day / recently kono",
+    "romaji": "aida",
+    "hiragana": "このあいだ",
+    "notes": "This word literally means during this interval.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "nowadays kono",
+    "romaji": "goro",
+    "hiragana": "このごろ",
+    "notes": "This word literally means around this time.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "this time / next time / another time",
+    "romaji": "kondo",
+    "hiragana": "こんど",
+    "notes": "This can sometimes be confusing because it can refer to an action taking place now, or be used to say to do something another time, so pay attention to the context.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "next",
+    "romaji": "tsugi",
+    "hiragana": "つぎ",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "recently (before) kono",
+    "romaji": "mae",
+    "hiragana": "このまえ",
+    "notes": "This is another word that means recently. This word explicitly states the the thing has happened recently before. In English we can sometimes explicitly say this by saying just recently.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "a little while / in a moment",
+    "romaji": "shibaraku",
+    "hiragana": "しばらく",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "era",
+    "romaji": "jidai",
+    "hiragana": "じだい",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "modern times / the present day",
+    "romaji": "gendai",
+    "hiragana": "げんだい",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "less than / below / under",
+    "romaji": "ika",
+    "hiragana": "いか",
+    "notes": "This is not used for comparisons. It is most often used in compound words, and to show limits and expectations.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "more than",
+    "romaji": "ijou",
+    "hiragana": "いじょう",
+    "notes": "This is also not used for comparisons. An idiomatic usage of this word, is to say it at the end of a speech, or when you are ordering food, to say That's all.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "within",
+    "romaji": "inai",
+    "hiragana": "いない",
+    "notes": "This is used for time intervals to say some event occurred within an allotted time frame.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "time",
+    "romaji": "jikan",
+    "hiragana": "じかん",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "calendar",
+    "romaji": "koyomi",
+    "hiragana": "こよみ",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "minute",
+    "romaji": "fun",
+    "hiragana": "ふん",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "second",
+    "romaji": "byou",
+    "hiragana": "びょう",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "month",
+    "romaji": "tsuki",
+    "hiragana": "つき",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "evening",
+    "romaji": "ban",
+    "hiragana": "ばん",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "~day",
+    "romaji": "youbi",
+    "hiragana": "ようび",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "one week",
+    "romaji": "isshuukan",
+    "hiragana": "いっしゅうかん",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "in front of / before",
+    "romaji": "mae",
+    "hiragana": "まえ",
+    "notes": "This word is also used with time.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "watch / clock",
+    "romaji": "tokei",
+    "hiragana": "とけい",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "always",
+    "romaji": "itsumo",
+    "hiragana": "いつも",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "to be in time for",
+    "romaji": "maniau",
+    "hiragana": "まにあう",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "to translate / interpret",
+    "romaji": "yakusu",
+    "hiragana": "やくす",
+    "notes": "Interpreters are different from translators in that their job is to convey the core meaning of the original speakers intent, rather than a word for word translation.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "free time",
+    "romaji": "hima",
+    "hiragana": "ひま",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "Oh I see. / I understand now",
+    "romaji": "naruhodo",
+    "hiragana": "なるほど",
+    "notes": "This is used to say that you now understand information that was previously unclear.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "after a long time",
+    "romaji": "hisashiburi",
+    "hiragana": "ひさしぶり",
+    "notes": "Said by itself, this word means long time no see.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "today",
+    "romaji": "kyou",
+    "hiragana": "きょう",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "tomorrow",
+    "romaji": "ashita",
+    "hiragana": "あした",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "yesterday",
+    "romaji": "kinou",
+    "hiragana": "きのう",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "week",
+    "romaji": "shuu",
+    "hiragana": "しゅう",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "month",
+    "romaji": "getsu",
+    "hiragana": "げつ",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "time",
+    "romaji": "toki",
+    "hiragana": "とき",
+    "notes": "The first word is the concept of time, used in phrases like at that time, the second is an interval of time, used in phrases like we have time.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "daytime",
+    "romaji": "hiru",
+    "hiragana": "ひる",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "Monday",
+    "romaji": "getsuyoubi",
+    "hiragana": "げつようび",
+    "notes": "This means day of the Moon.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "Tuesday",
+    "romaji": "kayoubi",
+    "hiragana": "かようび",
+    "notes": "This means day of fire.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "Saturday",
+    "romaji": "doyoubi",
+    "hiragana": "どようび",
+    "notes": "This means day of earth.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "now",
+    "romaji": "ima",
+    "hiragana": "いま",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "sometimes",
+    "romaji": "tokidoki",
+    "hiragana": "ときどき",
+    "notes": "",
+    "section": "Time & Days"
+  },
+  {
+    "english": "gradually / soon",
+    "romaji": "sorosoro",
+    "hiragana": "そろそろ",
+    "notes": "This means something will happen soon, any minute now.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "soon / instantly / immediately",
+    "romaji": "suguni",
+    "hiragana": "すぐに",
+    "notes": "In Japanese, when you say this word for soon, you mean very soon.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "soon",
+    "romaji": "mousugu",
+    "hiragana": "もうすぐ",
+    "notes": "This word is more along the lines of the English meaning of soon.",
+    "section": "Time & Days"
+  },
+  {
+    "english": "hospital",
+    "romaji": "byouin",
+    "hiragana": "びょういん",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "post office",
+    "romaji": "yuubinkyoku",
+    "hiragana": "ゆうびんきょく",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "police box",
+    "romaji": "kouban",
+    "hiragana": "こうばん",
+    "notes": "Japan is crowded, so instead of having central police stations, they have small scattered police stations called boxes throughout the cities.",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "park",
+    "romaji": "kouen",
+    "hiragana": "こうえん",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "movie theater",
+    "romaji": "eigakan",
+    "hiragana": "えいがかん",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "station",
+    "romaji": "eki",
+    "hiragana": "えき",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "house",
+    "romaji": "uchi",
+    "hiragana": "うち",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "shop",
+    "romaji": "mise",
+    "hiragana": "みせ",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "town",
+    "romaji": "machi",
+    "hiragana": "まち",
+    "notes": "Machi can mean town or city. Shi is the suffix used for cities. For example, Yokohama City is pronounced Yokohama-shi.",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "city",
+    "romaji": "shi",
+    "hiragana": "し",
+    "notes": "Machi can mean town or city. Shi is the suffix used for cities. For example, Yokohama City is pronounced Yokohama-shi.",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "village",
+    "romaji": "mura",
+    "hiragana": "むら",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "temple",
+    "romaji": "tera",
+    "hiragana": "てら",
+    "notes": "This refers to temples for the Buddhist religion.",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "Shinto shrine",
+    "romaji": "jinja",
+    "hiragana": "じんじゃ",
+    "notes": "Shinto is a religion that is native to Japan, that was popular before Buddhism. Though most Japanese people are non religious, it is still customary to go to shrines and temples on certain occasions.",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "harbor / port",
+    "romaji": "minato",
+    "hiragana": "みなと",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "parking lot",
+    "romaji": "chuushajou",
+    "hiragana": "ちゅうしゃじょう",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "Japanese hotel",
+    "romaji": "ryokan",
+    "hiragana": "りょかん",
+    "notes": "If you have to compare this to something in western culture, it's similar to a bed and breakfast.",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "countryside",
+    "romaji": "inaka",
+    "hiragana": "いなか",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "airport",
+    "romaji": "kuukou",
+    "hiragana": "くうこう",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "ward",
+    "romaji": "ku",
+    "hiragana": "く",
+    "notes": "Wards are used for large cities, while districts are used for smaller cities.",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "district",
+    "romaji": "gun",
+    "hiragana": "ぐん",
+    "notes": "Wards are used for large cities, while districts are used for smaller cities.",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "prefecture",
+    "romaji": "ken",
+    "hiragana": "けん",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "metropolis",
+    "romaji": "to",
+    "hiragana": "と",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "diagonal",
+    "romaji": "naname",
+    "hiragana": "ななめ",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "nearer, more in front",
+    "romaji": "temae",
+    "hiragana": "てまえ",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "above",
+    "romaji": "ue",
+    "hiragana": "うえ",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "below",
+    "romaji": "shita",
+    "hiragana": "した",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "right",
+    "romaji": "migi",
+    "hiragana": "みぎ",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "left",
+    "romaji": "hidari",
+    "hiragana": "ひだり",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "behind",
+    "romaji": "ushiro",
+    "hiragana": "うしろ",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "air / atmosphere",
+    "romaji": "kuuki",
+    "hiragana": "くうき",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "north",
+    "romaji": "kita",
+    "hiragana": "きた",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "south",
+    "romaji": "minami",
+    "hiragana": "みなみ",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "east",
+    "romaji": "higashi",
+    "hiragana": "ひがし",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "west",
+    "romaji": "nishi",
+    "hiragana": "にし",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "library",
+    "romaji": "toshokan",
+    "hiragana": "としょかん",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "school",
+    "romaji": "gakkou",
+    "hiragana": "がっこう",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "electricity / power",
+    "romaji": "denki",
+    "hiragana": "でんき",
+    "notes": "Instead of saying the name of the electric device, many Japanese people will just talk about turning on the electricity of the device. So instead of saying, Turn on the lights, they will say Turn on the electricity.",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "elementary school",
+    "romaji": "shougakkou",
+    "hiragana": "しょうがっこう",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "middle school",
+    "romaji": "chuugakkou",
+    "hiragana": "ちゅうがっこう",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "high school",
+    "romaji": "koukou",
+    "hiragana": "こうこう",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "to enter a school",
+    "romaji": "nyuugaku suru",
+    "hiragana": "にゅうがくする",
+    "notes": "The noun nyuugaku means matriculation or enrollment.",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "to line up",
+    "romaji": "narabu",
+    "hiragana": "ならぶ",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "to raise / to bring up",
+    "romaji": "sodateru",
+    "hiragana": "そだてる",
+    "notes": "This refers to raising children.",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "opposite side / over there",
+    "romaji": "mukou",
+    "hiragana": "むこう",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "front side",
+    "romaji": "omote",
+    "hiragana": "おもて",
+    "notes": "",
+    "section": "Directions & Places"
+  },
+  {
+    "english": "railway",
+    "romaji": "tetsudou",
+    "hiragana": "てつどう",
+    "notes": "",
+    "section": "Transport"
+  },
+  {
+    "english": "road",
+    "romaji": "douro",
+    "hiragana": "どうろ",
+    "notes": "",
+    "section": "Transport"
+  },
+  {
+    "english": "bus-stop",
+    "romaji": "basutei",
+    "hiragana": "バスてい",
+    "notes": "",
+    "section": "Transport"
+  },
+  {
+    "english": "avenue",
+    "romaji": "touri",
+    "hiragana": "とおり",
+    "notes": "",
+    "section": "Transport"
+  },
+  {
+    "english": "business man",
+    "romaji": "sarariiman",
+    "hiragana": "サラリーマン",
+    "notes": "As you can see, these words are taken from English. OL stands for Office Lady.",
+    "section": "Transport"
+  },
+  {
+    "english": "postcard",
+    "romaji": "hagaki",
+    "hiragana": "はがき",
+    "notes": "",
+    "section": "Transport"
+  },
+  {
+    "english": "car",
+    "romaji": "kuruma",
+    "hiragana": "くるま",
+    "notes": "",
+    "section": "Transport"
+  },
+  {
+    "english": "to drive (do motion)",
+    "romaji": "unten suru",
+    "hiragana": "うんてんする",
+    "notes": "",
+    "section": "Transport"
+  },
+  {
+    "english": "bicycle",
+    "romaji": "jitensha",
+    "hiragana": "じてんしゃ",
+    "notes": "",
+    "section": "Transport"
+  },
+  {
+    "english": "airplane",
+    "romaji": "hikouki",
+    "hiragana": "ひこうき",
+    "notes": "",
+    "section": "Transport"
+  },
+  {
+    "english": "business suit",
+    "romaji": "sebiro",
+    "hiragana": "せびろ",
+    "notes": "",
+    "section": "Transport"
+  },
+  {
+    "english": "carrot",
+    "romaji": "ninjin",
+    "hiragana": "にんじん",
+    "notes": "",
+    "section": "Transport"
+  },
+  {
+    "english": "ship",
+    "romaji": "fune",
+    "hiragana": "ふね",
+    "notes": "",
+    "section": "Transport"
+  },
+  {
+    "english": "relationship",
+    "romaji": "kankei",
+    "hiragana": "かんけい",
+    "notes": "",
+    "section": "Transport"
+  },
+  {
+    "english": "playing cards",
+    "romaji": "toranpu",
+    "hiragana": "トランプ",
+    "notes": "While trump is indeed a game you can play with cards, in Japanese it refers to the cards themselves. Conclusion Congratulations! You've finished the book. So, what to do now? Your goal as a Japanese speaker should be to pass the JLPT (Japanese Language Proficiency Test). There are five levels, N5 to N1, the latter being the most difficult. To work for a Japanese company, you generally need to pass the N2 test. To work as a translator, you generally need to pass the N1 test. Assuming you can use everything taught in this book with a fair amount of efficiency, you are now a high beginner level speaker of Japanese. As of now, you should be able to pass the N5 with ease, and though you haven't learned all of the grammar or vocabulary, you might have a shot at passing the N4. If you haven't already, you really should start studying kanji as well. You need to know about 2500 kanji to be able to read most things. If you practice about 5 kanji a day, this will take you around two years. Again, in my opinion, the best kanji learning resource available is the Kanji Learner's Course by Andrew Scott Conning (Kodansha USA, 2013), which can be used with an excellent series of graded reading sets and a sequential wall chart. If you decide to purchase Volume Two of this series, you will learn the rest of the grammar and vocabulary for the N4 test as well as the N3. Before you move on to Volume Two, please make sure you have mastered everything in this book. Take a bit more time to review everything once more before moving on. Whatever you decide to do, I wish you the best of luck! Study hard! Study every day! -KM",
+    "section": "Transport"
+  },
+  {
+    "english": "Japan",
+    "romaji": "nihon",
+    "hiragana": "にほん",
+    "notes": "",
+    "section": "Society"
+  },
+  {
+    "english": "China",
+    "romaji": "chuugoku",
+    "hiragana": "ちゅうごく",
+    "notes": "",
+    "section": "Society"
+  },
+  {
+    "english": "Korea",
+    "romaji": "kankoku",
+    "hiragana": "かんこく",
+    "notes": "",
+    "section": "Society"
+  },
+  {
+    "english": "England",
+    "romaji": "igirisu",
+    "hiragana": "イギリス",
+    "notes": "",
+    "section": "Society"
+  },
+  {
+    "english": "Germany",
+    "romaji": "doitsu",
+    "hiragana": "ドイツ",
+    "notes": "",
+    "section": "Society"
+  },
+  {
+    "english": "USA",
+    "romaji": "amerika",
+    "hiragana": "アメリカ",
+    "notes": "",
+    "section": "Society"
+  },
+  {
+    "english": "country",
+    "romaji": "kuni",
+    "hiragana": "くに",
+    "notes": "",
+    "section": "Society"
+  },
+  {
+    "english": "foreign country",
+    "romaji": "gaikoku",
+    "hiragana": "がいこく",
+    "notes": "",
+    "section": "Society"
+  },
+  {
+    "english": "foreign student",
+    "romaji": "ryuugakusei",
+    "hiragana": "りゅうがくせい",
+    "notes": "",
+    "section": "Society"
+  },
+  {
+    "english": "abroad",
+    "romaji": "kaigai",
+    "hiragana": "かいがい",
+    "notes": "",
+    "section": "Society"
+  },
+  {
+    "english": "local government office",
+    "romaji": "yakusho",
+    "hiragana": "やくしょ",
+    "notes": "",
+    "section": "Society"
+  },
+  {
+    "english": "hotel",
+    "romaji": "hoteru",
+    "hiragana": "ホテル",
+    "notes": "",
+    "section": "Society"
+  },
+  {
+    "english": "money",
+    "romaji": "kane",
+    "hiragana": "かね",
+    "notes": "",
+    "section": "Society"
+  },
+  {
+    "english": "bill [of money, e.g., a thousand-yen bill]",
+    "romaji": "satsu",
+    "hiragana": "さつ",
+    "notes": "",
+    "section": "Society"
+  },
+  {
+    "english": "small change",
+    "romaji": "kozeni",
+    "hiragana": "こぜに",
+    "notes": "",
+    "section": "Society"
+  },
+  {
+    "english": "change",
+    "romaji": "tsurisen",
+    "hiragana": "つりせん",
+    "notes": "",
+    "section": "Society"
+  },
+  {
+    "english": "vending machine, slot machine",
+    "romaji": "jidouhanbaiki",
+    "hiragana": "じどうはんばいき",
+    "notes": "",
+    "section": "Society"
+  },
+  {
+    "english": "happy",
+    "romaji": "ureshii",
+    "hiragana": "うれしい",
+    "notes": "",
+    "section": "Feelings & Emotions"
+  },
+  {
+    "english": "itchy",
+    "romaji": "kayui",
+    "hiragana": "かゆい",
+    "notes": "",
+    "section": "Feelings & Emotions"
+  },
+  {
+    "english": "stinky",
+    "romaji": "kusai",
+    "hiragana": "くさい",
+    "notes": "",
+    "section": "Feelings & Emotions"
+  },
+  {
+    "english": "painful, heart-breaking",
+    "romaji": "tsurai",
+    "hiragana": "つらい",
+    "notes": "",
+    "section": "Feelings & Emotions"
+  },
+  {
+    "english": "to be sad",
+    "romaji": "kanashimu",
+    "hiragana": "かなしむ",
+    "notes": "",
+    "section": "Feelings & Emotions"
+  },
+  {
+    "english": "to encourage",
+    "romaji": "homeru",
+    "hiragana": "ほめる",
+    "notes": "",
+    "section": "Feelings & Emotions"
+  },
+  {
+    "english": "to scold",
+    "romaji": "shikaru",
+    "hiragana": "しかる",
+    "notes": "",
+    "section": "Feelings & Emotions"
+  },
+  {
+    "english": "to celebrate, to be jubilant, to have joy, to have delight, to have rapture",
+    "romaji": "yorokobu",
+    "hiragana": "よろこぶ",
+    "notes": "",
+    "section": "Feelings & Emotions"
+  },
+  {
+    "english": "joy, delight, rapture",
+    "romaji": "yorokobi",
+    "hiragana": "よろこび",
+    "notes": "",
+    "section": "Feelings & Emotions"
+  },
+  {
+    "english": "to console, to consolate, to provide empathy",
+    "romaji": "nagusameru",
+    "hiragana": "なぐさめる",
+    "notes": "",
+    "section": "Feelings & Emotions"
+  },
+  {
+    "english": "to be disinterested, to be bored, to be tired of, to be weary",
+    "romaji": "akiru",
+    "hiragana": "あきる",
+    "notes": "",
+    "section": "Feelings & Emotions"
+  },
+  {
+    "english": "picture / drawing / painting",
+    "romaji": "e",
+    "hiragana": "え",
+    "notes": "",
+    "section": "Feelings & Emotions"
+  },
+  {
+    "english": "like",
+    "romaji": "suki",
+    "hiragana": "すき",
+    "notes": "",
+    "section": "Feelings & Emotions"
+  },
+  {
+    "english": "really like",
+    "romaji": "daisuki",
+    "hiragana": "だいすき",
+    "notes": "",
+    "section": "Feelings & Emotions"
+  },
+  {
+    "english": "to need",
+    "romaji": "iru",
+    "hiragana": "いる",
+    "notes": "",
+    "section": "Feelings & Emotions"
+  },
+  {
+    "english": "enjoyment",
+    "romaji": "tanoshimi",
+    "hiragana": "たのしみ",
+    "notes": "",
+    "section": "Feelings & Emotions"
+  },
+  {
+    "english": "feeling",
+    "romaji": "kimochi",
+    "hiragana": "きもち",
+    "notes": "",
+    "section": "Feelings & Emotions"
+  },
+  {
+    "english": "glove",
+    "romaji": "tebukuro",
+    "hiragana": "てぶくろ",
+    "notes": "This literally means hand bag.",
+    "section": "Feelings & Emotions"
+  },
+  {
+    "english": "Never mind. / Don't worry about it",
+    "romaji": "donmai",
+    "hiragana": "ドンマイ",
+    "notes": "This word comes from don't mind, but is used to tell someone to not worry about something, that it's not important.",
+    "section": "Feelings & Emotions"
+  },
+  {
+    "english": "excited / high energy",
+    "romaji": "hai tenshon",
+    "hiragana": "ハイテンション",
+    "notes": "",
+    "section": "Feelings & Emotions"
+  },
+  {
+    "english": "to eat",
+    "romaji": "taberu",
+    "hiragana": "たべる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to watch",
+    "romaji": "miru",
+    "hiragana": "みる",
+    "notes": "The first kanji is the general word for see, while the second is used to write watch as part of the audience, for instance, in a theater or sports arena. As you continue your studies, you will find many words like this, that have different kanji for different meanings of the same word.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to buy",
+    "romaji": "kau",
+    "hiragana": "かう",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to wait",
+    "romaji": "matsu",
+    "hiragana": "まつ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to return",
+    "romaji": "kaeru",
+    "hiragana": "かえる",
+    "notes": "This verb almost always refers to returning home.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to read",
+    "romaji": "yomu",
+    "hiragana": "よむ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to play",
+    "romaji": "asobu",
+    "hiragana": "あそぶ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to work",
+    "romaji": "hataraku",
+    "hiragana": "はたらく",
+    "notes": "This verb implies working hard. You can not use it to say you work for a company.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to hurry",
+    "romaji": "isogu",
+    "hiragana": "いそぐ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to speak",
+    "romaji": "hanasu",
+    "hiragana": "はなす",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to come",
+    "romaji": "kuru",
+    "hiragana": "くる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to die",
+    "romaji": "shinu",
+    "hiragana": "しぬ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to say / to tell / to be called",
+    "romaji": "iu",
+    "hiragana": "いう",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to ask / to listen",
+    "romaji": "kiku",
+    "hiragana": "きく",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to drink",
+    "romaji": "nomu",
+    "hiragana": "のむ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to talk",
+    "romaji": "shaberu",
+    "hiragana": "しゃべる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to request",
+    "romaji": "tanomu",
+    "hiragana": "たのむ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to use",
+    "romaji": "tsukau",
+    "hiragana": "つかう",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to answer",
+    "romaji": "kotaeru",
+    "hiragana": "こたえる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to write",
+    "romaji": "kaku",
+    "hiragana": "かく",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to wash",
+    "romaji": "arau",
+    "hiragana": "あらう",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to sing",
+    "romaji": "utau",
+    "hiragana": "うたう",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to sleep / to go to bed / to lie down",
+    "romaji": "neru",
+    "hiragana": "ねる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to get up",
+    "romaji": "okiru",
+    "hiragana": "おきる",
+    "notes": "This verb also means to rouse.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to wake up / to open your eyes",
+    "romaji": "samasu",
+    "hiragana": "さます",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to understand / to know",
+    "romaji": "wakaru",
+    "hiragana": "わかる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to rest",
+    "romaji": "yasumu",
+    "hiragana": "やすむ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to learn",
+    "romaji": "narau",
+    "hiragana": "ならう",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to lose / to misplace",
+    "romaji": "nakusu",
+    "hiragana": "なくす",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to fly",
+    "romaji": "tobu",
+    "hiragana": "とぶ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to turn on",
+    "romaji": "tsukeru",
+    "hiragana": "つける",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to turn off / to extinguish / to erase",
+    "romaji": "kesu",
+    "hiragana": "けす",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to make / to create",
+    "romaji": "tsukuru",
+    "hiragana": "つくる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to shower",
+    "romaji": "abiru",
+    "hiragana": "あびる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to go",
+    "romaji": "iku",
+    "hiragana": "いく",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to sell",
+    "romaji": "uru",
+    "hiragana": "うる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to put",
+    "romaji": "oku",
+    "hiragana": "おく",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to push",
+    "romaji": "osu",
+    "hiragana": "おす",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to swim",
+    "romaji": "oyogu",
+    "hiragana": "およぐ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to ride / to get on",
+    "romaji": "noru",
+    "hiragana": "のる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to brush teeth / to polish",
+    "romaji": "migaku",
+    "hiragana": "みがく",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to do",
+    "romaji": "yaru",
+    "hiragana": "やる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to call over / to invite",
+    "romaji": "yobu",
+    "hiragana": "よぶ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to pray",
+    "romaji": "inoru",
+    "hiragana": "いのる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to cut",
+    "romaji": "kiru",
+    "hiragana": "きる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to smoke / to suck",
+    "romaji": "suu",
+    "hiragana": "すう",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to take",
+    "romaji": "toru",
+    "hiragana": "とる",
+    "notes": "The second kanji is used for taking pictures.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to look for / to search",
+    "romaji": "sagasu",
+    "hiragana": "さがす",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to climb",
+    "romaji": "noboru",
+    "hiragana": "のぼる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to investigate",
+    "romaji": "shiraberu",
+    "hiragana": "しらべる",
+    "notes": "Investigate is a bit formal in English. This word is more casual in Japanese, and can mean to search for information or find out. This word is also used to say look up words.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to throw away",
+    "romaji": "suteru",
+    "hiragana": "すてる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to visit",
+    "romaji": "tazuneru",
+    "hiragana": "たずねる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to enjoy oneself / to have fun",
+    "romaji": "tanoshimu",
+    "hiragana": "たのしむ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to stop (doing)",
+    "romaji": "yameru",
+    "hiragana": "やめる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to continue",
+    "romaji": "tsuzukeru",
+    "hiragana": "つづける",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to stay the night",
+    "romaji": "tomaru",
+    "hiragana": "とまる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to pay",
+    "romaji": "harau",
+    "hiragana": "はらう",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to go back / to return",
+    "romaji": "modoru",
+    "hiragana": "もどる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to apologize",
+    "romaji": "ayamaru",
+    "hiragana": "あやまる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to choose",
+    "romaji": "erabu",
+    "hiragana": "えらぶ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to tie",
+    "romaji": "shimeru",
+    "hiragana": "しめる",
+    "notes": "This word is also used for seat belts, as in fasten.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to differ / to be wrong",
+    "romaji": "chigau",
+    "hiragana": "ちがう",
+    "notes": "Be careful with this word. It is used to say that two things are different, as in not the same, and also used to say that something is wrong, as in not correct.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to become tired",
+    "romaji": "tsukareru",
+    "hiragana": "つかれる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to arrive",
+    "romaji": "tsuku",
+    "hiragana": "つく",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to chirp",
+    "romaji": "naku",
+    "hiragana": "なく",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to become",
+    "romaji": "naru",
+    "hiragana": "なる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to stick / to glue / to attach",
+    "romaji": "haru",
+    "hiragana": "はる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to pull",
+    "romaji": "hiku",
+    "hiragana": "ひく",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to fall",
+    "romaji": "furu",
+    "hiragana": "ふる",
+    "notes": "This is used for the weather, referring to rain or snow falling.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to build",
+    "romaji": "tateru",
+    "hiragana": "たてる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to forget",
+    "romaji": "wasureru",
+    "hiragana": "わすれる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to walk",
+    "romaji": "aruku",
+    "hiragana": "あるく",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to run",
+    "romaji": "hashiru",
+    "hiragana": "はしる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to enter",
+    "romaji": "hairu",
+    "hiragana": "はいる",
+    "notes": "A secondary meaning of this word is to contain. When people ask what ingredients were used to make a food, they will literally ask What has entered this dish?",
+    "section": "Verbs"
+  },
+  {
+    "english": "to exit",
+    "romaji": "deru",
+    "hiragana": "でる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to teach",
+    "romaji": "oshieru",
+    "hiragana": "おしえる",
+    "notes": "A secondary meaning of this word is to tell. As in, when you are telling someone some information, you are teaching them something they didn't know before.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to stand",
+    "romaji": "tatsu",
+    "hiragana": "たつ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to sit",
+    "romaji": "suwaru",
+    "hiragana": "すわる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to put in / to insert",
+    "romaji": "ireru",
+    "hiragana": "いれる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to blow",
+    "romaji": "fuku",
+    "hiragana": "ふく",
+    "notes": "This is used for playing wind instruments, as well as to say that things are blowing, such as the wind.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to finish / to end",
+    "romaji": "owaru",
+    "hiragana": "おわる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to lend",
+    "romaji": "kasu",
+    "hiragana": "かす",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to borrow",
+    "romaji": "kariru",
+    "hiragana": "かりる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to be surprised",
+    "romaji": "odoroku",
+    "hiragana": "おどろく",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to be worried",
+    "romaji": "komaru",
+    "hiragana": "こまる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to bloom",
+    "romaji": "saku",
+    "hiragana": "さく",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to shine",
+    "romaji": "sasu",
+    "hiragana": "さす",
+    "notes": "This word is a bit complicated. The core meaning of this word is more along the lines of to put out. We get the meaning shine from the idea that the sun is putting out light. This word can mean to wear with swords (more important back in the day than now). It can mean to serve / to offer, as in a cup of tea. It can mean to put your arms out, and also it is used for putting up an umbrella.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to know",
+    "romaji": "shiru",
+    "hiragana": "しる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to live / to reside",
+    "romaji": "sumu",
+    "hiragana": "すむ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to hold / to possess",
+    "romaji": "motsu",
+    "hiragana": "もつ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to remember / to memorize",
+    "romaji": "oboeru",
+    "hiragana": "おぼえる",
+    "notes": "The emphasis on this word is information going into your head, as well as being in the state of being able to recall the information.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to remember / to recall",
+    "romaji": "omoidasu",
+    "hiragana": "おもいだす",
+    "notes": "The emphasis on this word is the information coming out of your head. This compound verb literally means exiting memory.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to love",
+    "romaji": "ai suru",
+    "hiragana": "あいする",
+    "notes": "In English there is the comical distinction between loving someone and being in love with someone. This word means in love.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to be married",
+    "romaji": "kekkon suru",
+    "hiragana": "けっこんする",
+    "notes": "To say that you are married, you will use the Te-Iru form of this verb. If you use the simple present tense, you are asking someone to marry you, so watch out!",
+    "section": "Verbs"
+  },
+  {
+    "english": "to work for / at / as",
+    "romaji": "tsutomeru",
+    "hiragana": "つとめる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to get angry",
+    "romaji": "okoru",
+    "hiragana": "おこる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to be similar / to look the same",
+    "romaji": "niru",
+    "hiragana": "にる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to receive / to get / to take a test",
+    "romaji": "ukeru",
+    "hiragana": "うける",
+    "notes": "This word's core meaning is to receive, but has a lot of uses in this context. It is also used in many compound verbs, as we will soon see. It is not usually used for obtaining physical objects, but rather, in sentences like, The speech was well received. Giving and receiving is actually a bit more complicated and is covered in detail in Volume Two.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to receive / to accept",
+    "romaji": "uketoru",
+    "hiragana": "うけとる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to accept / to agree",
+    "romaji": "ukeireru",
+    "hiragana": "うけいれる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to accept / to take",
+    "romaji": "uketsukeru",
+    "hiragana": "うけつける",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to be in charge of",
+    "romaji": "ukemotsu",
+    "hiragana": "うけもつ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to break",
+    "romaji": "kowasu",
+    "hiragana": "こわす",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to fold / to snap / to break",
+    "romaji": "oru",
+    "hiragana": "おる",
+    "notes": "The kanji here means to fold, and this word is often used to say that something broke in half.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to break down / to defeat",
+    "romaji": "taosu",
+    "hiragana": "たおす",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to break / to divide / to crack",
+    "romaji": "waru",
+    "hiragana": "わる",
+    "notes": "This is the same word as mathematical division. It can also mean to split, to cut, to slice. The kanji for this word has the symbol for a sword on the right, so that may help you remember the meaning.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to break / to stop working",
+    "romaji": "koshou suru",
+    "hiragana": "こしょうする",
+    "notes": "This is the word you will use for machines or devices when they stop working.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to escape",
+    "romaji": "nigeru",
+    "hiragana": "にげる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to become fat",
+    "romaji": "futoru",
+    "hiragana": "ふとる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to become thin",
+    "romaji": "yaseru",
+    "hiragana": "やせる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to win",
+    "romaji": "katsu",
+    "hiragana": "かつ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to lose / to be defeated",
+    "romaji": "makeru",
+    "hiragana": "まける",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to discover / to find",
+    "romaji": "mitsukeru",
+    "hiragana": "みつける",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to laugh",
+    "romaji": "warau",
+    "hiragana": "わらう",
+    "notes": "The kanji is also used in cyberspace language to mean LOL.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to live / to be alive",
+    "romaji": "ikiru",
+    "hiragana": "いきる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to think / to opine",
+    "romaji": "omou",
+    "hiragana": "おもう",
+    "notes": "The word opine is not often used in English, but this verb is used when you want to give your opinion.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to think / to consider",
+    "romaji": "kangaeru",
+    "hiragana": "かんがえる",
+    "notes": "Use this verb when you want to say think about.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to heal",
+    "romaji": "naosu",
+    "hiragana": "なおす",
+    "notes": "The first kaji refers to fix and the second to heal. Note that these are the transitive form of the verbs.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to bite / to chew",
+    "romaji": "kamu",
+    "hiragana": "かむ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to compare",
+    "romaji": "kuraberu",
+    "hiragana": "くらべる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to report",
+    "romaji": "tsutaeru",
+    "hiragana": "つたえる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to wrap",
+    "romaji": "tsutsumu",
+    "hiragana": "つつむ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to help",
+    "romaji": "tasukeru",
+    "hiragana": "たすける",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to assist",
+    "romaji": "tetsudau",
+    "hiragana": "てつだう",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to get used to / to grow accustomed to",
+    "romaji": "nareru",
+    "hiragana": "なれる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to steal",
+    "romaji": "nusumu",
+    "hiragana": "ぬすむ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to transfer (train / bus)",
+    "romaji": "norikaeru",
+    "hiragana": "のりかえる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to transfer location",
+    "romaji": "utsuru",
+    "hiragana": "うつる",
+    "notes": "This is used for transferring residential locations as well as job locations, or job departments within a company. It can also mean to shift as is shifting topics, or spread / be contagious.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to move (residence)",
+    "romaji": "hikkosu",
+    "hiragana": "ひっこす",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to send",
+    "romaji": "okuru",
+    "hiragana": "おくる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to get off",
+    "romaji": "oriru",
+    "hiragana": "おりる",
+    "notes": "The first kanji is for general going down, the second is for getting off trains.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to change",
+    "romaji": "kawaru",
+    "hiragana": "かわる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to change / to modify",
+    "romaji": "henka suru",
+    "hiragana": "へんかする",
+    "notes": "This verb is different in that it has a sense of not changing something completely, but merely making modifications or alterations to it.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to change / to revise",
+    "romaji": "aratameru",
+    "hiragana": "あらためる",
+    "notes": "This verb has a sense of a new version, replacing something or revising an old thing with something new. The core meaning of the kanji is to reform.",
+    "section": "Verbs"
+  },
+  {
+    "english": "to decide",
+    "romaji": "kimeru",
+    "hiragana": "きめる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to advance / to make progress",
+    "romaji": "susumu",
+    "hiragana": "すすむ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to exist [for inanimate objects]",
+    "romaji": "aru",
+    "hiragana": "ある",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to appear",
+    "romaji": "arawareru",
+    "hiragana": "あらわれる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to break<sup>in</sup>",
+    "romaji": "kowareru",
+    "hiragana": "こわれる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to throw",
+    "romaji": "nageru",
+    "hiragana": "なげる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to hit, to strike",
+    "romaji": "utsu",
+    "hiragana": "うつ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to hit, to strike",
+    "romaji": "naguru",
+    "hiragana": "なぐる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to kick",
+    "romaji": "keru",
+    "hiragana": "ける",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to tell",
+    "romaji": "kataru",
+    "hiragana": "かたる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to open<sup>tr</sup>, to unwrap<sup>tr</sup>",
+    "romaji": "akeru",
+    "hiragana": "あける",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to obtain [some benefit or knowledge]",
+    "romaji": "eru",
+    "hiragana": "える",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "to split into<sup>in</sup>, to be divided",
+    "romaji": "wakareru",
+    "hiragana": "わかれる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "still, yet",
+    "romaji": "mada",
+    "hiragana": "まだ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "always",
+    "romaji": "zutto",
+    "hiragana": "ずっと",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "often",
+    "romaji": "shibashiba",
+    "hiragana": "しばしば",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "this",
+    "romaji": "kono",
+    "hiragana": "この",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "that",
+    "romaji": "sono",
+    "hiragana": "その",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "that",
+    "romaji": "ano",
+    "hiragana": "あの",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "which",
+    "romaji": "dono",
+    "hiragana": "どの",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "but, however",
+    "romaji": "shikashi",
+    "hiragana": "しかし",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "and then, Then…",
+    "romaji": "soshite",
+    "hiragana": "そして",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "besides",
+    "romaji": "soreni",
+    "hiragana": "それに",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "that is because, being because",
+    "romaji": "nazenara",
+    "hiragana": "なぜなら",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "volitional ending [う for u-verbs, よう for ru-verbs]: \"Lets…\" or \"I will\"",
+    "romaji": "u",
+    "hiragana": "う",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "causative ending [せる for u-verbs, させる for ru-verbs]: to make [someone do something], to allow",
+    "romaji": "seru",
+    "hiragana": "せる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "passive verb ending [れる for u-verbs, られる for ru-verbs]: to be <verbed> [e.g., 食べられる, \"to be eaten\"]",
+    "romaji": "reru",
+    "hiragana": "れる",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "indicates that it seems the verb occurs [e.g., \"It seems he ate\"]",
+    "romaji": "souda",
+    "hiragana": "そう|そうだ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "informal past-tense",
+    "romaji": "ta",
+    "hiragana": "た",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "indicates that it seems the verb occurs; also used to ask whether the verb occurs",
+    "romaji": "darou",
+    "hiragana": "だろう",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "informal negative",
+    "romaji": "nai",
+    "hiragana": "ない",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "archaic informal negative [\"he hath\", \"thou didst\", etc.]",
+    "romaji": "nu",
+    "hiragana": "ぬ",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "formal non-past ending",
+    "romaji": "masu",
+    "hiragana": "ます",
+    "notes": "",
+    "section": "Verbs"
+  },
+  {
+    "english": "cute",
+    "romaji": "kawaii",
+    "hiragana": "かわいい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "beautiful / clean / pure",
+    "romaji": "kirei",
+    "hiragana": "きれい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "long",
+    "romaji": "nagai",
+    "hiragana": "ながい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "tall / high / expensive",
+    "romaji": "takai",
+    "hiragana": "たかい",
+    "notes": "The expensive definition comes from high price.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "short",
+    "romaji": "mijikai",
+    "hiragana": "みじかい",
+    "notes": "This refers to short in length or height.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "short / low",
+    "romaji": "hikui",
+    "hiragana": "ひくい",
+    "notes": "This refers to short as in low to the ground.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "cheap",
+    "romaji": "yasui",
+    "hiragana": "やすい",
+    "notes": "The first kanji is the meaning easy, the second cheap. The cheap definition comes from easy to buy.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "easy / simple",
+    "romaji": "kantan",
+    "hiragana": "かんたん",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "small",
+    "romaji": "chiisai",
+    "hiragana": "ちいさい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "big",
+    "romaji": "ookii",
+    "hiragana": "おおきい",
+    "notes": "If you notice, big and small can sometimes be both I-Adjectives and Na-Adjectives. As a non-native speaker, you should always use them as I-Adjectives, however, in certain situations, Japanese speakers with use them as Na-Adjectives.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "delicious",
+    "romaji": "oishii",
+    "hiragana": "おいしい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "unpleasant / bad taste",
+    "romaji": "mazui",
+    "hiragana": "まずい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "many",
+    "romaji": "ooi",
+    "hiragana": "おおい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "few",
+    "romaji": "sukunai",
+    "hiragana": "すくない",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "a small amount / a little bit",
+    "romaji": "sukoshi",
+    "hiragana": "すこし",
+    "notes": "Just like in English, this is actually not an adjective, but a noun. It can sometimes function like an adjective, but requires no special grammar.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "skillful",
+    "romaji": "jouzu",
+    "hiragana": "じょうず",
+    "notes": "In English, we usually don't say skillful, but rather good.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "unskillful",
+    "romaji": "heta",
+    "hiragana": "へた",
+    "notes": "Again, for unskillful, we will just translate this as bad.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "fast",
+    "romaji": "hayai",
+    "hiragana": "はやい",
+    "notes": "The first kanji means early, while the second means fast.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "slow / late",
+    "romaji": "osoi",
+    "hiragana": "おそい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "safe",
+    "romaji": "daijoubu",
+    "hiragana": "だいじょうぶ",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "good",
+    "romaji": "yoi",
+    "hiragana": "よい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "bad",
+    "romaji": "warui",
+    "hiragana": "わるい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "dangerous",
+    "romaji": "abunai",
+    "hiragana": "あぶない",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "new",
+    "romaji": "atarashii",
+    "hiragana": "あたらしい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "old",
+    "romaji": "furui",
+    "hiragana": "ふるい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "young",
+    "romaji": "wakai",
+    "hiragana": "わかい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "gentle / kind",
+    "romaji": "yasashii",
+    "hiragana": "やさしい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "cool / refreshing",
+    "romaji": "suzushii",
+    "hiragana": "すずしい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "fun",
+    "romaji": "tanoshii",
+    "hiragana": "たのしい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "boring",
+    "romaji": "tsumaranai",
+    "hiragana": "つまらない",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "strong",
+    "romaji": "tsuyoi",
+    "hiragana": "つよい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "weak",
+    "romaji": "yowai",
+    "hiragana": "よわい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "hot",
+    "romaji": "atsui",
+    "hiragana": "あつい",
+    "notes": "This word for hot as well as the next word for cold will only be used when you talk about the weather or how your whole body feels. For objects, we will learn different words later.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "cold",
+    "romaji": "samui",
+    "hiragana": "さむい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "thin",
+    "romaji": "hosoi",
+    "hiragana": "ほそい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "loud",
+    "romaji": "urusai",
+    "hiragana": "うるさい",
+    "notes": "People also use this word to say shut up. Literally, they are saying: Loud!",
+    "section": "Adjectives"
+  },
+  {
+    "english": "quiet / calm",
+    "romaji": "shizuka",
+    "hiragana": "しずか",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "heavy",
+    "romaji": "omoi",
+    "hiragana": "おもい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "light",
+    "romaji": "karui",
+    "hiragana": "かるい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "awful / terrible",
+    "romaji": "hidoi",
+    "hiragana": "ひどい",
+    "notes": "This word is most commonly used to say someone has done something bad.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "stiff",
+    "romaji": "katai",
+    "hiragana": "かたい",
+    "notes": "The three kanji are for the type of material that is hard. The first kanji meaning is to harden, the second is to be stiff, the third means strict.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "soft",
+    "romaji": "yawarakai",
+    "hiragana": "やわらかい",
+    "notes": "The first kanji refers to the softness as opposed to hardness. The second refers to soft a soft material, like a blanket, or as in tender, like meat, or a flexible person.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "sad",
+    "romaji": "kanashii",
+    "hiragana": "かなしい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "embarrassed / shy",
+    "romaji": "hazukashii",
+    "hiragana": "はずかしい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "strict",
+    "romaji": "kibishii",
+    "hiragana": "きびしい",
+    "notes": "Like a lot of Japanese adjectives dealing with difficulty, this word can also be used to say you are in a bad situation or not doing well.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "complex",
+    "romaji": "fukuzatsu",
+    "hiragana": "ふくざつ",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "correct",
+    "romaji": "tadashii",
+    "hiragana": "ただしい",
+    "notes": "On a cultural note, the kanji used in this word is used to count to five, because it has five strokes, similar to the four lines with a cross we use in English.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "different",
+    "romaji": "betsu",
+    "hiragana": "べつ",
+    "notes": "This word can also be the noun difference, when it is, it will be used like a No-Adjective. It is also often attached to words as a prefix and suffix.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "inconvenient",
+    "romaji": "fuben",
+    "hiragana": "ふべん",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "sweet",
+    "romaji": "amai",
+    "hiragana": "あまい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "difficult",
+    "romaji": "muzukashii",
+    "hiragana": "むずかしい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "round",
+    "romaji": "marui",
+    "hiragana": "まるい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "convenient",
+    "romaji": "benri",
+    "hiragana": "べんり",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "wide",
+    "romaji": "hiroi",
+    "hiragana": "ひろい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "narrow",
+    "romaji": "semai",
+    "hiragana": "せまい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "near",
+    "romaji": "chikai",
+    "hiragana": "ちかい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "far",
+    "romaji": "tooi",
+    "hiragana": "とおい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "spicy",
+    "romaji": "karai",
+    "hiragana": "からい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "thin / weak",
+    "romaji": "usui",
+    "hiragana": "うすい",
+    "notes": "This refers to the dilution of something, like a thin soup or a weak coffee.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "busy",
+    "romaji": "isogashii",
+    "hiragana": "いそがしい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "painful",
+    "romaji": "itai",
+    "hiragana": "いたい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "dirty",
+    "romaji": "kitanai",
+    "hiragana": "きたない",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "wonderful / splendid",
+    "romaji": "kekkou",
+    "hiragana": "けっこう",
+    "notes": "This word doesn't actually mean wonderful. It is used in combinations with other adjectives to mean very. It is also used to said you have had enough or satisfied, as in food or drink. Or if you are in a store and a clerk asks if you need help, you can use this word to say you are fine and don't need help.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "important",
+    "romaji": "taisetsu",
+    "hiragana": "たいせつ",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "huge / very / difficult",
+    "romaji": "taihen",
+    "hiragana": "たいへん",
+    "notes": "The kanji for this word together mean unusually big. It almost always is used in a negative context. When used by itself, it will mean you are in a difficult or bad situation.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "cold (object)",
+    "romaji": "tsumetai",
+    "hiragana": "つめたい",
+    "notes": "We learned hot and cold before, but this word as well as the next word are used for objects.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "hot / warm (object)",
+    "romaji": "atatakai",
+    "hiragana": "あたたかい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "lukewarm",
+    "romaji": "nurui",
+    "hiragana": "ぬるい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "fat",
+    "romaji": "futoi",
+    "hiragana": "ふとい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "disagreeable / unpleasant",
+    "romaji": "iya",
+    "hiragana": "いや",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "interesting / funny / strange",
+    "romaji": "omoshiroi",
+    "hiragana": "おもしろい",
+    "notes": "This word can cause some confusion because it is often used negatively to mean something is strange or weird, so context is important.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "robust / durable / strong",
+    "romaji": "joubu",
+    "hiragana": "じょうぶ",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "lively / bustling",
+    "romaji": "nigiyaka",
+    "hiragana": "にぎやか",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "famous",
+    "romaji": "yuumei",
+    "hiragana": "ゆうめい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "popular",
+    "romaji": "ninki",
+    "hiragana": "にんき",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "slowly / at ease",
+    "romaji": "yukkri",
+    "hiragana": "ゆっくり",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "splendid / elegant",
+    "romaji": "rippa",
+    "hiragana": "りっぱ",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "oneself",
+    "romaji": "jibun",
+    "hiragana": "じぶん",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "sleepy",
+    "romaji": "nemui",
+    "hiragana": "ねむい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "scary",
+    "romaji": "kowai",
+    "hiragana": "こわい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "lonely",
+    "romaji": "sabishii",
+    "hiragana": "さびしい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "kind / kindness",
+    "romaji": "shinsetsu",
+    "hiragana": "しんせつ",
+    "notes": "This word is both the adjective and the noun.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "terrific / amazing",
+    "romaji": "sugoi",
+    "hiragana": "すごい",
+    "notes": "This is probably the most popular word to use in Japanese to say things like great, awesome, wonderful. If you look it up, the definition says terrible, but it is usually used in a positive sense, just like terrific is a positive word in English that is derived from the negative word terror. It is also combined with other adjectives to mean very.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "special",
+    "romaji": "tokubetsu",
+    "hiragana": "とくべつ",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "usual / normal",
+    "romaji": "futsuu",
+    "hiragana": "ふつう",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "bitter",
+    "romaji": "nigai",
+    "hiragana": "にがい",
+    "notes": "This refers to flavor, not a person's temperament.",
+    "section": "Adjectives"
+  },
+  {
+    "english": "rare / precious",
+    "romaji": "mezurashii",
+    "hiragana": "めずらしい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "beautiful",
+    "romaji": "utsukushii",
+    "hiragana": "うつくしい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "good",
+    "romaji": "ii",
+    "hiragana": "いい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "wonderful",
+    "romaji": "subarashii",
+    "hiragana": "すばらしい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "delicious, appetizing",
+    "romaji": "umai",
+    "hiragana": "うまい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "salty",
+    "romaji": "shoppai",
+    "hiragana": "しょっぱい",
+    "notes": "",
+    "section": "Adjectives"
+  },
+  {
+    "english": "here",
+    "romaji": "koko",
+    "hiragana": "ここ",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "there",
+    "romaji": "soko",
+    "hiragana": "そこ",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "over there",
+    "romaji": "asoko",
+    "hiragana": "あそこ",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "this",
+    "romaji": "kore",
+    "hiragana": "これ",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "that",
+    "romaji": "sore",
+    "hiragana": "それ",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "that over there",
+    "romaji": "are",
+    "hiragana": "あれ",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "this way",
+    "romaji": "kochira",
+    "hiragana": "こちら",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "that way",
+    "romaji": "sochira",
+    "hiragana": "そちら",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "that way over there",
+    "romaji": "achira",
+    "hiragana": "あちら",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "which way",
+    "romaji": "dochira",
+    "hiragana": "どちら",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "here and there",
+    "romaji": "achikochi",
+    "hiragana": "あちこち",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "like this",
+    "romaji": "kou",
+    "hiragana": "こう",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "like that",
+    "romaji": "sou",
+    "hiragana": "そう",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "like that over there",
+    "romaji": "aa",
+    "hiragana": "ああ",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "this kind of",
+    "romaji": "konna",
+    "hiragana": "こんな",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "that kind of",
+    "romaji": "sonna",
+    "hiragana": "そんな",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "that kind of",
+    "romaji": "anna",
+    "hiragana": "あんな",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "what kind of",
+    "romaji": "donna",
+    "hiragana": "どんな",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "this / such",
+    "romaji": "konnani",
+    "hiragana": "こんなに",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "that / such",
+    "romaji": "sonnai",
+    "hiragana": "そんなに",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "that / such",
+    "romaji": "annani",
+    "hiragana": "あんなに",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "how / such",
+    "romaji": "donnani",
+    "hiragana": "どんなに",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "Umm / uhh",
+    "romaji": "ano",
+    "hiragana": "あの /",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "Well, uhh",
+    "romaji": "saa",
+    "hiragana": "さあ /",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "With that",
+    "romaji": "dewa",
+    "hiragana": "では",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "letter, character, script",
+    "romaji": "moji",
+    "hiragana": "もじ",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "a letter, character",
+    "romaji": "ji",
+    "hiragana": "じ",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "Chinese character",
+    "romaji": "kanji",
+    "hiragana": "かんじ",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "hiragana syllabary characters",
+    "romaji": "hiragana",
+    "hiragana": "ひらがな",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "katakana syllabary characters",
+    "romaji": "katakana",
+    "hiragana": "カタカナ",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "alphabet",
+    "romaji": "arufabetto",
+    "hiragana": "アルファベット",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "Roman characters, Latin script",
+    "romaji": "roumaji",
+    "hiragana": "ローマ字",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "foreign language",
+    "romaji": "gaikokugo",
+    "hiragana": "がいこくご",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "Japanese [language]",
+    "romaji": "nihongo",
+    "hiragana": "にほんご",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "English [language]",
+    "romaji": "eigo",
+    "hiragana": "えいご",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "Chinese [language]",
+    "romaji": "chuugokugo",
+    "hiragana": "ちゅうごくご",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "German [language]",
+    "romaji": "doitsugo",
+    "hiragana": "どいつご",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "Spanish [language]",
+    "romaji": "supeingo",
+    "hiragana": "すぺいんご",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "French [language]",
+    "romaji": "furansugo",
+    "hiragana": "ふらんすご",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "Korean [language], South Korean [language]",
+    "romaji": "chousengo",
+    "hiragana": "ちょうせんご",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "subject marker, but",
+    "romaji": "ga",
+    "hiragana": "が",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "at, by",
+    "romaji": "de",
+    "hiragana": "で",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "possession marker, of",
+    "romaji": "no",
+    "hiragana": "の",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "to",
+    "romaji": "e",
+    "hiragana": "へ",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "to",
+    "romaji": "made",
+    "hiragana": "まで",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "from",
+    "romaji": "kara",
+    "hiragana": "から",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "than",
+    "romaji": "yori",
+    "hiragana": "より",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "direct object marker",
+    "romaji": "o",
+    "hiragana": "を",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "and; as well as",
+    "romaji": "oyobi",
+    "hiragana": "および",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "might be, possible that",
+    "romaji": "kamo",
+    "hiragana": "かも",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "or",
+    "romaji": "soretomo",
+    "hiragana": "それとも",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "things like <list of things>, including, such things as",
+    "romaji": "dano",
+    "hiragana": "だの",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "ongoing occurrence",
+    "romaji": "tsutsu",
+    "hiragana": "つつ",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "while, though, both",
+    "romaji": "nagara",
+    "hiragana": "ながら",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "as well as",
+    "romaji": "narabini",
+    "hiragana": "ならびに",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "whether or not",
+    "romaji": "nari",
+    "hiragana": "なり",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "so",
+    "romaji": "node",
+    "hiragana": "ので",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "or alternatively",
+    "romaji": "matawa",
+    "hiragana": "または",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "emphasis and question marker, equivalent to \"right?\"",
+    "romaji": "ne",
+    "hiragana": "ね",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "the copula particle used after quasi-adjectives",
+    "romaji": "na",
+    "hiragana": "な",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "I wonder",
+    "romaji": "kashira",
+    "hiragana": "かしら",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "-ness",
+    "romaji": "sa",
+    "hiragana": "さ",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "particle indicating that the speaker is trying to recall some information [\"What class is next -kke?\"]",
+    "romaji": "-kke",
+    "hiragana": "っけ",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "emphasis",
+    "romaji": "koso",
+    "hiragana": "こそ",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "even",
+    "romaji": "sae",
+    "hiragana": "さえ",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "even",
+    "romaji": "sura",
+    "hiragana": "すら",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "only, as much as",
+    "romaji": "dake",
+    "hiragana": "だけ",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "however",
+    "romaji": "datte",
+    "hiragana": "だって",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "casual topic marker",
+    "romaji": "ttara",
+    "hiragana": "ったら",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "said that",
+    "romaji": "tte",
+    "hiragana": "って",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "if [for verbs]; subject marker [for nouns]",
+    "romaji": "nara",
+    "hiragana": "なら",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "casual undervalue, dislike, lack",
+    "romaji": "nanka",
+    "hiragana": "なんか",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "casual undervalue, dislike, lack",
+    "romaji": "nante",
+    "hiragana": "なんて",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "just, full of, only",
+    "romaji": "bakari",
+    "hiragana": "ばかり",
+    "notes": "",
+    "section": "Grammar"
+  },
+  {
+    "english": "living creatures",
+    "romaji": "ikimono",
+    "hiragana": "いきもの",
+    "notes": "",
+    "section": "Abstract"
+  },
+  {
+    "english": "monster",
+    "romaji": "bakemono",
+    "hiragana": "ばけもの",
+    "notes": "",
+    "section": "Abstract"
+  },
+  {
+    "english": "secret",
+    "romaji": "himitsu",
+    "hiragana": "ひみつ",
+    "notes": "",
+    "section": "Abstract"
+  },
+  {
+    "english": "automatic",
+    "romaji": "jidou",
+    "hiragana": "じどう",
+    "notes": "",
+    "section": "Abstract"
+  },
+  {
+    "english": "content",
+    "romaji": "naiyou",
+    "hiragana": "ないよう",
+    "notes": "",
+    "section": "Abstract"
+  },
+  {
+    "english": "width, breadth, free room, difference",
+    "romaji": "haba",
+    "hiragana": "はば",
+    "notes": "",
+    "section": "Abstract"
+  },
+  {
+    "english": "formality",
+    "romaji": "seishiki",
+    "hiragana": "せいしき",
+    "notes": "",
+    "section": "Abstract"
+  },
+  {
+    "english": "marriage",
+    "romaji": "kekkon",
+    "hiragana": "けっこん",
+    "notes": "",
+    "section": "Abstract"
+  },
+  {
+    "english": "I'm fine. / I'm so so",
+    "romaji": "Genki desu. / Maamaa desu",
+    "hiragana": "げんきです。/ まあまあです",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "I",
+    "romaji": "ore",
+    "hiragana": "おれ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "you",
+    "romaji": "kimi",
+    "hiragana": "きみ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "toe",
+    "romaji": "ashiyubi",
+    "hiragana": "あしゆび",
+    "notes": "In Japanese, for toes, they literally say foot finger.",
+    "section": "General"
+  },
+  {
+    "english": "male",
+    "romaji": "otoko",
+    "hiragana": "おとこ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "female",
+    "romaji": "onna",
+    "hiragana": "おんな",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "in / middle",
+    "romaji": "naka",
+    "hiragana": "なか",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "wallet",
+    "romaji": "saifu",
+    "hiragana": "さいふ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "refrigerator",
+    "romaji": "reizouko",
+    "hiragana": "れいぞうこ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "glasses",
+    "romaji": "megane",
+    "hiragana": "めがね",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "ashtray",
+    "romaji": "haizara",
+    "hiragana": "はいざら",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "subway",
+    "romaji": "chikatetsu",
+    "hiragana": "ちかてつ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "letter",
+    "romaji": "tegami",
+    "hiragana": "てがみ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "some (prefix)",
+    "romaji": "ka",
+    "hiragana": "か",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "any (prefix)",
+    "romaji": "demo",
+    "hiragana": "でも",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "no (prefix)",
+    "romaji": "mo",
+    "hiragana": "も",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "never",
+    "romaji": "kesshite",
+    "hiragana": "けっして",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "almost no amount of",
+    "romaji": "ikuramo",
+    "hiragana": "いくらも",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "no matter how / any how",
+    "romaji": "doudemo",
+    "hiragana": "どうでも",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "no possible way",
+    "romaji": "dounimo",
+    "hiragana": "どうにも",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "woods",
+    "romaji": "hayashi",
+    "hiragana": "はやし",
+    "notes": "If you notice, this kanji is two trees.",
+    "section": "General"
+  },
+  {
+    "english": "coast",
+    "romaji": "kaigan",
+    "hiragana": "かいがん",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "factory",
+    "romaji": "koujou",
+    "hiragana": "こうじょう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "question",
+    "romaji": "shitsumon",
+    "hiragana": "しつもん",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "dictionary",
+    "romaji": "jisho",
+    "hiragana": "じしょ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "homework",
+    "romaji": "shukudai",
+    "hiragana": "しゅくだい",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "word",
+    "romaji": "tango",
+    "hiragana": "たんご",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "composition / essay",
+    "romaji": "sakubun",
+    "hiragana": "さくぶん",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "writing / article",
+    "romaji": "bunshou",
+    "hiragana": "ぶんしょう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "grammar",
+    "romaji": "bunpou",
+    "hiragana": "ぶんぽう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "photograph",
+    "romaji": "shashin",
+    "hiragana": "しゃしん",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "gate",
+    "romaji": "mon",
+    "hiragana": "もん",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "movie / film",
+    "romaji": "eiga",
+    "hiragana": "えいが",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "music",
+    "romaji": "ongaku",
+    "hiragana": "おんがく",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "ticket",
+    "romaji": "kippu",
+    "hiragana": "きっぷ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "stamp",
+    "romaji": "kitte",
+    "hiragana": "きって",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "envelope",
+    "romaji": "fuutou",
+    "hiragana": "ふうとう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "map",
+    "romaji": "chizu",
+    "hiragana": "ちず",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "stream",
+    "romaji": "kawa",
+    "hiragana": "かわ",
+    "notes": "The first kanji is for river, the second for stream.",
+    "section": "General"
+  },
+  {
+    "english": "bank",
+    "romaji": "ginkou",
+    "hiragana": "ぎんこう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "embassy",
+    "romaji": "taishikan",
+    "hiragana": "たいしかん",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "entrance / entry hall",
+    "romaji": "genkan",
+    "hiragana": "げんかん",
+    "notes": "This refers to the entrance itself as well as the area around the entrance.",
+    "section": "General"
+  },
+  {
+    "english": "pillow",
+    "romaji": "makura",
+    "hiragana": "まくら",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to do",
+    "romaji": "suru",
+    "hiragana": "する",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to work (do work)",
+    "romaji": "shigoto suru",
+    "hiragana": "しごとする",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to study (do studies)",
+    "romaji": "benkyou suru",
+    "hiragana": "べんきょうする",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to clean (do cleaning)",
+    "romaji": "souji suru",
+    "hiragana": "そうじする",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to exercise (do movement)",
+    "romaji": "undou suru",
+    "hiragana": "うんどうする",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to practice (do practice)",
+    "romaji": "renshuu suru",
+    "hiragana": "れんしゅうする",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to go for a walk (do walk)",
+    "romaji": "sanpo suru",
+    "hiragana": "さんぽする",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to fit / to unite",
+    "romaji": "au",
+    "hiragana": "あう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to take out / to get out / to put out",
+    "romaji": "dasu",
+    "hiragana": "だす",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to take out / to pull out",
+    "romaji": "hikidasu",
+    "hiragana": "ひきだす",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to discuss",
+    "romaji": "hanashiau",
+    "hiragana": "はなしあう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to make a mistake",
+    "romaji": "machigau",
+    "hiragana": "まちがう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to bring",
+    "romaji": "mottekuru",
+    "hiragana": "もってくる",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to take along",
+    "romaji": "motteiku",
+    "hiragana": "もっていく",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to be crowded",
+    "romaji": "komu",
+    "hiragana": "こむ",
+    "notes": "The first kanji is for packed, the second for crowded. This first kanji is used for many compound verbs, and it has a sense of inclusion. The second kanji meaning is crowded or mixture.",
+    "section": "General"
+  },
+  {
+    "english": "to include / to insert",
+    "romaji": "kumikomu",
+    "hiragana": "くみこむ",
+    "notes": "The first kanji means association or unite. So this word has the sense of putting things together.",
+    "section": "General"
+  },
+  {
+    "english": "stairs",
+    "romaji": "kaidan",
+    "hiragana": "かいだん",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "umbrella",
+    "romaji": "kasa",
+    "hiragana": "かさ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "soap",
+    "romaji": "sekken",
+    "hiragana": "せっけん",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "automobile",
+    "romaji": "jidousha",
+    "hiragana": "じどうしゃ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "sure / certain",
+    "romaji": "tashika",
+    "hiragana": "たしか",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "probably",
+    "romaji": "tabun",
+    "hiragana": "たぶん",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "Of course",
+    "romaji": "mochiron",
+    "hiragana": "もちろん",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "exactly",
+    "romaji": "choudo",
+    "hiragana": "ちょうど",
+    "notes": "This is used to say an exact amount, as in money or time. In English we can sometimes respond to something, showing our agreement by saying, Exactly! But this word can not be used in that context.",
+    "section": "General"
+  },
+  {
+    "english": "properly / diligently",
+    "romaji": "chanto",
+    "hiragana": "ちゃんと",
+    "notes": "This word is often used with commands to tell someone to do something properly, as in, give a real effort.",
+    "section": "General"
+  },
+  {
+    "english": "be sure to / certainly",
+    "romaji": "kanarazu",
+    "hiragana": "かならず",
+    "notes": "This is often used to tell someone to make certain that they do something.",
+    "section": "General"
+  },
+  {
+    "english": "friend",
+    "romaji": "tomodachi",
+    "hiragana": "ともだち",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "problem",
+    "romaji": "mondai",
+    "hiragana": "もんだい",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "intersection",
+    "romaji": "kousaten",
+    "hiragana": "こうさてん",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "corner",
+    "romaji": "kado",
+    "hiragana": "かど",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "company",
+    "romaji": "kaisha",
+    "hiragana": "かいしゃ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "entrance",
+    "romaji": "iriguchi",
+    "hiragana": "いりぐち",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "exit",
+    "romaji": "deguchi",
+    "hiragana": "でぐち",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "cafeteria / dining hall",
+    "romaji": "shokudou",
+    "hiragana": "しょくどう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "hallway",
+    "romaji": "rouka",
+    "hiragana": "ろうか",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "soy sauce",
+    "romaji": "shouyu",
+    "hiragana": "しょうゆ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "trip / travel",
+    "romaji": "ryokou",
+    "hiragana": "りょこう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "voice",
+    "romaji": "koe",
+    "hiragana": "こえ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "magazine",
+    "romaji": "zasshi",
+    "hiragana": "ざっし",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "necessary",
+    "romaji": "hitsuyou",
+    "hiragana": "ひつよう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "vase",
+    "romaji": "kabin",
+    "hiragana": "かびん",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "sand",
+    "romaji": "suna",
+    "hiragana": "すな",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "socks",
+    "romaji": "kutsushita",
+    "hiragana": "くつした",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "university",
+    "romaji": "daigaku",
+    "hiragana": "だいがく",
+    "notes": "Again, compare the kanji in this word to the others for pronunciation.",
+    "section": "General"
+  },
+  {
+    "english": "to graduate",
+    "romaji": "sotsugyou suru",
+    "hiragana": "そつぎょうする",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "math",
+    "romaji": "suugaku",
+    "hiragana": "すうがく",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "chemistry",
+    "romaji": "kagaku",
+    "hiragana": "かがく",
+    "notes": "These words are homonyms but have different kanji.",
+    "section": "General"
+  },
+  {
+    "english": "history",
+    "romaji": "rekishi",
+    "hiragana": "れきし",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "art",
+    "romaji": "bijutsu",
+    "hiragana": "びじゅつ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "medicine",
+    "romaji": "kusuri",
+    "hiragana": "くすり",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "cold (sickness)",
+    "romaji": "kaze",
+    "hiragana": "かぜ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "condition / health",
+    "romaji": "guai",
+    "hiragana": "ぐあい",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "length",
+    "romaji": "tate",
+    "hiragana": "たて",
+    "notes": "This word can be used for any length, not just humans.",
+    "section": "General"
+  },
+  {
+    "english": "illness",
+    "romaji": "byouki",
+    "hiragana": "びょうき",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "scenery",
+    "romaji": "keshiki",
+    "hiragana": "けしき",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "shape / form / figure",
+    "romaji": "katachi",
+    "hiragana": "かたち",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "○] / circle",
+    "romaji": "maru",
+    "hiragana": "まる",
+    "notes": "The second kanji isn't a kanji, it's a circle. It's there because in written Japanese, they often use circles to express the word correct.",
+    "section": "General"
+  },
+  {
+    "english": "X",
+    "romaji": "batsu",
+    "hiragana": "ばつ",
+    "notes": "Again, not a kanji, but a mark used to say incorrect.",
+    "section": "General"
+  },
+  {
+    "english": "triangle",
+    "romaji": "sankaku",
+    "hiragana": "さんかく",
+    "notes": "Literally this means three angles.",
+    "section": "General"
+  },
+  {
+    "english": "square",
+    "romaji": "shikaku",
+    "hiragana": "しかく",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "translation",
+    "romaji": "honyaku",
+    "hiragana": "ほんやく",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to show",
+    "romaji": "miseru",
+    "hiragana": "みせる",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to go out / to vanish",
+    "romaji": "kieru",
+    "hiragana": "きえる",
+    "notes": "This doesn't mean to go outside, but rather to go off, as in the lights. This verb is intransitive.",
+    "section": "General"
+  },
+  {
+    "english": "meaning",
+    "romaji": "imi",
+    "hiragana": "いみ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "birthday",
+    "romaji": "tanjoubi",
+    "hiragana": "たんじょうび",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to touch",
+    "romaji": "sawaru",
+    "hiragana": "さわる",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "area",
+    "romaji": "hen",
+    "hiragana": "へん",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "pond",
+    "romaji": "ike",
+    "hiragana": "いけ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "invitation",
+    "romaji": "shoutai",
+    "hiragana": "しょうたい",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to invite",
+    "romaji": "sasou",
+    "hiragana": "さそう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to close",
+    "romaji": "shimaru",
+    "hiragana": "しまる",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to begin",
+    "romaji": "hajimaru",
+    "hiragana": "はじまる",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to turn",
+    "romaji": "magaru",
+    "hiragana": "まがる",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to bend",
+    "romaji": "magareru",
+    "hiragana": "まがれる",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to rise",
+    "romaji": "agaru",
+    "hiragana": "あがる",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to raise",
+    "romaji": "ageru",
+    "hiragana": "あげる",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to be born",
+    "romaji": "umareru",
+    "hiragana": "うまれる",
+    "notes": "This verb is a bit special, because to be born is the passive form of to give birth.",
+    "section": "General"
+  },
+  {
+    "english": "to give birth",
+    "romaji": "umu",
+    "hiragana": "うむ",
+    "notes": "This verb is a bit special, because to be born is the passive form of to give birth.",
+    "section": "General"
+  },
+  {
+    "english": "to cross over",
+    "romaji": "wataru",
+    "hiragana": "わたる",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to give back",
+    "romaji": "kaesu",
+    "hiragana": "かえす",
+    "notes": "Note that this verb can also be translated as to return.",
+    "section": "General"
+  },
+  {
+    "english": "to require",
+    "romaji": "kakaru",
+    "hiragana": "かかる",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to bet / to risk",
+    "romaji": "kakeru",
+    "hiragana": "かける",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to go out",
+    "romaji": "dekakeru",
+    "hiragana": "でかける",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to begin to ask",
+    "romaji": "toikakeru",
+    "hiragana": "といかける",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to be worried about",
+    "romaji": "ki ni kakaru",
+    "hiragana": "きにかかる",
+    "notes": "This is an idiomatic phrase.",
+    "section": "General"
+  },
+  {
+    "english": "to approach and talk",
+    "romaji": "hanashikakeru",
+    "hiragana": "はなしかける",
+    "notes": "This usually just translates to talk, but has the implied meaning that you went up to someone and started talking to them.",
+    "section": "General"
+  },
+  {
+    "english": "report / information",
+    "romaji": "houkoku",
+    "hiragana": "ほうこく",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "boss",
+    "romaji": "joushi",
+    "hiragana": "じょうし",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "subordinate",
+    "romaji": "buka",
+    "hiragana": "ぶか",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "section manager",
+    "romaji": "kachou",
+    "hiragana": "かちょう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "division manager",
+    "romaji": "buchou",
+    "hiragana": "ぶちょう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "chief",
+    "romaji": "shochou",
+    "hiragana": "しょうちょ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "bureau director",
+    "romaji": "kyokuchou",
+    "hiragana": "きょくちょう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "company president",
+    "romaji": "shachou",
+    "hiragana": "しゃちょう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "company vice president",
+    "romaji": "fukushachou",
+    "hiragana": "ふくしゃちょう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to grow (plants)",
+    "romaji": "ueru",
+    "hiragana": "うえる",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "flavor",
+    "romaji": "aji",
+    "hiragana": "あじ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to bake / to grill / to roast / to burn",
+    "romaji": "yaku",
+    "hiragana": "やく",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to boil",
+    "romaji": "waku",
+    "hiragana": "わく",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "groceries",
+    "romaji": "shokuryouhin",
+    "hiragana": "しょくりょうひん",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "apple",
+    "romaji": "ringo",
+    "hiragana": "リンゴ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "grape",
+    "romaji": "budou",
+    "hiragana": "ぶどう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "potato",
+    "romaji": "jagaimo",
+    "hiragana": "ジャガイモ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "onion",
+    "romaji": "tamanegi",
+    "hiragana": "たまねぎ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "etc",
+    "romaji": "nado",
+    "hiragana": "など",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to gather / to collect",
+    "romaji": "atsumaru",
+    "hiragana": "あつまる",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "receipt",
+    "romaji": "reshiito",
+    "hiragana": "レシート",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "change (from a bill)",
+    "romaji": "otsuri",
+    "hiragana": "おつり",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "gift",
+    "romaji": "okurimono",
+    "hiragana": "おくりもの",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "closet",
+    "romaji": "oshiire",
+    "hiragana": "おしいれ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "festival",
+    "romaji": "matsuri",
+    "hiragana": "まつり",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "souvenir",
+    "romaji": "omiyage",
+    "hiragana": "おみやげ",
+    "notes": "On a cultural note, most Japanese people will buy snacks as souvenirs whenever they travel somewhere, for their friends, family, or co-workers. If you are going to Japan and plan on staying with someone, be sure to bring them a souvenir from your home country. They will really appreciate it!",
+    "section": "General"
+  },
+  {
+    "english": "mirror",
+    "romaji": "kagami",
+    "hiragana": "かがみ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "air conditioning",
+    "romaji": "reibou",
+    "hiragana": "れいぼう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "ceiling",
+    "romaji": "tenjou",
+    "hiragana": "てんじょう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "wall",
+    "romaji": "kabe",
+    "hiragana": "かべ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "TV show",
+    "romaji": "bangumi",
+    "hiragana": "ばんぐみ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "diary / journal",
+    "romaji": "nikki",
+    "hiragana": "にっき",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "interest",
+    "romaji": "kyoumi",
+    "hiragana": "きょうみ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "hobby",
+    "romaji": "shumi",
+    "hiragana": "しゅみ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "office",
+    "romaji": "jimusho",
+    "hiragana": "じむしょ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "toy",
+    "romaji": "omocha",
+    "hiragana": "おもちゃ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "novel",
+    "romaji": "shousetsu",
+    "hiragana": "しょうせつ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "customer",
+    "romaji": "kyaku",
+    "hiragana": "きゃく",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "pronunciation",
+    "romaji": "hatsuon",
+    "hiragana": "はつおん",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "mood",
+    "romaji": "kibun",
+    "hiragana": "きぶん",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "opinion",
+    "romaji": "iken",
+    "hiragana": "いけん",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "sound / note",
+    "romaji": "oto",
+    "hiragana": "おと",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "conversation",
+    "romaji": "kaiwa",
+    "hiragana": "かいわ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "dream",
+    "romaji": "yume",
+    "hiragana": "ゆめ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to fail / to make a mistake",
+    "romaji": "shippai suru",
+    "hiragana": "しっぱいする",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to promise",
+    "romaji": "yakusoku suru",
+    "hiragana": "やくそくする",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to reply",
+    "romaji": "henji suru",
+    "hiragana": "へんじする",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to explain",
+    "romaji": "setsumei suru",
+    "hiragana": "せつめいする",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to fight",
+    "romaji": "kenka suru",
+    "hiragana": "けんかする",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to drop",
+    "romaji": "otosu",
+    "hiragana": "おとす",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to slip / to slide",
+    "romaji": "suberu",
+    "hiragana": "すべる",
+    "notes": "This can be used as a slang to say fail a test. This word is also the verb for snowboarding.",
+    "section": "General"
+  },
+  {
+    "english": "to pass / exceed",
+    "romaji": "sugiru",
+    "hiragana": "すぎる",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "back",
+    "romaji": "senaka",
+    "hiragana": "せなか",
+    "notes": "This is the body part.",
+    "section": "General"
+  },
+  {
+    "english": "elbow",
+    "romaji": "hiji",
+    "hiragana": "ひじ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "ring",
+    "romaji": "yubiwa",
+    "hiragana": "ゆびわ",
+    "notes": "This literally means finger circle.",
+    "section": "General"
+  },
+  {
+    "english": "politics / government",
+    "romaji": "seiji",
+    "hiragana": "せいじ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "war",
+    "romaji": "sensou",
+    "hiragana": "せんそう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "society",
+    "romaji": "shakai",
+    "hiragana": "しゃかい",
+    "notes": "This is also the school subject social studies.",
+    "section": "General"
+  },
+  {
+    "english": "freedom / liberty",
+    "romaji": "jiyuu",
+    "hiragana": "じゆう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "citizen",
+    "romaji": "shimin",
+    "hiragana": "しみん",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "economics / finance",
+    "romaji": "keizai",
+    "hiragana": "けいざい",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "transportation / traffic",
+    "romaji": "koutsuu",
+    "hiragana": "こうつう",
+    "notes": "This is not used to say the streets are congested, but rather it is the noun referring to the cars and trains.",
+    "section": "General"
+  },
+  {
+    "english": "international",
+    "romaji": "kokusaiteki",
+    "hiragana": "こくさいてき",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "beside / next to",
+    "romaji": "soba",
+    "hiragana": "そば",
+    "notes": "This is a noun that means location, but next to some object.",
+    "section": "General"
+  },
+  {
+    "english": "side",
+    "romaji": "yoko",
+    "hiragana": "よこ",
+    "notes": "This refers to a horizontal position or movement. Like laying on your side, or shaking your head side to side.",
+    "section": "General"
+  },
+  {
+    "english": "both sides",
+    "romaji": "ryouhou",
+    "hiragana": "りょうほう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to move",
+    "romaji": "ugoku",
+    "hiragana": "うごく",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to dance",
+    "romaji": "odoru",
+    "hiragana": "おどる",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "various",
+    "romaji": "iroiro",
+    "hiragana": "いろいろ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "caution",
+    "romaji": "chuui",
+    "hiragana": "ちゅうい",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "For example",
+    "romaji": "tatoeba",
+    "hiragana": "たとえば",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "enough",
+    "romaji": "juubun",
+    "hiragana": "じゅうぶん",
+    "notes": "This literally means ten parts. I suppose ten parts is enough for one person?",
+    "section": "General"
+  },
+  {
+    "english": "impossible",
+    "romaji": "muri",
+    "hiragana": "むり",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "disappointment",
+    "romaji": "zannen",
+    "hiragana": "ざんねん",
+    "notes": "Said by itself, this is used to express your sorrow, something like That's too bad or What a pity.",
+    "section": "General"
+  },
+  {
+    "english": "polite",
+    "romaji": "teinei",
+    "hiragana": "ていねい",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "together",
+    "romaji": "issho",
+    "hiragana": "いっしょ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "all",
+    "romaji": "zenbu",
+    "hiragana": "ぜんぶ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "many",
+    "romaji": "takusan",
+    "hiragana": "たくさん",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "very",
+    "romaji": "totemo",
+    "hiragana": "とても",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "again",
+    "romaji": "mata",
+    "hiragana": "また",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "absolutely",
+    "romaji": "zettai",
+    "hiragana": "ぜったい",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "at all / entirely / completely",
+    "romaji": "zenzen",
+    "hiragana": "ぜんぜん",
+    "notes": "This can be used with both positive and negative sentences, however, when it is used alone, it will mean not at all.",
+    "section": "General"
+  },
+  {
+    "english": "truth",
+    "romaji": "hontou",
+    "hiragana": "ほんとう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "arithmetic",
+    "romaji": "sansuu",
+    "hiragana": "さんすう",
+    "notes": "The kanji in this word are quite common. The first kanji means to calculate and is used in many compound words where calculations are done. The second kanji means number and is used in many compound words with numbers.",
+    "section": "General"
+  },
+  {
+    "english": "to add",
+    "romaji": "tasu",
+    "hiragana": "たす",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "stock / shares (finance)",
+    "romaji": "kabu",
+    "hiragana": "かぶ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "to invest",
+    "romaji": "toushi suru",
+    "hiragana": "とうしする",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "day",
+    "romaji": "hi",
+    "hiragana": "ひ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "Wednesday",
+    "romaji": "suiyoubi",
+    "hiragana": "すいようび",
+    "notes": "This means day of water.",
+    "section": "General"
+  },
+  {
+    "english": "Thursday",
+    "romaji": "mokuyoubi",
+    "hiragana": "もくようび",
+    "notes": "This means day of trees.",
+    "section": "General"
+  },
+  {
+    "english": "Friday",
+    "romaji": "kinyoubi",
+    "hiragana": "きんようび",
+    "notes": "This means day of gold.",
+    "section": "General"
+  },
+  {
+    "english": "Fall",
+    "romaji": "aki",
+    "hiragana": "あき",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "am",
+    "romaji": "gozen",
+    "hiragana": "ごぜん",
+    "notes": "These words can also be used to mean morning and afternoon.",
+    "section": "General"
+  },
+  {
+    "english": "pm",
+    "romaji": "gogo",
+    "hiragana": "ごご",
+    "notes": "These words can also be used to mean morning and afternoon.",
+    "section": "General"
+  },
+  {
+    "english": "rarely",
+    "romaji": "mettani",
+    "hiragana": "めったに",
+    "notes": "This is used with a negative verb.",
+    "section": "General"
+  },
+  {
+    "english": "usually",
+    "romaji": "taitei",
+    "hiragana": "たいてい",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "condominium complex",
+    "romaji": "manshon",
+    "hiragana": "マンション",
+    "notes": "This comes from the word mansion in English, but doesn't refer to a large house, but rather a building with multiple apartments or condominiums. These types of buildings are very popular in Japan.",
+    "section": "General"
+  },
+  {
+    "english": "mixed race",
+    "romaji": "haafu",
+    "hiragana": "ハーフ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "sticker",
+    "romaji": "shiiru",
+    "hiragana": "シール",
+    "notes": "This doesn't refer to seals but rather stickers.",
+    "section": "General"
+  },
+  {
+    "english": "electric outlet",
+    "romaji": "konsento",
+    "hiragana": "コンセント",
+    "notes": "Not consent, but rather an electric outlet.",
+    "section": "General"
+  },
+  {
+    "english": "motorcycle",
+    "romaji": "baiku",
+    "hiragana": "バイク",
+    "notes": "Japanese people will become very confused if you refer to your bicycle as a bike.",
+    "section": "General"
+  },
+  {
+    "english": "science",
+    "romaji": "rika",
+    "hiragana": "りか",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "geography",
+    "romaji": "chiri",
+    "hiragana": "ちり",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "sport",
+    "romaji": "supoutsu",
+    "hiragana": "スポーツ",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "system",
+    "romaji": "shisutemu",
+    "hiragana": "システム",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "information, news",
+    "romaji": "jouhou",
+    "hiragana": "じょうほう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "study",
+    "romaji": "benkyou",
+    "hiragana": "べんきょう",
+    "notes": "",
+    "section": "General"
+  },
+  {
+    "english": "request",
+    "romaji": "irai",
+    "hiragana": "いらい",
+    "notes": "",
+    "section": "General"
+  }
+]

@@ -2,218 +2,227 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Nihongo Memo</title>
   <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
   <div id="app">
-    <!-- Sidebar Navigation -->
-    <nav id="sidebar">
-      <div class="sidebar-header">
-        <h1>日本語メモ</h1>
-        <p class="subtitle">Nihongo Memo</p>
-      </div>
-      <ul class="nav-links">
-        <li><a href="#" data-view="dashboard" class="active">Dashboard</a></li>
-        <li><a href="#" data-view="decks">Decks</a></li>
-        <li><a href="#" data-view="stats">Statistics</a></li>
-      </ul>
-    </nav>
-
-    <!-- Main Content Area -->
-    <main id="content">
-      <!-- Dashboard View -->
-      <div id="view-dashboard" class="view active">
-        <h2>Welcome Back</h2>
-        <div class="dashboard-stats">
-          <div class="stat-card">
-            <div class="stat-number" id="stat-total-words">0</div>
-            <div class="stat-label">Total Words</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-number" id="stat-mastered">0</div>
-            <div class="stat-label">Mastered</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-number" id="stat-accuracy">0%</div>
-            <div class="stat-label">Accuracy</div>
-          </div>
-          <div class="stat-card">
-            <div class="stat-number" id="stat-streak">0</div>
-            <div class="stat-label">Day Streak</div>
-          </div>
+    <!-- Home -->
+    <div id="view-home" class="view active">
+      <div class="home-page">
+        <h1 class="logo">日本語メモ</h1>
+        <p class="tagline">Nihongo Memo</p>
+        <div class="home-stats">
+          <div class="home-stat"><span class="hs-num" id="hs-mastered">0</span><span class="hs-label">Mastered</span></div>
+          <div class="home-stat"><span class="hs-num" id="hs-streak">0</span><span class="hs-label">Day Streak</span></div>
         </div>
-        <h3>Quick Start</h3>
-        <div class="quick-start-grid">
-          <button class="quick-btn" data-action="flashcard-kana">
-            <span class="quick-icon">あ</span>
-            <span>Kana Flashcards</span>
-          </button>
-          <button class="quick-btn" data-action="flashcard-vocab">
-            <span class="quick-icon">単</span>
-            <span>Vocab Flashcards</span>
-          </button>
-          <button class="quick-btn" data-action="self-quiz">
-            <span class="quick-icon">✓</span>
-            <span>Self-Graded Quiz</span>
-          </button>
-          <button class="quick-btn" data-action="typing-quiz">
-            <span class="quick-icon">⌨</span>
-            <span>Typing Quiz</span>
-          </button>
+        <div class="home-unit-nav">
+          <button class="unit-arrow" id="unit-prev">&larr;</button>
+          <div class="home-unit-box" id="home-unit-box">
+            <div class="home-unit-name" id="home-unit-name"></div>
+            <div class="home-unit-sub" id="home-unit-sub"></div>
+            <div class="home-unit-pct" id="home-unit-pct"></div>
+          </div>
+          <button class="unit-arrow" id="unit-next">&rarr;</button>
+        </div>
+        <button class="start-btn" id="start-btn">Start Studying</button>
+      </div>
+    </div>
+
+    <!-- Unit -->
+    <div id="view-unit" class="view">
+      <button class="back-btn" id="unit-back">&larr; Back</button>
+      <div class="unit-header">
+        <div>
+          <h1 id="unit-name" class="unit-name"></h1>
+          <p id="unit-subtitle" class="unit-subtitle"></p>
+        </div>
+        <div class="unit-progress-ring">
+          <span class="upr-num" id="unit-pct">0%</span>
+          <span class="upr-label">mastered</span>
         </div>
       </div>
 
-      <!-- Decks View -->
-      <div id="view-decks" class="view">
-        <h2>Decks</h2>
-        <div class="deck-list" id="deck-list"></div>
-      </div>
-
-      <!-- Deck Detail View -->
-      <div id="view-deck-detail" class="view">
-        <button class="back-btn" data-back="decks">&larr; Back to Decks</button>
-        <h2 id="deck-detail-title"></h2>
-        <p id="deck-detail-desc"></p>
-        <div class="review-modes">
-          <h3>Choose Review Mode</h3>
-          <div class="mode-grid">
-            <button class="mode-btn" data-mode="flashcard">
-              <div class="mode-icon">🔄</div>
-              <div class="mode-name">Flashcards</div>
-              <div class="mode-desc">Flip through cards at your own pace</div>
-            </button>
-            <button class="mode-btn" data-mode="self-quiz">
-              <div class="mode-icon">🧠</div>
-              <div class="mode-name">Self-Graded Quiz</div>
-              <div class="mode-desc">Think of the answer, then reveal and judge yourself</div>
-            </button>
-            <button class="mode-btn" data-mode="typing-en-to-jp">
-              <div class="mode-icon">⌨️</div>
-              <div class="mode-name">Type: English → Japanese</div>
-              <div class="mode-desc">See English, type the romaji</div>
-            </button>
-            <button class="mode-btn" data-mode="typing-jp-to-en">
-              <div class="mode-icon">⌨️</div>
-              <div class="mode-name">Type: Japanese → English</div>
-              <div class="mode-desc">See Japanese, type the English meaning</div>
-            </button>
-          </div>
-        </div>
-        <div class="word-list-section">
-          <h3>Words in this deck</h3>
-          <div id="deck-word-list" class="word-list"></div>
-        </div>
-      </div>
-
-      <!-- Flashcard Review View -->
-      <div id="view-flashcard" class="view">
-        <div class="review-header">
-          <button class="back-btn" id="flashcard-back">&larr; Exit</button>
-          <div class="review-progress">
-            <span id="flashcard-counter">1 / 10</span>
-          </div>
-        </div>
-        <div class="flashcard-container">
-          <div class="flashcard" id="flashcard">
-            <div class="flashcard-front">
-              <div class="card-main" id="flash-front-main"></div>
-              <div class="card-sub" id="flash-front-sub"></div>
-            </div>
-            <div class="flashcard-back">
-              <div class="card-main" id="flash-back-main"></div>
-              <div class="card-pronunciation" id="flash-back-pronunciation"></div>
-              <div class="card-notes" id="flash-back-notes"></div>
+      <!-- Phases -->
+      <div class="phase-list">
+        <div class="phase-card" id="phase-kana">
+          <div class="phase-left">
+            <div class="phase-step">1</div>
+            <div>
+              <div class="phase-name" id="phase-kana-name">Learn Kana</div>
+              <div class="phase-detail" id="phase-kana-detail"></div>
             </div>
           </div>
-          <p class="flip-hint">Click card to flip</p>
+          <div class="phase-right">
+            <div class="phase-status" id="phase-kana-status"></div>
+            <div class="phase-bar"><div class="phase-bar-fill" id="phase-kana-bar"></div></div>
+          </div>
         </div>
-        <div class="flashcard-nav">
-          <button class="nav-btn" id="flash-prev">← Previous</button>
-          <button class="nav-btn" id="flash-next">Next →</button>
-        </div>
-      </div>
 
-      <!-- Self-Graded Quiz View -->
-      <div id="view-self-quiz" class="view">
-        <div class="review-header">
-          <button class="back-btn" id="selfquiz-back">&larr; Exit</button>
-          <div class="review-progress">
-            <span id="selfquiz-counter">1 / 10</span>
+        <div class="phase-card" id="phase-vocab">
+          <div class="phase-left">
+            <div class="phase-step">2</div>
+            <div>
+              <div class="phase-name">Learn Vocabulary</div>
+              <div class="phase-detail" id="phase-vocab-detail"></div>
+            </div>
           </div>
-        </div>
-        <div class="quiz-container">
-          <div class="quiz-prompt" id="selfquiz-prompt"></div>
-          <div class="quiz-sub-prompt" id="selfquiz-sub"></div>
-          <div class="quiz-answer hidden" id="selfquiz-answer">
-            <div class="answer-main" id="selfquiz-answer-main"></div>
-            <div class="answer-pronunciation" id="selfquiz-answer-pronunciation"></div>
-            <div class="answer-notes" id="selfquiz-answer-notes"></div>
-          </div>
-          <button class="reveal-btn" id="selfquiz-reveal">Reveal Answer</button>
-          <div class="grade-buttons hidden" id="selfquiz-grade">
-            <button class="grade-btn fail" id="selfquiz-fail">✗ Didn't Know</button>
-            <button class="grade-btn pass" id="selfquiz-pass">✓ Got It</button>
+          <div class="phase-right">
+            <div class="phase-status" id="phase-vocab-status"></div>
+            <div class="phase-bar"><div class="phase-bar-fill" id="phase-vocab-bar"></div></div>
           </div>
         </div>
       </div>
 
-      <!-- Typing Quiz View -->
-      <div id="view-typing-quiz" class="view">
-        <div class="review-header">
-          <button class="back-btn" id="typing-back">&larr; Exit</button>
-          <div class="review-progress">
-            <span id="typing-counter">1 / 10</span>
-          </div>
-        </div>
-        <div class="quiz-container">
-          <div class="quiz-prompt" id="typing-prompt"></div>
-          <div class="quiz-sub-prompt" id="typing-sub"></div>
-          <div class="typing-input-area">
-            <input type="text" id="typing-input" placeholder="Type your answer..." autocomplete="off" spellcheck="false">
-            <button class="submit-btn" id="typing-submit">Check</button>
-          </div>
-          <div class="typing-result hidden" id="typing-result">
-            <div class="result-status" id="typing-status"></div>
-            <div class="result-correct" id="typing-correct"></div>
-            <div class="result-notes" id="typing-notes"></div>
-            <button class="next-btn" id="typing-next">Next →</button>
-          </div>
-        </div>
-      </div>
+      <!-- Full hiragana chart -->
+      <div class="unit-kana-chart" id="unit-kana-chart"></div>
+    </div>
 
-      <!-- Stats View -->
-      <div id="view-stats" class="view">
-        <h2>Statistics</h2>
-        <div class="stats-overview">
-          <div class="stat-card large">
-            <div class="stat-number" id="stats-total-reviews">0</div>
-            <div class="stat-label">Total Reviews</div>
+    <!-- Learn Phase: Teach -->
+    <div id="view-teach" class="view">
+      <div class="review-bar">
+        <button class="back-btn" id="teach-exit">&larr; Exit</button>
+        <span class="counter" id="teach-counter"></span>
+      </div>
+      <div class="card-area">
+        <div class="teach-label" id="teach-label">New Character</div>
+        <div class="teach-char" id="teach-char"></div>
+        <div class="teach-rom" id="teach-rom"></div>
+        <div class="teach-notes" id="teach-notes"></div>
+        <button class="btn accent" id="teach-next">Next</button>
+      </div>
+    </div>
+
+    <!-- Learn Phase: Quiz intro with card preview -->
+    <div id="view-quiz-intro" class="view">
+      <h2 style="margin-bottom:8px">Time to Practice</h2>
+      <p class="muted" id="quiz-intro-text"></p>
+      <div class="quiz-preview" id="quiz-preview"></div>
+      <div style="text-align:center;margin-top:16px">
+        <button class="btn accent" id="quiz-intro-start">Start Quiz</button>
+      </div>
+    </div>
+
+    <!-- Vocabulary Page (word list left, practice right) -->
+    <div id="view-vocab" class="view">
+      <button class="back-btn" id="vocab-back">&larr; Back</button>
+      <h2 id="vocab-title"></h2>
+      <div class="vocab-layout">
+        <div class="vocab-left" id="vocab-sections"></div>
+        <div class="vocab-right">
+          <div class="vocab-practice-box">
+            <h3 class="section-title">Practice</h3>
+            <div class="vocab-practice-list" id="vocab-practice-list"></div>
           </div>
-          <div class="stat-card large">
-            <div class="stat-number" id="stats-overall-accuracy">0%</div>
-            <div class="stat-label">Overall Accuracy</div>
-          </div>
-          <div class="stat-card large">
-            <div class="stat-number" id="stats-words-seen">0</div>
-            <div class="stat-label">Words Seen</div>
-          </div>
-          <div class="stat-card large">
-            <div class="stat-number" id="stats-mastered">0</div>
-            <div class="stat-label">Mastered (5+ correct)</div>
-          </div>
-        </div>
-        <h3>Recent Sessions</h3>
-        <div id="recent-sessions" class="session-list"></div>
-        <h3>Hardest Words</h3>
-        <div id="hardest-words" class="word-list"></div>
-        <div class="stats-actions">
-          <button class="danger-btn" id="reset-stats">Reset All Progress</button>
         </div>
       </div>
-    </main>
+    </div>
+
+    <!-- Multiple Choice -->
+    <div id="view-mc" class="view">
+      <div class="review-bar">
+        <button class="back-btn" id="mc-exit">&larr; Exit</button>
+        <span class="counter" id="mc-counter"></span>
+      </div>
+      <div class="card-area">
+        <div class="card-big" id="mc-prompt"></div>
+        <div class="card-small" id="mc-sub"></div>
+        <button class="quiz-help-btn hidden" id="mc-help">?</button>
+        <div class="mc-choices" id="mc-choices"></div>
+      </div>
+    </div>
+
+    <!-- Flashcard -->
+    <div id="view-flashcard" class="view">
+      <div class="review-bar">
+        <button class="back-btn" id="flash-exit">&larr; Exit</button>
+        <span class="counter" id="flash-counter"></span>
+      </div>
+      <div class="card-area">
+        <div class="flashcard" id="flashcard">
+          <div class="flashcard-front">
+            <div class="card-big" id="flash-front"></div>
+            <div class="card-small" id="flash-front-sub"></div>
+          </div>
+          <div class="flashcard-back">
+            <div class="card-big" id="flash-back"></div>
+            <div class="card-mid" id="flash-back-pron"></div>
+            <div class="card-small" id="flash-back-notes"></div>
+          </div>
+        </div>
+        <div class="card-hint">Click to flip</div>
+      </div>
+      <div class="nav-row">
+        <button class="btn" id="flash-prev">&larr; Prev</button>
+        <button class="btn" id="flash-next">Next &rarr;</button>
+      </div>
+    </div>
+
+    <!-- Self-Graded -->
+    <div id="view-self-quiz" class="view">
+      <div class="review-bar">
+        <button class="back-btn" id="sq-exit">&larr; Exit</button>
+        <span class="counter" id="sq-counter"></span>
+      </div>
+      <div class="card-area">
+        <div class="card-big" id="sq-prompt"></div>
+        <div class="card-small" id="sq-sub"></div>
+        <div class="answer-box hidden" id="sq-answer">
+          <div class="card-big" id="sq-answer-main"></div>
+          <div class="card-mid" id="sq-answer-pron"></div>
+          <div class="card-small" id="sq-answer-notes"></div>
+        </div>
+        <button class="btn accent" id="sq-reveal">Reveal Answer</button>
+        <button class="btn accent hidden" id="sq-continue">Continue</button>
+      </div>
+    </div>
+
+    <!-- Typing -->
+    <div id="view-typing" class="view">
+      <div class="review-bar">
+        <button class="back-btn" id="typ-exit">&larr; Exit</button>
+        <span class="counter" id="typ-counter"></span>
+      </div>
+      <div class="card-area">
+        <div class="card-big" id="typ-prompt"></div>
+        <div class="card-small" id="typ-sub"></div>
+        <button class="quiz-help-btn hidden" id="typ-help">?</button>
+        <div class="input-row" id="typ-input-row">
+          <input type="text" id="typ-input" placeholder="Type your answer..." autocomplete="off" spellcheck="false">
+          <button class="btn accent" id="typ-submit">Check</button>
+        </div>
+        <div class="result-box hidden" id="typ-result">
+          <div class="result-status" id="typ-status"></div>
+          <div class="card-small" id="typ-correct"></div>
+          <div class="card-small" id="typ-notes"></div>
+          <button class="btn accent" id="typ-next">Next</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Complete -->
+    <div id="view-complete" class="view">
+      <div class="card-area">
+        <h2 id="complete-heading">Session Complete</h2>
+        <div class="complete-score" id="complete-score"></div>
+        <div class="complete-detail" id="complete-detail"></div>
+        <button class="btn accent" id="complete-home">Done</button>
+      </div>
+    </div>
   </div>
+
+    <!-- Word Detail Modal -->
+    <div class="modal-overlay hidden" id="word-modal">
+      <div class="modal-box">
+        <button class="modal-close" id="modal-close">&times;</button>
+        <div class="modal-char" id="modal-char"></div>
+        <div class="modal-rom" id="modal-rom"></div>
+        <div class="modal-eng" id="modal-eng"></div>
+        <div class="modal-section" id="modal-section"></div>
+        <div class="modal-notes" id="modal-notes"></div>
+        <div class="modal-examples" id="modal-examples"></div>
+      </div>
+    </div>
 
   <script src="scripts/data.js"></script>
   <script src="scripts/storage.js"></script>

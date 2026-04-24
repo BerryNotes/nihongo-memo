@@ -2,184 +2,199 @@ const fs = require('fs');
 const path = require('path');
 
 function loadJSON(filename) {
-  const filePath = path.join(__dirname, '..', 'data', filename);
-  return JSON.parse(fs.readFileSync(filePath, 'utf-8'));
+  const candidates = [
+    path.join(__dirname, '..', 'data', filename),
+    path.join(__dirname, '..', '..', 'src', 'data', filename),
+    path.join(process.cwd(), 'src', 'data', filename)
+  ];
+  for (const c of candidates) {
+    try { return JSON.parse(fs.readFileSync(c, 'utf-8')); }
+    catch (e) { continue; }
+  }
+  throw new Error('Could not find ' + filename);
 }
 
-// Build decks from raw data
 const DataLoader = {
-  _kana: null,
-  _katakanaWords: null,
-  _vocabulary: null,
+  _kana: null, _katakanaWords: null, _vocabulary: null,
+  get kana() { if (!this._kana) this._kana = loadJSON('kana.json'); return this._kana; },
+  get katakanaWords() { if (!this._katakanaWords) this._katakanaWords = loadJSON('katakana-words.json'); return this._katakanaWords; },
+  get vocabulary() { if (!this._vocabulary) this._vocabulary = loadJSON('vocabulary-organized.json'); return this._vocabulary; },
 
-  get kana() {
-    if (!this._kana) this._kana = loadJSON('kana.json');
-    return this._kana;
-  },
+  getUnits: function() {
+    const allVocabRaw = this.vocabulary;
+    const kana = this.kana;
+    const loanWords = this.katakanaWords;
 
-  get katakanaWords() {
-    if (!this._katakanaWords) this._katakanaWords = loadJSON('katakana-words.json');
-    return this._katakanaWords;
-  },
+    function makeKanaCards(list, type) {
+      return list.map(k => ({
+        key: type.toLowerCase().replace(/\s/g, '-') + '-' + k.romaji + (k.type || ''),
+        front: k.kana, frontSub: type,
+        back: k.romaji, pronunciation: k.romaji,
+        notes: k.group ? 'Group: ' + k.group : '',
+        english: k.romaji, romaji: k.romaji, japanese: k.kana
+      }));
+    }
 
-  get vocabulary() {
-    if (!this._vocabulary) this._vocabulary = loadJSON('vocabulary.json');
-    return this._vocabulary;
-  },
+    function chunk(arr, n) {
+      const result = [];
+      const size = Math.ceil(arr.length / n);
+      for (let i = 0; i < arr.length; i += size) result.push(arr.slice(i, i + size));
+      return result;
+    }
 
-  // Build all available decks
-  getDecks() {
-    const decks = [];
+    // Build the kana teaching schedule (which kana chars are taught on which day)
+    const hiraChunks = chunk(kana.hiragana, 10);
+    const kataChunks = chunk(kana.katakana, 10);
+    const dakuChunks = chunk(kana.dakuten, 10);
+    const comboChunks = chunk(kana.combo, 12);
+    const loanChunks = chunk(loanWords, 10);
 
-    // Hiragana deck
-    const hiraCards = this.kana.hiragana.map(k => ({
-      key: `hira-${k.romaji}`,
-      front: k.kana,
-      frontSub: 'Hiragana',
-      back: k.romaji,
-      pronunciation: k.romaji,
-      notes: `Group: ${k.group}`,
-      english: k.romaji,
-      romaji: k.romaji,
-      japanese: k.kana
-    }));
-    decks.push({
-      id: 'hiragana',
-      name: 'Hiragana',
-      description: 'Learn the basic hiragana characters',
-      cards: hiraCards
-    });
+    // Build per-day kana data
+    const dayKana = [];
+    for (let day = 1; day <= 90; day++) {
+      let kanaCards = [], kanaLabel = '', kanaChars = [];
 
-    // Katakana deck
-    const kataCards = this.kana.katakana.map(k => ({
-      key: `kata-${k.romaji}`,
-      front: k.kana,
-      frontSub: 'Katakana',
-      back: k.romaji,
-      pronunciation: k.romaji,
-      notes: `Group: ${k.group}`,
-      english: k.romaji,
-      romaji: k.romaji,
-      japanese: k.kana
-    }));
-    decks.push({
-      id: 'katakana',
-      name: 'Katakana',
-      description: 'Learn the basic katakana characters',
-      cards: kataCards
-    });
+      if (day <= 10 && hiraChunks[day - 1]) {
+        kanaCards = makeKanaCards(hiraChunks[day - 1], 'Hiragana');
+        kanaLabel = 'Hiragana';
+        kanaChars = hiraChunks[day - 1].map(k => k.kana);
+      } else if (day >= 11 && day <= 20 && kataChunks[day - 11]) {
+        kanaCards = makeKanaCards(kataChunks[day - 11], 'Katakana');
+        kanaLabel = 'Katakana';
+        kanaChars = kataChunks[day - 11].map(k => k.kana);
+      } else if (day >= 21 && day <= 30 && dakuChunks[day - 21]) {
+        kanaCards = makeKanaCards(dakuChunks[day - 21], 'Dakuten');
+        kanaLabel = 'Dakuten';
+        kanaChars = dakuChunks[day - 21].map(k => k.kana);
+      } else if (day >= 31 && day <= 42 && comboChunks[day - 31]) {
+        kanaCards = makeKanaCards(comboChunks[day - 31], 'Combo');
+        kanaLabel = 'Combo Kana';
+        kanaChars = comboChunks[day - 31].map(k => k.kana);
+      } else if (day >= 43 && day <= 52 && loanChunks[day - 43]) {
+        kanaCards = loanChunks[day - 43].map(w => ({
+          key: 'loan-' + w.english,
+          front: w.katakana, frontSub: 'Loan Word',
+          back: w.english, pronunciation: w.romaji,
+          notes: w.notes || '',
+          english: w.english, romaji: w.romaji, japanese: w.katakana
+        }));
+        kanaLabel = 'Loan Words';
+        kanaChars = loanChunks[day - 43].map(w => {
+          // Extract individual katakana chars from loan words
+          return w.katakana.split('');
+        }).flat();
+      }
 
-    // Dakuten & Handakuten deck
-    const dakutenCards = this.kana.dakuten.map(k => ({
-      key: `daku-${k.type}-${k.romaji}`,
-      front: k.kana,
-      frontSub: `${k.type === 'hiragana' ? 'Hiragana' : 'Katakana'} (dakuten)`,
-      back: k.romaji,
-      pronunciation: k.romaji,
-      notes: `Group: ${k.group}`,
-      english: k.romaji,
-      romaji: k.romaji,
-      japanese: k.kana
-    }));
-    decks.push({
-      id: 'dakuten',
-      name: 'Dakuten & Handakuten',
-      description: 'Voiced and semi-voiced kana variations (ga, za, da, ba, pa...)',
-      cards: dakutenCards
-    });
+      dayKana.push({ kanaCards, kanaLabel, kanaChars });
+    }
 
-    // Combination Kana deck
-    const comboCards = this.kana.combo.map(k => ({
-      key: `combo-${k.type}-${k.romaji}`,
-      front: k.kana,
-      frontSub: `${k.type === 'hiragana' ? 'Hiragana' : 'Katakana'} (combo)`,
-      back: k.romaji,
-      pronunciation: k.romaji,
-      notes: '',
-      english: k.romaji,
-      romaji: k.romaji,
-      japanese: k.kana
-    }));
-    decks.push({
-      id: 'combo-kana',
-      name: 'Combination Kana',
-      description: 'Kana combinations (kya, sha, cho...)',
-      cards: comboCards
-    });
-
-    // Katakana Loan Words deck
-    const loanCards = this.katakanaWords.map(w => ({
-      key: `loan-${w.english}`,
-      front: w.katakana,
-      frontSub: 'Katakana Loan Word',
-      back: w.english,
-      pronunciation: w.romaji,
-      notes: w.notes || '',
-      english: w.english,
-      romaji: w.romaji,
-      japanese: w.katakana
-    }));
-    decks.push({
-      id: 'katakana-words',
-      name: 'Katakana Loan Words',
-      description: 'English-derived words written in katakana',
-      cards: loanCards
-    });
-
-    // Vocabulary decks grouped by day ranges
-    const vocab = this.vocabulary;
-    const dayRanges = [
-      { start: 1, end: 10, label: 'Days 1-10', desc: 'Question words, greetings, meeting people, pronouns' },
-      { start: 11, end: 20, label: 'Days 11-20', desc: 'Family, existence, demonstratives, particles' },
-      { start: 21, end: 30, label: 'Days 21-30', desc: 'Verb basics, conjugation forms' },
-      { start: 31, end: 40, label: 'Days 31-40', desc: 'Tenses, commands, likes and dislikes' },
-      { start: 41, end: 50, label: 'Days 41-50', desc: 'Intermediate grammar vocabulary' },
-      { start: 51, end: 60, label: 'Days 51-60', desc: 'Adjectives, adverbs, comparisons' },
-      { start: 61, end: 70, label: 'Days 61-70', desc: 'Numbers, counting, dates, time' },
-      { start: 71, end: 80, label: 'Days 71-80', desc: 'Advanced vocabulary' },
-      { start: 81, end: 90, label: 'Days 81-90', desc: 'Honorific speech, review vocabulary' },
+    // Unit theme order — each unit focuses on ONE vocab category
+    const unitThemes = [
+      'Greetings & Basics',
+      'People',
+      'Family',
+      'Food & Drink',
+      'Body',
+      'Animals',
+      'Home & Objects',
+      'Nature & Weather',
+      'Colors',
+      'Numbers & Counting',
+      'Time & Days',
+      'Directions & Places',
+      'Occupations',
+      'Clothing',
+      'Transport',
+      'Feelings & Emotions',
+      'Society',
+      'Verbs',
+      'Adjectives',
+      'Grammar',
+      'Abstract',
+      'General'
     ];
 
-    dayRanges.forEach(range => {
-      const words = vocab.filter(w => w.day >= range.start && w.day <= range.end);
-      const cards = words.map(w => ({
-        key: `vocab-d${w.day}-${w.romaji}`,
-        front: w.hiragana,
-        frontSub: `Day ${w.day} - ${w.category || ''}`,
-        back: w.english,
-        pronunciation: w.romaji,
-        notes: w.notes || '',
-        english: w.english,
-        romaji: w.romaji,
-        japanese: w.hiragana
-      }));
-      decks.push({
-        id: `vocab-${range.start}-${range.end}`,
-        name: `Vocabulary: ${range.label}`,
-        description: range.desc,
-        cards
+    // Build all vocab cards grouped by section
+    const vocabBySection = {};
+    allVocabRaw.forEach(w => {
+      if (w.hiragana.length < 2 || w.romaji.length < 2) return;
+      const sec = w.section || 'General';
+      if (!vocabBySection[sec]) vocabBySection[sec] = [];
+      vocabBySection[sec].push({
+        key: 'vocab-' + w.romaji + '-' + w.hiragana,
+        front: w.hiragana, frontSub: sec,
+        back: w.english, pronunciation: w.romaji,
+        notes: w.notes || '', section: sec,
+        english: w.english, romaji: w.romaji, japanese: w.hiragana
       });
     });
 
-    // Full vocabulary deck
-    const allVocabCards = vocab.map(w => ({
-      key: `vocab-d${w.day}-${w.romaji}`,
-      front: w.hiragana,
-      frontSub: `Day ${w.day} - ${w.category || ''}`,
-      back: w.english,
-      pronunciation: w.romaji,
-      notes: w.notes || '',
-      english: w.english,
-      romaji: w.romaji,
-      japanese: w.hiragana
-    }));
-    decks.push({
-      id: 'vocab-all',
-      name: 'All Vocabulary',
-      description: 'All 90 days of vocabulary combined',
-      cards: allVocabCards
-    });
+    // Build kana cumulative set for filtering
+    const allKanaCharsSoFar = new Set();
+    ['っ', 'ッ', 'ー', '・', '、', '。', ' ', '\u3000'].forEach(c => allKanaCharsSoFar.add(c));
 
-    return decks;
+    // Group kana into 7-day chunks
+    const kanaChunks = [];
+    for (let u = 0; u * 7 < dayKana.length; u++) {
+      const start = u * 7;
+      const end = Math.min(start + 7, dayKana.length);
+      const days = dayKana.slice(start, end);
+      let cards = [], labels = new Set();
+      days.forEach(d => {
+        cards = cards.concat(d.kanaCards);
+        if (d.kanaLabel) labels.add(d.kanaLabel);
+        d.kanaChars.forEach(ch => allKanaCharsSoFar.add(ch));
+      });
+      cards.forEach(c => c.japanese.split('').forEach(ch => allKanaCharsSoFar.add(ch)));
+      kanaChunks.push({ cards, labels: Array.from(labels), start: start + 1, end: Math.min(start + 7, 90) });
+    }
+
+    // Now build units: pair kana chunks with themed vocab
+    const units = [];
+    const numUnits = Math.max(kanaChunks.length, unitThemes.length);
+
+    for (let u = 0; u < numUnits; u++) {
+      const kanaChunk = kanaChunks[u] || { cards: [], labels: [], start: 0, end: 0 };
+      const theme = unitThemes[u] || 'General';
+      const themeVocab = vocabBySection[theme] || [];
+
+      // Filter vocab: only words whose kana are all learned by this point
+      // Rebuild cumulative kana set up to this unit
+      const kanaKnown = new Set(['っ', 'ッ', 'ー', '・', '、', '。', ' ', '\u3000']);
+      for (let k = 0; k <= u && k < kanaChunks.length; k++) {
+        kanaChunks[k].cards.forEach(c => c.japanese.split('').forEach(ch => kanaKnown.add(ch)));
+      }
+
+      const eligibleVocab = themeVocab.filter(card => {
+        return card.japanese.split('').every(ch => kanaKnown.has(ch));
+      });
+
+      const newKanaCards = kanaChunk.cards;
+      const newVocabCards = eligibleVocab.slice(0, 40);
+      const newCards = newKanaCards.concat(newVocabCards);
+
+      if (newCards.length === 0) continue;
+
+      const parts = [];
+      if (newKanaCards.length > 0) parts.push(kanaChunk.labels.join(', ') + ' (' + newKanaCards.length + ')');
+      if (newVocabCards.length > 0) parts.push(theme + ' (' + newVocabCards.length + ')');
+
+      const dayRange = kanaChunk.start > 0 ? 'Days ' + kanaChunk.start + '-' + kanaChunk.end : '';
+
+      units.push({
+        index: units.length,
+        id: 'unit-' + (units.length + 1),
+        name: 'Unit ' + (units.length + 1),
+        subtitle: dayRange,
+        theme: theme,
+        summary: parts.join(' + '),
+        newKanaCards,
+        newVocabCards,
+        newCards,
+        kanaLabels: kanaChunk.labels
+      });
+    }
+
+    return units;
   }
 };
