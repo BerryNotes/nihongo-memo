@@ -32,5 +32,13 @@
       "icons/icon.icns",
       "icons/icon.ico"
     ]
+  },
+  "plugins": {
+    "updater": {
+      "endpoints": [
+        "https://github.com/BerryNotes/nihongo-memo/releases/latest/download/latest.json"
+      ],
+      "pubkey": ""
+    }
   }
 }

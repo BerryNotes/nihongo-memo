@@ -1,0 +1,55 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build:
+    runs-on: windows-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate updater key
+        run: npx tauri signer generate -w src-tauri/keys/nihongo-memo.key
+        env:
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ""
+
+      - name: Build Tauri app
+        uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ""
+        with:
+          tagName: ${{ github.ref_name }}
+          releaseName: "Nihongo Memo ${{ github.ref_name }}"
+          releaseBody: |
+            ## Nihongo Memo ${{ github.ref_name }}
+
+            Download **Nihongo-Memo_x64-setup.exe** below and run it.
+
+            ### What's new
+            - See commit history for changes
+
+            ### Features
+            - 1,200+ vocabulary words in 22 themed categories
+            - Progressive kana learning by consonant group
+            - 15-level mastery system with spaced repetition
+            - Auto-updates built in
+          releaseDraft: false
+          prerelease: false
