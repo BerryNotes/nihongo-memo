@@ -47,15 +47,15 @@ var Storage = {
     return this.getMasteryLevel(key) >= 15;
   },
 
-  // Percentage of cards in a list that are mastered
+  // Average mastery percentage across all cards (0-100)
   getUnitProgress: function(keys) {
     if (keys.length === 0) return 0;
     var all = this.getAllMastery();
-    var mastered = 0;
+    var totalLevel = 0;
     for (var i = 0; i < keys.length; i++) {
-      if (all[keys[i]] && all[keys[i]].level >= 15) mastered++;
+      if (all[keys[i]]) totalLevel += Math.min(15, all[keys[i]].level);
     }
-    return Math.round((mastered / keys.length) * 100);
+    return Math.round((totalLevel / (keys.length * 15)) * 100);
   },
 
   // Build a weighted card list for review
