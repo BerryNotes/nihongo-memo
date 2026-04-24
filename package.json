@@ -6,11 +6,20 @@
   "scripts": {
     "start": "electron ."
   },
-  "keywords": ["japanese", "flashcards", "vocabulary", "learning", "hiragana", "katakana"],
+  "keywords": [
+    "japanese",
+    "flashcards",
+    "vocabulary",
+    "learning",
+    "hiragana",
+    "katakana"
+  ],
   "author": "Peter Vasilik",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@electron/packager": "^20.0.0",
+    "@tauri-apps/cli": "^2.10.1",
     "electron": "^41.2.1"
   }
 }

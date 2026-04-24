@@ -1,17 +1,26 @@
-const fs = require('fs');
-const path = require('path');
-
 function loadJSON(filename) {
-  const candidates = [
-    path.join(__dirname, '..', 'data', filename),
-    path.join(__dirname, '..', '..', 'src', 'data', filename),
-    path.join(process.cwd(), 'src', 'data', filename)
-  ];
-  for (const c of candidates) {
-    try { return JSON.parse(fs.readFileSync(c, 'utf-8')); }
-    catch (e) { continue; }
+  // Try Node.js fs (Electron)
+  if (typeof require !== 'undefined') {
+    try {
+      var fs = require('fs');
+      var path = require('path');
+      var candidates = [
+        path.join(__dirname, '..', 'data', filename),
+        path.join(__dirname, '..', '..', 'src', 'data', filename),
+        path.join(process.cwd(), 'src', 'data', filename)
+      ];
+      for (var i = 0; i < candidates.length; i++) {
+        try { return JSON.parse(fs.readFileSync(candidates[i], 'utf-8')); }
+        catch (e) { continue; }
+      }
+    } catch (e) {}
   }
-  throw new Error('Could not find ' + filename);
+  // Fallback: synchronous XHR (Tauri / browser)
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', 'data/' + filename, false);
+  xhr.send();
+  if (xhr.status === 200 || xhr.status === 0) return JSON.parse(xhr.responseText);
+  throw new Error('Could not load ' + filename);
 }
 
 const DataLoader = {

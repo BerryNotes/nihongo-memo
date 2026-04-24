@@ -27,7 +27,7 @@ var App = {
 
   getWordDetails: function(card) {
     if (!this._wordDetails) {
-      try { this._wordDetails = require(require('path').join(process.cwd(), 'src', 'data', 'word-details.json')); }
+      try { this._wordDetails = loadJSON('word-details.json'); }
       catch(e) { this._wordDetails = {}; }
     }
     return this._wordDetails[card.romaji] || this._wordDetails[card.key] || null;
