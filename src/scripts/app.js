@@ -193,8 +193,10 @@ var App = {
       document.getElementById('auth-switch-btn').onclick = function() { showAuthModal(!register); };
     }
 
-    document.getElementById('auth-login-btn').onclick = function() { showAuthModal(false); };
-    document.getElementById('auth-register-btn').onclick = function() { showAuthModal(true); };
+    if (document.getElementById('auth-login-btn')) {
+      document.getElementById('auth-login-btn').onclick = function() { showAuthModal(false); };
+      document.getElementById('auth-register-btn').onclick = function() { showAuthModal(true); };
+    }
     // Gate buttons
     if (document.getElementById('gate-login')) {
       document.getElementById('gate-login').onclick = function() { showAuthModal(false); };
