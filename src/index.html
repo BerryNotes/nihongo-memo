@@ -7,6 +7,19 @@
 </head>
 <body>
   <div id="app">
+    <!-- Auth Gate -->
+    <div id="view-auth-gate" class="view">
+      <div class="home-page">
+        <h1 class="logo">日本語メモ</h1>
+        <p class="tagline">Nihongo Memo</p>
+        <p class="gate-text">Create an account or log in to start learning Japanese</p>
+        <div class="gate-buttons">
+          <button class="btn accent gate-btn" id="gate-register">Create Account</button>
+          <button class="btn gate-btn" id="gate-login">Log In</button>
+        </div>
+      </div>
+    </div>
+
     <!-- Home -->
     <div id="view-home" class="view active">
       <div class="home-page">
@@ -26,12 +39,8 @@
           <button class="unit-arrow" id="unit-next">&rarr;</button>
         </div>
         <button class="start-btn" id="start-btn">Start Studying</button>
-        <div class="auth-bar" id="auth-bar">
-          <button class="auth-link" id="auth-login-btn">Log in</button>
-          <span class="auth-sep">or</span>
-          <button class="auth-link" id="auth-register-btn">Create account</button>
-        </div>
-        <div class="auth-bar hidden" id="auth-user-bar">
+        <div class="auth-bar hidden" id="auth-bar"></div>
+        <div class="auth-bar" id="auth-user-bar">
           <span class="auth-username" id="auth-username"></span>
           <button class="auth-link" id="auth-logout-btn">Log out</button>
         </div>

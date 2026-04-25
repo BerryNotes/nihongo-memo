@@ -22,7 +22,12 @@ var App = {
     Auth.init();
     this.bind();
     this.bindAuth();
-    this.showView('home');
+    // If not logged in and online, show auth gate instead of home
+    if (API_BASE && !Auth.isLoggedIn()) {
+      this.showView('auth-gate');
+    } else {
+      this.showView('home');
+    }
   },
 
   _wordDetails: null,
@@ -190,6 +195,11 @@ var App = {
 
     document.getElementById('auth-login-btn').onclick = function() { showAuthModal(false); };
     document.getElementById('auth-register-btn').onclick = function() { showAuthModal(true); };
+    // Gate buttons
+    if (document.getElementById('gate-login')) {
+      document.getElementById('gate-login').onclick = function() { showAuthModal(false); };
+      document.getElementById('gate-register').onclick = function() { showAuthModal(true); };
+    }
     document.getElementById('auth-close').onclick = function() { modal.classList.add('hidden'); };
     modal.onclick = function(e) { if (e.target === modal) modal.classList.add('hidden'); };
 
@@ -219,6 +229,7 @@ var App = {
     document.getElementById('auth-logout-btn').onclick = function() {
       Auth.logout();
       self.updateAuthUI();
+      if (API_BASE) self.showView('auth-gate');
     };
 
     // Allow enter to submit
