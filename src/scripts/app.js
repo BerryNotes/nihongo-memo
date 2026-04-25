@@ -998,10 +998,12 @@ var App = {
       if (c.key.indexOf('vocab') !== -1 || c.key.indexOf('wiki') !== -1) vocabItems.push(c);
     });
 
+    var self = this;
     vocabItems.forEach(function(c) {
       var chip = document.createElement('span');
-      chip.className = 'qp-chip';
+      chip.className = 'qp-chip clickable';
       chip.innerHTML = c.japanese + '<span class="qp-sub">' + c.english + '</span>';
+      (function(card) { chip.onclick = function() { self.showWordModal(card); }; })(c);
       preview.appendChild(chip);
     });
   },

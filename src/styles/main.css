@@ -281,6 +281,8 @@ body::before {
   animation: slideUp 0.3s ease both; color: var(--text);
 }
 .qp-chip .qp-sub { font-size: 9px; color: var(--muted); display: block; }
+.qp-chip.clickable { cursor: pointer; }
+.qp-chip.clickable:hover { border-color: var(--accent); background: var(--accent-dim); }
 .qp-label { font-size: 10px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 1.5px; width: 100%; margin-top: 10px; margin-bottom: 4px; }
 
 /* ===== BUTTONS ===== */
