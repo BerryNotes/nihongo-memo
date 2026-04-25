@@ -72,11 +72,11 @@ export async function onRequestPost(context) {
   }
 
   if (action === 'login') {
-    const { email, password } = body;
-    if (!email || !password) return jsonResponse({ error: 'Email and password required' }, 400);
+    const { username, password } = body;
+    if (!username || !password) return jsonResponse({ error: 'Username and password required' }, 400);
 
-    const user = await db.prepare('SELECT * FROM users WHERE email = ?').bind(email).first();
-    if (!user) return jsonResponse({ error: 'Invalid email or password' }, 401);
+    const user = await db.prepare('SELECT * FROM users WHERE username = ?').bind(username).first();
+    if (!user) return jsonResponse({ error: 'Invalid username or password' }, 401);
 
     // Check if locked
     if (user.locked_until && new Date(user.locked_until) > new Date()) {
@@ -92,7 +92,7 @@ export async function onRequestPost(context) {
       const attempts = (user.failed_attempts || 0) + 1;
       const lockUntil = attempts >= 5 ? new Date(Date.now() + 15 * 60 * 1000).toISOString() : null;
       await db.prepare('UPDATE users SET failed_attempts = ?, locked_until = ? WHERE id = ?').bind(attempts, lockUntil, user.id).run();
-      return jsonResponse({ error: 'Invalid email or password' }, 401);
+      return jsonResponse({ error: 'Invalid username or password' }, 401);
     }
 
     // Reset failed attempts

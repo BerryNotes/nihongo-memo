@@ -181,7 +181,7 @@ var App = {
       isRegister = register;
       document.getElementById('auth-title').textContent = register ? 'Create Account' : 'Log In';
       document.getElementById('auth-submit').textContent = register ? 'Create Account' : 'Log In';
-      document.getElementById('auth-username-field').className = register ? 'auth-field' : 'auth-field hidden';
+      document.getElementById('auth-email-field').className = register ? 'auth-field' : 'auth-field hidden';
       document.getElementById('auth-switch').innerHTML = register
         ? 'Already have an account? <button id="auth-switch-btn">Log in</button>'
         : 'No account? <button id="auth-switch-btn">Create one</button>';
@@ -210,12 +210,12 @@ var App = {
       var password = document.getElementById('auth-password-input').value;
       var errEl = document.getElementById('auth-error');
 
+      var username = document.getElementById('auth-username-input').value.trim();
       var result;
       if (isRegister) {
-        var username = document.getElementById('auth-username-input').value.trim();
         result = await Auth.register(email, username, password);
       } else {
-        result = await Auth.login(email, password);
+        result = await Auth.login(username, password);
       }
 
       if (result && result.ok) {

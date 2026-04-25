@@ -42,8 +42,8 @@ var Auth = {
     return result;
   },
 
-  async login(email, password) {
-    var result = await this.apiCall('auth', { action: 'login', email: email, password: password });
+  async login(username, password) {
+    var result = await this.apiCall('auth', { action: 'login', username: username, password: password });
     if (result && result.ok) {
       this.session = result.session;
       this.user = result.user;
