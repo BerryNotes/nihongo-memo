@@ -98,7 +98,7 @@ var App = {
     document.getElementById('unit-prev').onclick = function() { self.switchUnit(-1); };
     document.getElementById('unit-next').onclick = function() { self.switchUnit(1); };
     document.getElementById('vocab-back').onclick = function() { self.openUnit(self.currentUnit); };
-    document.getElementById('teach-exit').onclick = function() { self.openUnit(self.currentUnit); };
+    document.getElementById('teach-exit').onclick = function() { self._bonusCards = null; self.openUnit(self.currentUnit); };
     document.getElementById('flash-exit').onclick = function() { self.exitSession(); };
     document.getElementById('sq-exit').onclick = function() { self.exitSession(); };
     document.getElementById('typ-exit').onclick = function() { self.exitSession(); };
@@ -137,6 +137,8 @@ var App = {
           if (self.currentIndex > 0) { self.currentIndex--; self.renderFlashcard(); }
         }
       } else if (e.key === ' ' || e.key === 'Enter') {
+        // Don't capture space/enter when typing in an input
+        if (document.activeElement && document.activeElement.tagName === 'INPUT') return;
         e.preventDefault();
         if (id === 'view-flashcard') {
           document.getElementById('flashcard').classList.toggle('flipped');
@@ -507,6 +509,18 @@ var App = {
   },
 
   nextTeach: function() {
+    // Handle bonus vocab teach flow (after quiz)
+    if (this._bonusCards) {
+      if (this._bonusIndex < this._bonusCards.length - 1) {
+        this._bonusIndex++;
+        this.renderBonusTeach();
+      } else {
+        this._bonusCards = null;
+        this.showView('complete');
+      }
+      return;
+    }
+
     if (this.teachIndex < this.teachCards.length - 1) {
       this.teachIndex++;
       this.renderTeach();
@@ -526,11 +540,7 @@ var App = {
       var cap = this.isTeachingVocab ? 12 : 18;
       if (quizCards.length > cap) quizCards = quizCards.slice(0, cap);
 
-      // Append 2 bonus unseen vocab words only for vocab quizzes
-      if (this.isTeachingVocab) {
-        var bonus = this.getBonusVocab();
-        quizCards = quizCards.concat(bonus);
-      }
+      // Bonus vocab will be shown after quiz as teach, not quizzed
 
       var label = this.isTeachingVocab
         ? 'You just learned ' + this.learnNewCards.length + ' new words.'
@@ -749,11 +759,6 @@ var App = {
     });
 
     // Only add bonus vocab to vocab quizzes
-    if (!isExam && hasVocab) {
-      var bonus = this.getBonusVocab();
-      this.currentCards = this.currentCards.concat(bonus);
-    }
-
     if (hasVocab && !isExam) {
       // Vocab quiz — show preview
       document.getElementById('quiz-intro-text').textContent = this.currentCards.length + ' questions.';
@@ -1039,7 +1044,30 @@ var App = {
     document.getElementById('complete-detail').textContent = detail;
 
     this.isExam = false;
-    this.showView('complete');
+
+    // Show 2 bonus unseen vocab words as a teach intro before complete screen
+    var bonus = this.getBonusVocab();
+    if (bonus.length > 0) {
+      this._bonusCards = bonus;
+      this._bonusIndex = 0;
+      this._afterBonus = 'complete';
+      this.renderBonusTeach();
+      this.showView('teach');
+    } else {
+      this.showView('complete');
+    }
+  },
+
+  renderBonusTeach: function() {
+    var c = this._bonusCards[this._bonusIndex];
+    document.getElementById('teach-label').textContent = 'New Word Preview ' + (this._bonusIndex + 1) + ' of ' + this._bonusCards.length;
+    document.getElementById('teach-char').textContent = c.japanese;
+    document.getElementById('teach-rom').textContent = c.english;
+    document.getElementById('teach-notes').textContent = c.romaji;
+    document.getElementById('teach-counter').textContent = (this._bonusIndex + 1) + ' / ' + this._bonusCards.length;
+    document.getElementById('teach-next').textContent = this._bonusIndex < this._bonusCards.length - 1 ? 'Next' : 'Done';
+    // Mark as introduced (level 1)
+    Storage.recordReview(c.key, true);
   },
 
   shuffle: function(arr) {
