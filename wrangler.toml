@@ -1,0 +1,8 @@
+name = "nihongo-memo"
+compatibility_date = "2024-12-01"
+pages_build_output_dir = "./src"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "nihongo-memo-db"
+database_id = "dea1f1f4-8fc2-418e-88c0-e38f455d2c8c"

@@ -20,6 +20,7 @@
   "devDependencies": {
     "@electron/packager": "^20.0.0",
     "@tauri-apps/cli": "^2.10.1",
-    "electron": "^41.2.1"
+    "electron": "^41.2.1",
+    "wrangler": "^4.85.0"
   }
 }

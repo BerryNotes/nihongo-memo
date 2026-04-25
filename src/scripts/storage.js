@@ -4,12 +4,128 @@
 // On incorrect: -2 (min 0)
 // Mastered at level 15 (~15 correct answers needed)
 
+var API_BASE = (typeof window !== 'undefined' && window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1')
+  ? '/api' : null; // null = offline mode (localStorage only)
+
+var Auth = {
+  session: null,
+  user: null,
+
+  init: function() {
+    this.session = localStorage.getItem('nihongo-session');
+    var u = localStorage.getItem('nihongo-user');
+    this.user = u ? JSON.parse(u) : null;
+    if (this.session) this.verify();
+  },
+
+  async apiCall(endpoint, data) {
+    if (!API_BASE) return null;
+    try {
+      var res = await fetch(API_BASE + '/' + endpoint, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ ...data, session: this.session })
+      });
+      return await res.json();
+    } catch (e) { return null; }
+  },
+
+  async register(email, username, password) {
+    var result = await this.apiCall('auth', { action: 'register', email: email, username: username, password: password });
+    if (result && result.ok) {
+      this.session = result.session;
+      this.user = result.user;
+      localStorage.setItem('nihongo-session', result.session);
+      localStorage.setItem('nihongo-user', JSON.stringify(result.user));
+      await Storage.syncToCloud();
+    }
+    return result;
+  },
+
+  async login(email, password) {
+    var result = await this.apiCall('auth', { action: 'login', email: email, password: password });
+    if (result && result.ok) {
+      this.session = result.session;
+      this.user = result.user;
+      localStorage.setItem('nihongo-session', result.session);
+      localStorage.setItem('nihongo-user', JSON.stringify(result.user));
+      await Storage.syncFromCloud();
+    }
+    return result;
+  },
+
+  async verify() {
+    var result = await this.apiCall('auth', { action: 'verify' });
+    if (result && result.ok) {
+      this.user = result.user;
+      localStorage.setItem('nihongo-user', JSON.stringify(result.user));
+    } else {
+      this.session = null;
+      this.user = null;
+      localStorage.removeItem('nihongo-session');
+      localStorage.removeItem('nihongo-user');
+    }
+  },
+
+  logout: function() {
+    this.apiCall('auth', { action: 'logout' });
+    this.session = null;
+    this.user = null;
+    localStorage.removeItem('nihongo-session');
+    localStorage.removeItem('nihongo-user');
+  },
+
+  isLoggedIn: function() { return !!this.session && !!this.user; }
+};
+
 var Storage = {
   KEYS: {
     MASTERY: 'nihongo-mastery',
     SESSIONS: 'nihongo-sessions',
     STREAK: 'nihongo-streak',
     EXAMS: 'nihongo-exams'
+  },
+
+  // Sync progress to cloud
+  async syncToCloud() {
+    if (!Auth.isLoggedIn()) return;
+    await Auth.apiCall('progress', {
+      action: 'save',
+      mastery: this.getAllMastery(),
+      exams: JSON.parse(localStorage.getItem(this.KEYS.EXAMS) || '{}'),
+      streak: this.getStreak()
+    });
+  },
+
+  // Sync progress from cloud (merges with local, keeping higher levels)
+  async syncFromCloud() {
+    if (!Auth.isLoggedIn()) return;
+    var result = await Auth.apiCall('progress', { action: 'load' });
+    if (!result || !result.ok) return;
+
+    // Merge mastery — keep whichever has higher level
+    var local = this.getAllMastery();
+    var cloud = result.mastery || {};
+    var merged = { ...local };
+    Object.keys(cloud).forEach(function(key) {
+      if (!merged[key] || cloud[key].level > merged[key].level) {
+        merged[key] = cloud[key];
+      }
+    });
+    localStorage.setItem(this.KEYS.MASTERY, JSON.stringify(merged));
+
+    // Merge exams
+    var localExams = JSON.parse(localStorage.getItem(this.KEYS.EXAMS) || '{}');
+    var cloudExams = result.exams || {};
+    var mergedExams = { ...localExams, ...cloudExams };
+    localStorage.setItem(this.KEYS.EXAMS, JSON.stringify(mergedExams));
+
+    // Streak — keep higher
+    var localStreak = this.getStreak();
+    var cloudStreak = result.streak || { current: 0, lastDate: null };
+    if (cloudStreak.current > localStreak.current) {
+      localStorage.setItem(this.KEYS.STREAK, JSON.stringify({ current: cloudStreak.current, lastDate: cloudStreak.lastDate }));
+    }
   },
 
   // Get all mastery data { key: { level, correct, incorrect, lastSeen } }

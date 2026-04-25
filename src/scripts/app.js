@@ -19,7 +19,9 @@ var App = {
   init: function() {
     try { this.units = DataLoader.getUnits(); }
     catch (e) { console.error('Failed to load:', e); this.units = []; }
+    Auth.init();
     this.bind();
+    this.bindAuth();
     this.showView('home');
   },
 
@@ -163,6 +165,79 @@ var App = {
         self.renderTyping();
       }
     };
+  },
+
+  bindAuth: function() {
+    var self = this;
+    var modal = document.getElementById('auth-modal');
+    var isRegister = false;
+
+    function showAuthModal(register) {
+      isRegister = register;
+      document.getElementById('auth-title').textContent = register ? 'Create Account' : 'Log In';
+      document.getElementById('auth-submit').textContent = register ? 'Create Account' : 'Log In';
+      document.getElementById('auth-username-field').className = register ? 'auth-field' : 'auth-field hidden';
+      document.getElementById('auth-switch').innerHTML = register
+        ? 'Already have an account? <button id="auth-switch-btn">Log in</button>'
+        : 'No account? <button id="auth-switch-btn">Create one</button>';
+      document.getElementById('auth-error').className = 'auth-error hidden';
+      document.getElementById('auth-email-input').value = '';
+      document.getElementById('auth-password-input').value = '';
+      document.getElementById('auth-username-input').value = '';
+      modal.classList.remove('hidden');
+      document.getElementById('auth-switch-btn').onclick = function() { showAuthModal(!register); };
+    }
+
+    document.getElementById('auth-login-btn').onclick = function() { showAuthModal(false); };
+    document.getElementById('auth-register-btn').onclick = function() { showAuthModal(true); };
+    document.getElementById('auth-close').onclick = function() { modal.classList.add('hidden'); };
+    modal.onclick = function(e) { if (e.target === modal) modal.classList.add('hidden'); };
+
+    document.getElementById('auth-submit').onclick = async function() {
+      var email = document.getElementById('auth-email-input').value.trim();
+      var password = document.getElementById('auth-password-input').value;
+      var errEl = document.getElementById('auth-error');
+
+      var result;
+      if (isRegister) {
+        var username = document.getElementById('auth-username-input').value.trim();
+        result = await Auth.register(email, username, password);
+      } else {
+        result = await Auth.login(email, password);
+      }
+
+      if (result && result.ok) {
+        modal.classList.add('hidden');
+        self.updateAuthUI();
+        self.renderHome();
+      } else {
+        errEl.textContent = (result && result.error) || 'Something went wrong. Try again.';
+        errEl.className = 'auth-error';
+      }
+    };
+
+    document.getElementById('auth-logout-btn').onclick = function() {
+      Auth.logout();
+      self.updateAuthUI();
+    };
+
+    // Allow enter to submit
+    document.getElementById('auth-password-input').onkeydown = function(e) {
+      if (e.key === 'Enter') document.getElementById('auth-submit').click();
+    };
+
+    this.updateAuthUI();
+  },
+
+  updateAuthUI: function() {
+    if (Auth.isLoggedIn()) {
+      document.getElementById('auth-bar').classList.add('hidden');
+      document.getElementById('auth-user-bar').classList.remove('hidden');
+      document.getElementById('auth-username').textContent = Auth.user.username;
+    } else {
+      document.getElementById('auth-bar').classList.remove('hidden');
+      document.getElementById('auth-user-bar').classList.add('hidden');
+    }
   },
 
   showView: function(id) {
@@ -461,9 +536,7 @@ var App = {
         continue;
       }
 
-      // This group needs work
       currentGroup = group;
-      // Check if any in this group are never-seen
       needsTeach = group.some(function(c) {
         return !allMastery[c.key] || allMastery[c.key].level === 0;
       });
@@ -1058,6 +1131,8 @@ var App = {
     } else {
       this.showView('complete');
     }
+    // Sync to cloud after session
+    Storage.syncToCloud();
   },
 
   renderBonusTeach: function() {

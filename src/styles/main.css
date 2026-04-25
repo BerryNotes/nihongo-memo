@@ -418,5 +418,26 @@ body::before {
 }
 .quiz-help-btn:hover { border-color: var(--gold); color: var(--gold); transform: scale(1.15); }
 
+/* Auth */
+.auth-bar { margin-top: 20px; font-size: 13px; color: var(--muted); animation: slideUp 0.6s ease 0.5s both; }
+.auth-link { background: none; border: none; color: var(--accent); font-size: 13px; cursor: pointer; text-decoration: underline; padding: 0; }
+.auth-link:hover { color: var(--accent2); }
+.auth-sep { margin: 0 6px; }
+.auth-username { color: var(--text2); margin-right: 10px; }
+
+.auth-box { max-width: 380px; }
+.auth-box h2 { font-family: 'Noto Sans JP', serif; font-size: 24px; margin-bottom: 16px; }
+.auth-error { background: var(--accent-dim); border: 1px solid var(--accent); border-radius: var(--radius-sm); color: var(--accent); padding: 10px 14px; font-size: 13px; margin-bottom: 12px; }
+.auth-field { margin-bottom: 14px; }
+.auth-field label { display: block; font-size: 12px; color: var(--muted); margin-bottom: 4px; text-transform: uppercase; letter-spacing: 1px; }
+.auth-field input {
+  width: 100%; background: var(--bg3); border: 1px solid var(--border); border-radius: var(--radius-sm);
+  color: var(--text); padding: 11px 14px; font-size: 15px; outline: none; transition: border-color 0.2s;
+}
+.auth-field input:focus { border-color: var(--accent); }
+.auth-submit { width: 100%; margin-top: 4px; padding: 12px; font-size: 15px; }
+.auth-switch { text-align: center; margin-top: 14px; font-size: 13px; color: var(--muted); }
+.auth-switch button { background: none; border: none; color: var(--accent); cursor: pointer; font-size: 13px; }
+
 ::-webkit-scrollbar { display: none; }
 #app { -ms-overflow-style: none; scrollbar-width: none; }
