@@ -17,5 +17,5 @@ jobs:
         uses: cloudflare/wrangler-action@v3
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          accountId: 9bb73657121c1ef2e4fa469feb5fc8f7
+          accountId: dd76dabe2d4e10bba03b6a5060f75366
           command: pages deploy src --project-name=nihongo-memo

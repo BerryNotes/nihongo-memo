@@ -5,4 +5,4 @@ pages_build_output_dir = "./src"
 [[d1_databases]]
 binding = "DB"
 database_name = "nihongo-memo-db"
-database_id = "dea1f1f4-8fc2-418e-88c0-e38f455d2c8c"
+database_id = "56feea26-724d-4ba5-b730-8383e674c5bc"
