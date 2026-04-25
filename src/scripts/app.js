@@ -221,7 +221,7 @@ var App = {
       if (result && result.ok) {
         modal.classList.add('hidden');
         self.updateAuthUI();
-        self.renderHome();
+        self.showView('home');
       } else {
         errEl.textContent = (result && result.error) || 'Something went wrong. Try again.';
         errEl.className = 'auth-error';
