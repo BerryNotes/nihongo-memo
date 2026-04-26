@@ -88,6 +88,7 @@
           <input type="password" id="auth-password-input" placeholder="Password" autocomplete="current-password">
         </div>
         <div class="cf-turnstile" data-sitekey="0x4AAAAAADDUPaHvXfzTde9-" data-theme="dark" data-size="flexible" id="turnstile-widget"></div>
+        <input type="text" name="website" id="auth-hp" style="position:absolute;left:-9999px;opacity:0;height:0" tabindex="-1" autocomplete="off">
         <button class="btn accent auth-submit" id="auth-submit">Log In</button>
         <p class="auth-switch" id="auth-switch"></p>
       </div>
@@ -288,6 +289,7 @@
       </div>
     </div>
 
+  <script src="scripts/botguard.js"></script>
   <script src="scripts/data.js"></script>
   <script src="scripts/storage.js"></script>
   <script src="scripts/app.js"></script>

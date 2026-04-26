@@ -236,12 +236,20 @@ var App = {
         return;
       }
 
+      // Honeypot check
+      if (document.getElementById('auth-hp').value) {
+        // Bot filled hidden field — pretend success
+        modal.classList.add('hidden');
+        return;
+      }
+
       var username = document.getElementById('auth-username-input').value.trim();
+      var bg = (typeof BotGuard !== 'undefined') ? BotGuard.generate() : {};
       var result;
       if (isRegister) {
-        result = await Auth.register(email, username, password, turnstileToken, formOpenTime);
+        result = await Auth.register(email, username, password, turnstileToken, formOpenTime, bg);
       } else {
-        result = await Auth.login(username, password, turnstileToken, formOpenTime);
+        result = await Auth.login(username, password, turnstileToken, formOpenTime, bg);
       }
 
       // Reset Turnstile for next attempt

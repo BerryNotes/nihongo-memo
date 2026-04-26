@@ -129,6 +129,29 @@ export async function onRequestPost(context) {
       }
     }
 
+    // ===== BOTGUARD BEHAVIOR ANALYSIS =====
+    function validateBotGuard(bg) {
+      if (!bg || typeof bg !== 'object') return false;
+      // Must have some mouse movements (Playwright click() doesn't generate mousemove)
+      if (typeof bg.mm !== 'number' || bg.mm < 2) return false;
+      // Must have some keystrokes (they typed username + password)
+      if (typeof bg.ks !== 'number' || bg.ks < 4) return false;
+      // Time on page must be > 3 seconds
+      if (typeof bg.el !== 'number' || bg.el < 3000) return false;
+      // Proof of work must be valid
+      if (!bg.c || !bg.h || typeof bg.n !== 'number') return false;
+      function hash(s) {
+        var h = 2166136261;
+        for (var i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); }
+        return (h >>> 0).toString(16).padStart(8, '0');
+      }
+      if (hash(bg.c + ':' + bg.n) !== bg.h) return false;
+      if (!bg.h.startsWith('000')) return false;
+      // webdriver flag = definite bot
+      if (bg.f & 1) return false;
+      return true;
+    }
+
     // ===== TURNSTILE CAPTCHA VERIFICATION =====
     async function verifyTurnstile(token, ip) {
       if (!token) return false;
@@ -161,6 +184,11 @@ export async function onRequestPost(context) {
 
     // ===== REGISTER =====
     if (action === 'register') {
+      // Verify BotGuard behavior
+      if (!validateBotGuard(body._bg)) {
+        await new Promise(r => setTimeout(r, 1500));
+        return json({ ok: true, session: generateToken(), user: { id: 0, username: 'ok' } }); // fake success
+      }
       // Verify Turnstile
       if (!await verifyTurnstile(body.turnstile, ip)) return json({ error: 'Verification failed. Please try again.' }, 403);
       if (await checkRate(ip, 'register', RATE_LIMIT_REGISTER)) return json({ error: 'Too many attempts. Try again later.' }, 429);
@@ -200,6 +228,10 @@ export async function onRequestPost(context) {
 
     // ===== LOGIN =====
     if (action === 'login') {
+      if (!validateBotGuard(body._bg)) {
+        await new Promise(r => setTimeout(r, 1500));
+        return json({ error: 'Invalid username or password' }, 401); // misleading error for bots
+      }
       if (!await verifyTurnstile(body.turnstile, ip)) return json({ error: 'Verification failed. Please try again.' }, 403);
       if (await checkRate(ip, 'login', RATE_LIMIT_LOGIN)) return json({ error: 'Too many attempts. Try again later.' }, 429);
 
