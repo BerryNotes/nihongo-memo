@@ -97,8 +97,8 @@ export async function onRequestPost(context) {
       return json({ error: 'Invalid content type' }, 400);
     }
 
-    // Block empty or suspicious user agents
-    if (!ua || ua.length < 10 || /curl|wget|python|httpie|postman|insomnia/i.test(ua)) {
+    // Block known automated tool user agents
+    if (/curl|wget|python-requests|httpie|postman|insomnia|Go-http-client/i.test(ua)) {
       return json({ error: 'Forbidden' }, 403);
     }
 
@@ -130,26 +130,35 @@ export async function onRequestPost(context) {
     }
 
     // ===== BOTGUARD BEHAVIOR ANALYSIS =====
-    function validateBotGuard(bg) {
-      if (!bg || typeof bg !== 'object') return false;
-      // Must have some mouse movements (Playwright click() doesn't generate mousemove)
-      if (typeof bg.mm !== 'number' || bg.mm < 2) return false;
-      // Must have some keystrokes (they typed username + password)
-      if (typeof bg.ks !== 'number' || bg.ks < 4) return false;
-      // Time on page must be > 3 seconds
-      if (typeof bg.el !== 'number' || bg.el < 3000) return false;
-      // Proof of work must be valid
-      if (!bg.c || !bg.h || typeof bg.n !== 'number') return false;
-      function hash(s) {
-        var h = 2166136261;
-        for (var i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); }
-        return (h >>> 0).toString(16).padStart(8, '0');
+    // Returns a risk score 0-100 (higher = more bot-like)
+    function getBotScore(bg) {
+      if (!bg || typeof bg !== 'object') return 50; // no data = medium risk
+      var score = 0;
+
+      // webdriver flag = very suspicious
+      if (bg.f & 1) score += 40;
+      // headless chrome
+      if (bg.f & 4) score += 30;
+
+      // No mouse movements at all = suspicious
+      if (typeof bg.mm !== 'number' || bg.mm < 1) score += 20;
+      // No keystrokes = suspicious
+      if (typeof bg.ks !== 'number' || bg.ks < 2) score += 15;
+      // Very fast (< 2 seconds on page)
+      if (typeof bg.el === 'number' && bg.el < 2000) score += 25;
+
+      // No proof of work or invalid
+      if (!bg.c || !bg.h || typeof bg.n !== 'number') { score += 15; }
+      else {
+        function hash(s) {
+          var h = 2166136261;
+          for (var i = 0; i < s.length; i++) { h ^= s.charCodeAt(i); h = Math.imul(h, 16777619); }
+          return (h >>> 0).toString(16).padStart(8, '0');
+        }
+        if (hash(bg.c + ':' + bg.n) !== bg.h || !bg.h.startsWith('000')) score += 15;
       }
-      if (hash(bg.c + ':' + bg.n) !== bg.h) return false;
-      if (!bg.h.startsWith('000')) return false;
-      // webdriver flag = definite bot
-      if (bg.f & 1) return false;
-      return true;
+
+      return Math.min(100, score);
     }
 
     // ===== TURNSTILE CAPTCHA VERIFICATION =====
@@ -184,10 +193,11 @@ export async function onRequestPost(context) {
 
     // ===== REGISTER =====
     if (action === 'register') {
-      // Verify BotGuard behavior
-      if (!validateBotGuard(body._bg)) {
+      // BotGuard behavior score
+      var regBotScore = getBotScore(body._bg);
+      if (regBotScore >= 60) {
         await new Promise(r => setTimeout(r, 1500));
-        return json({ ok: true, session: generateToken(), user: { id: 0, username: 'ok' } }); // fake success
+        return json({ ok: true, session: generateToken(), user: { id: 0, username: 'ok' } }); // fake success for bots
       }
       // Verify Turnstile
       if (!await verifyTurnstile(body.turnstile, ip)) return json({ error: 'Verification failed. Please try again.' }, 403);
@@ -228,9 +238,10 @@ export async function onRequestPost(context) {
 
     // ===== LOGIN =====
     if (action === 'login') {
-      if (!validateBotGuard(body._bg)) {
+      var loginBotScore = getBotScore(body._bg);
+      if (loginBotScore >= 60) {
         await new Promise(r => setTimeout(r, 1500));
-        return json({ error: 'Invalid username or password' }, 401); // misleading error for bots
+        return json({ error: 'Invalid username or password' }, 401);
       }
       if (!await verifyTurnstile(body.turnstile, ip)) return json({ error: 'Verification failed. Please try again.' }, 403);
       if (await checkRate(ip, 'login', RATE_LIMIT_LOGIN)) return json({ error: 'Too many attempts. Try again later.' }, 429);
