@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nihongo Memo — Admin</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Inter', -apple-system, sans-serif; background: #1c1e26; color: #e8e4df; padding: 24px; }
+    h1 { font-size: 24px; font-weight: 300; margin-bottom: 20px; color: #d4564e; }
+    .login-box { max-width: 360px; margin: 80px auto; }
+    .login-box h2 { margin-bottom: 16px; }
+    .field { margin-bottom: 12px; }
+    .field label { display: block; font-size: 11px; color: #7a7580; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 4px; }
+    .field input { width: 100%; background: #2a2d3a; border: 1px solid #383b4a; border-radius: 8px; color: #e8e4df; padding: 10px 14px; font-size: 14px; outline: none; }
+    .field input:focus { border-color: #d4564e; }
+    .btn { background: #d4564e; border: none; border-radius: 8px; color: #fff; padding: 10px 20px; font-size: 14px; cursor: pointer; }
+    .btn:hover { background: #e8695f; }
+    .btn-sm { padding: 5px 12px; font-size: 12px; margin-left: 6px; }
+    .btn-danger { background: #8b2020; }
+    .btn-danger:hover { background: #a52a2a; }
+    .error { color: #d4564e; font-size: 13px; margin-bottom: 10px; }
+    .stats { display: flex; gap: 16px; margin-bottom: 24px; }
+    .stat { background: #2a2d3a; border: 1px solid #383b4a; border-radius: 8px; padding: 14px 20px; }
+    .stat-num { font-size: 28px; font-weight: 700; color: #d4564e; }
+    .stat-label { font-size: 10px; color: #7a7580; text-transform: uppercase; letter-spacing: 1px; }
+    table { width: 100%; border-collapse: collapse; margin-top: 16px; }
+    th { text-align: left; font-size: 10px; color: #7a7580; text-transform: uppercase; letter-spacing: 1px; padding: 8px 12px; border-bottom: 1px solid #383b4a; }
+    td { padding: 10px 12px; border-bottom: 1px solid #2a2d3a; font-size: 13px; }
+    tr:hover { background: #2a2d3a; }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 4px; font-size: 10px; font-weight: 600; }
+    .badge-ok { background: rgba(106,171,115,0.15); color: #6aab73; }
+    .badge-locked { background: rgba(212,86,78,0.15); color: #d4564e; }
+    .badge-admin { background: rgba(201,168,76,0.15); color: #c9a84c; }
+    .modal-bg { position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; display: none; }
+    .modal-bg.show { display: flex; }
+    .modal { background: #2a2d3a; border: 1px solid #383b4a; border-radius: 12px; padding: 24px; max-width: 420px; width: 90%; }
+    .modal h3 { margin-bottom: 16px; }
+    .actions { display: flex; gap: 8px; margin-top: 12px; }
+    .hidden { display: none; }
+    .topbar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+    .topbar a { color: #7a7580; text-decoration: none; font-size: 13px; }
+    .topbar a:hover { color: #e8e4df; }
+    .search { background: #2a2d3a; border: 1px solid #383b4a; border-radius: 8px; color: #e8e4df; padding: 8px 14px; font-size: 13px; outline: none; width: 240px; }
+    .search:focus { border-color: #d4564e; }
+  </style>
+</head>
+<body>
+  <!-- Login -->
+  <div id="admin-login" class="login-box">
+    <h2>Admin Login</h2>
+    <div class="error hidden" id="login-error"></div>
+    <div class="field"><label>Username</label><input type="text" id="login-user"></div>
+    <div class="field"><label>Password</label><input type="password" id="login-pass"></div>
+    <button class="btn" id="login-btn">Log In</button>
+  </div>
+
+  <!-- Dashboard -->
+  <div id="admin-dash" class="hidden">
+    <div class="topbar">
+      <h1>Admin Dashboard</h1>
+      <div>
+        <a href="/" style="margin-right:16px">Back to App</a>
+        <a href="#" id="logout-btn">Log out</a>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><div class="stat-num" id="stat-users">0</div><div class="stat-label">Users</div></div>
+      <div class="stat"><div class="stat-num" id="stat-sessions">0</div><div class="stat-label">Sessions</div></div>
+      <div class="stat"><div class="stat-num" id="stat-progress">0</div><div class="stat-label">Progress Records</div></div>
+      <div class="stat"><div class="stat-num" id="stat-rate">0</div><div class="stat-label">Rate Limit Entries</div></div>
+    </div>
+
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+      <h2 style="font-size:18px">Users</h2>
+      <input type="text" class="search" id="search" placeholder="Search users...">
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Username</th>
+          <th>Email</th>
+          <th>Created</th>
+          <th>Last Login</th>
+          <th>Status</th>
+          <th>Progress</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody id="user-table"></tbody>
+    </table>
+  </div>
+
+  <!-- Edit Modal -->
+  <div class="modal-bg" id="edit-modal">
+    <div class="modal">
+      <h3>Edit User <span id="edit-username"></span></h3>
+      <div class="error hidden" id="edit-error"></div>
+      <div class="field"><label>Username</label><input type="text" id="edit-user-input"></div>
+      <div class="field"><label>Email</label><input type="email" id="edit-email-input"></div>
+      <div class="field"><label>New Password (leave blank to keep)</label><input type="password" id="edit-pass-input"></div>
+      <div class="actions">
+        <button class="btn" id="edit-save">Save</button>
+        <button class="btn btn-danger" id="edit-delete">Delete User</button>
+        <button class="btn" style="background:#383b4a" id="edit-cancel">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    var API = '/api/admin';
+    var session = localStorage.getItem('admin-session');
+    var currentEditId = null;
+
+    async function api(action, data) {
+      var res = await fetch(API, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ action: action, session: session, ...data })
+      });
+      return await res.json();
+    }
+
+    // Login
+    document.getElementById('login-btn').onclick = async function() {
+      var user = document.getElementById('login-user').value.trim();
+      var pass = document.getElementById('login-pass').value;
+      var res = await api('login', { username: user, password: pass });
+      if (res.ok) {
+        session = res.session;
+        localStorage.setItem('admin-session', session);
+        showDash();
+      } else {
+        document.getElementById('login-error').textContent = res.error || 'Failed';
+        document.getElementById('login-error').classList.remove('hidden');
+      }
+    };
+    document.getElementById('login-pass').onkeydown = function(e) { if (e.key === 'Enter') document.getElementById('login-btn').click(); };
+
+    document.getElementById('logout-btn').onclick = function(e) {
+      e.preventDefault();
+      localStorage.removeItem('admin-session');
+      session = null;
+      location.reload();
+    };
+
+    async function showDash() {
+      document.getElementById('admin-login').classList.add('hidden');
+      document.getElementById('admin-dash').classList.remove('hidden');
+      await loadUsers();
+      await loadStats();
+    }
+
+    async function loadStats() {
+      var res = await api('stats');
+      if (res.ok) {
+        document.getElementById('stat-users').textContent = res.users;
+        document.getElementById('stat-sessions').textContent = res.sessions;
+        document.getElementById('stat-progress').textContent = res.progress;
+        document.getElementById('stat-rate').textContent = res.rateLimit;
+      }
+    }
+
+    var allUsers = [];
+    async function loadUsers() {
+      var res = await api('users');
+      if (res.ok) {
+        allUsers = res.users;
+        renderUsers(allUsers);
+      } else if (res.error === 'Not admin') {
+        alert('Not authorized as admin');
+        localStorage.removeItem('admin-session');
+        location.reload();
+      }
+    }
+
+    function renderUsers(users) {
+      var tbody = document.getElementById('user-table');
+      tbody.innerHTML = '';
+      users.forEach(function(u) {
+        var status = u.locked_until && new Date(u.locked_until) > new Date()
+          ? '<span class="badge badge-locked">Locked</span>'
+          : '<span class="badge badge-ok">Active</span>';
+        if (u.is_admin) status += ' <span class="badge badge-admin">Admin</span>';
+        var tr = document.createElement('tr');
+        tr.innerHTML =
+          '<td>' + u.id + '</td>' +
+          '<td>' + u.username + '</td>' +
+          '<td>' + (u.email || '') + '</td>' +
+          '<td>' + (u.created_at || '').slice(0, 16) + '</td>' +
+          '<td>' + (u.last_login || 'Never').slice(0, 16) + '</td>' +
+          '<td>' + status + '</td>' +
+          '<td>' + (u.progress_count || 0) + ' cards</td>' +
+          '<td>' +
+            '<button class="btn btn-sm" onclick="editUser(' + u.id + ')">Edit</button>' +
+            (u.locked_until ? '<button class="btn btn-sm" onclick="unlockUser(' + u.id + ')">Unlock</button>' : '') +
+          '</td>';
+        tbody.appendChild(tr);
+      });
+    }
+
+    // Search
+    document.getElementById('search').oninput = function() {
+      var q = this.value.toLowerCase();
+      renderUsers(allUsers.filter(function(u) {
+        return u.username.toLowerCase().includes(q) || (u.email || '').toLowerCase().includes(q);
+      }));
+    };
+
+    // Edit
+    function editUser(id) {
+      currentEditId = id;
+      var u = allUsers.find(function(x) { return x.id === id; });
+      document.getElementById('edit-username').textContent = u.username;
+      document.getElementById('edit-user-input').value = u.username;
+      document.getElementById('edit-email-input').value = u.email || '';
+      document.getElementById('edit-pass-input').value = '';
+      document.getElementById('edit-error').classList.add('hidden');
+      document.getElementById('edit-modal').classList.add('show');
+    }
+
+    document.getElementById('edit-cancel').onclick = function() {
+      document.getElementById('edit-modal').classList.remove('show');
+    };
+
+    document.getElementById('edit-save').onclick = async function() {
+      var res = await api('editUser', {
+        userId: currentEditId,
+        username: document.getElementById('edit-user-input').value.trim(),
+        email: document.getElementById('edit-email-input').value.trim(),
+        password: document.getElementById('edit-pass-input').value || null
+      });
+      if (res.ok) {
+        document.getElementById('edit-modal').classList.remove('show');
+        await loadUsers();
+      } else {
+        document.getElementById('edit-error').textContent = res.error;
+        document.getElementById('edit-error').classList.remove('hidden');
+      }
+    };
+
+    document.getElementById('edit-delete').onclick = async function() {
+      if (!confirm('Delete this user and all their data? This cannot be undone.')) return;
+      var res = await api('deleteUser', { userId: currentEditId });
+      if (res.ok) {
+        document.getElementById('edit-modal').classList.remove('show');
+        await loadUsers();
+        await loadStats();
+      }
+    };
+
+    async function unlockUser(id) {
+      await api('unlockUser', { userId: id });
+      await loadUsers();
+    }
+
+    // Init
+    if (session) { showDash(); }
+  </script>
+</body>
+</html>
