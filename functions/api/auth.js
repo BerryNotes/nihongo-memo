@@ -6,13 +6,16 @@
 // Input sanitization and length limits
 // No user enumeration (same error for wrong user vs wrong password)
 
-const PBKDF2_ITERATIONS = 100000; // Cloudflare Workers max supported
-const SESSION_DURATION_MS = 7 * 24 * 60 * 60 * 1000; // 7 days (not 30)
+const PBKDF2_ITERATIONS = 100000;
+const SESSION_DURATION_MS = 7 * 24 * 60 * 60 * 1000;
 const MAX_FAILED_ATTEMPTS = 5;
-const LOCKOUT_DURATION_MS = 30 * 60 * 1000; // 30 min lockout
+const LOCKOUT_DURATION_MS = 30 * 60 * 1000;
 const MAX_SESSIONS_PER_USER = 5;
 const MAX_INPUT_LENGTH = 256;
 const MAX_BODY_SIZE = 2048;
+const RATE_LIMIT_REGISTER = 3;   // max 3 registrations per IP per hour
+const RATE_LIMIT_LOGIN = 10;     // max 10 login attempts per IP per hour
+const RATE_LIMIT_WINDOW_MS = 60 * 60 * 1000; // 1 hour
 
 async function hashPassword(password, salt) {
   const encoder = new TextEncoder();
@@ -79,6 +82,19 @@ export async function onRequestPost(context) {
   const db = env.DB;
   if (!db) return jsonResponse({ error: 'Database not configured' }, 500, origin);
 
+  // Rate limiting function
+  async function checkRateLimit(ip, action, maxAttempts) {
+    const windowStart = new Date(Date.now() - RATE_LIMIT_WINDOW_MS).toISOString();
+    // Clean old entries
+    await db.prepare("DELETE FROM rate_limits WHERE timestamp < ?").bind(windowStart).run();
+    // Count recent attempts
+    const row = await db.prepare("SELECT COUNT(*) as c FROM rate_limits WHERE ip = ? AND action = ? AND timestamp > ?").bind(ip, action, windowStart).first();
+    if (row && row.c >= maxAttempts) return true; // rate limited
+    // Log this attempt
+    await db.prepare("INSERT INTO rate_limits (ip, action, timestamp) VALUES (?, ?, ?)").bind(ip, action, new Date().toISOString()).run();
+    return false;
+  }
+
   const ip = request.headers.get('CF-Connecting-IP') || 'unknown';
   const ua = sanitize(request.headers.get('User-Agent') || '');
 
@@ -97,9 +113,20 @@ export async function onRequestPost(context) {
 
   // ===== REGISTER =====
   if (action === 'register') {
+    if (await checkRateLimit(ip, 'register', RATE_LIMIT_REGISTER)) {
+      return jsonResponse({ error: 'Too many attempts. Try again later.' }, 429, origin);
+    }
+
     const email = sanitize(body.email).toLowerCase();
     const username = sanitize(body.username);
     const password = body.password || '';
+
+    // Block disposable/test email domains
+    const blockedDomains = ['example.test', 'example.com', 'test.com', 'mailinator.com', 'tempmail.com', 'throwaway.email', 'guerrillamail.com'];
+    const emailDomain = email.split('@')[1] || '';
+    if (blockedDomains.some(d => emailDomain.endsWith(d))) {
+      return jsonResponse({ error: 'Please use a real email address' }, 400, origin);
+    }
 
     // Strict validation
     if (!email || !username || !password) return jsonResponse({ error: 'All fields required' }, 400, origin);
@@ -131,6 +158,10 @@ export async function onRequestPost(context) {
 
   // ===== LOGIN =====
   if (action === 'login') {
+    if (await checkRateLimit(ip, 'login', RATE_LIMIT_LOGIN)) {
+      return jsonResponse({ error: 'Too many attempts. Try again later.' }, 429, origin);
+    }
+
     const username = sanitize(body.username);
     const password = body.password || '';
 
