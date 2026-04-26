@@ -25,6 +25,7 @@
   <meta name="theme-color" content="#1c1e26">
 
   <link rel="stylesheet" href="styles/main.css">
+  <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 </head>
 <body>
   <div id="app">
@@ -86,6 +87,7 @@
           <label>Password</label>
           <input type="password" id="auth-password-input" placeholder="Password" autocomplete="current-password">
         </div>
+        <div class="cf-turnstile" data-sitekey="0x4AAAAAADDUPaHvXfzTde9-" data-theme="dark" data-size="flexible" id="turnstile-widget"></div>
         <button class="btn accent auth-submit" id="auth-submit">Log In</button>
         <p class="auth-switch" id="auth-switch"></p>
       </div>

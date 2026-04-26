@@ -30,8 +30,8 @@ var Auth = {
     } catch (e) { return null; }
   },
 
-  async register(email, username, password) {
-    var result = await this.apiCall('auth', { action: 'register', email: email, username: username, password: password });
+  async register(email, username, password, turnstile, openTime) {
+    var result = await this.apiCall('auth', { action: 'register', email: email, username: username, password: password, turnstile: turnstile, _t: openTime });
     if (result && result.ok) {
       this.session = result.session;
       this.user = result.user;
@@ -42,8 +42,8 @@ var Auth = {
     return result;
   },
 
-  async login(username, password) {
-    var result = await this.apiCall('auth', { action: 'login', username: username, password: password });
+  async login(username, password, turnstile, openTime) {
+    var result = await this.apiCall('auth', { action: 'login', username: username, password: password, turnstile: turnstile, _t: openTime });
     if (result && result.ok) {
       this.session = result.session;
       this.user = result.user;

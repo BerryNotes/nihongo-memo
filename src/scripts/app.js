@@ -217,18 +217,35 @@ var App = {
     document.getElementById('auth-close').onclick = function() { modal.classList.add('hidden'); };
     modal.onclick = function(e) { if (e.target === modal) modal.classList.add('hidden'); };
 
+    // Track form open time for bot detection
+    var formOpenTime = Date.now();
+
     document.getElementById('auth-submit').onclick = async function() {
       var email = document.getElementById('auth-email-input').value.trim();
       var password = document.getElementById('auth-password-input').value;
       var errEl = document.getElementById('auth-error');
 
+      // Get Turnstile token
+      var turnstileToken = '';
+      if (typeof turnstile !== 'undefined') {
+        turnstileToken = turnstile.getResponse() || '';
+      }
+      if (!turnstileToken && typeof turnstile !== 'undefined') {
+        errEl.textContent = 'Please complete the verification.';
+        errEl.className = 'auth-error';
+        return;
+      }
+
       var username = document.getElementById('auth-username-input').value.trim();
       var result;
       if (isRegister) {
-        result = await Auth.register(email, username, password);
+        result = await Auth.register(email, username, password, turnstileToken, formOpenTime);
       } else {
-        result = await Auth.login(username, password);
+        result = await Auth.login(username, password, turnstileToken, formOpenTime);
       }
+
+      // Reset Turnstile for next attempt
+      if (typeof turnstile !== 'undefined') turnstile.reset();
 
       if (result && result.ok) {
         modal.classList.add('hidden');
