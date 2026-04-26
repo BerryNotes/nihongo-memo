@@ -16,17 +16,29 @@ var App = {
   isTeachingVocab: false,
   viewingUnitIndex: 0,
 
-  init: function() {
+  init: async function() {
     try { this.units = DataLoader.getUnits(); }
     catch (e) { console.error('Failed to load:', e); this.units = []; }
-    Auth.init();
     this.bind();
     this.bindAuth();
-    // If not logged in and online, show auth gate instead of home
-    if (API_BASE && !Auth.isLoggedIn()) {
-      this.showView('auth-gate');
+
+    // Init auth and wait for verify + sync before showing UI
+    Auth.session = localStorage.getItem('nihongo-session');
+    var u = localStorage.getItem('nihongo-user');
+    Auth.user = u ? JSON.parse(u) : null;
+
+    if (Auth.session) {
+      await Auth.verify();
+      this.updateAuthUI();
+      if (Auth.isLoggedIn()) {
+        this.showView('home');
+      } else {
+        if (API_BASE) this.showView('auth-gate');
+        else this.showView('home');
+      }
     } else {
-      this.showView('home');
+      if (API_BASE) this.showView('auth-gate');
+      else this.showView('home');
     }
   },
 

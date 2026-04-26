@@ -59,6 +59,7 @@ var Auth = {
     if (result && result.ok) {
       this.user = result.user;
       localStorage.setItem('nihongo-user', JSON.stringify(result.user));
+      await Storage.syncFromCloud();
     } else {
       this.session = null;
       this.user = null;
