@@ -105,10 +105,8 @@ export async function onRequestPost(context) {
     if (!/^[^@]+@[^@]+\.[^@]+$/.test(email)) return jsonResponse({ error: 'Invalid email' }, 400, origin);
     if (!/^[a-zA-Z0-9_-]+$/.test(username)) return jsonResponse({ error: 'Username: letters, numbers, _ and - only' }, 400, origin);
 
-    // Check password complexity
-    if (!/[a-z]/.test(password) || !/[A-Z]/.test(password) || !/[0-9]/.test(password)) {
-      return jsonResponse({ error: 'Password needs uppercase, lowercase, and a number' }, 400, origin);
-    }
+    // Password complexity - just needs 8+ chars
+    // (removed uppercase/lowercase/number requirement for easier signup)
 
     const existing = await db.prepare('SELECT id FROM users WHERE LOWER(email) = ? OR LOWER(username) = ?').bind(email, username.toLowerCase()).first();
     if (existing) return jsonResponse({ error: 'Email or username already taken' }, 409, origin);
