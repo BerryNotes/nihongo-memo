@@ -73,7 +73,10 @@
     </div>
 
     <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-      <h2 style="font-size:18px">Users</h2>
+      <div style="display:flex;align-items:center;gap:12px">
+        <h2 style="font-size:18px">Users</h2>
+        <button class="btn btn-sm" id="refresh-btn" style="margin-left:0">Refresh</button>
+      </div>
       <input type="text" class="search" id="search" placeholder="Search users...">
     </div>
 
@@ -256,6 +259,13 @@
       await api('unlockUser', { userId: id });
       await loadUsers();
     }
+
+    document.getElementById('refresh-btn').onclick = async function() {
+      this.textContent = '...';
+      await loadUsers();
+      await loadStats();
+      this.textContent = 'Refresh';
+    };
 
     // Init
     if (session) { showDash(); }
