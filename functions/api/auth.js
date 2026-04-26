@@ -6,7 +6,7 @@
 // Input sanitization and length limits
 // No user enumeration (same error for wrong user vs wrong password)
 
-const PBKDF2_ITERATIONS = 310000;
+const PBKDF2_ITERATIONS = 100000; // Cloudflare Workers max supported
 const SESSION_DURATION_MS = 7 * 24 * 60 * 60 * 1000; // 7 days (not 30)
 const MAX_FAILED_ATTEMPTS = 5;
 const LOCKOUT_DURATION_MS = 30 * 60 * 1000; // 30 min lockout
@@ -73,8 +73,12 @@ export async function onRequestOptions(context) {
 
 export async function onRequestPost(context) {
   const { request, env } = context;
-  const db = env.DB;
   const origin = request.headers.get('Origin') || '';
+
+  try {
+  const db = env.DB;
+  if (!db) return jsonResponse({ error: 'Database not configured' }, 500, origin);
+
   const ip = request.headers.get('CF-Connecting-IP') || 'unknown';
   const ua = sanitize(request.headers.get('User-Agent') || '');
 
@@ -195,6 +199,10 @@ export async function onRequestPost(context) {
   }
 
   return jsonResponse({ error: 'Unknown action' }, 400, origin);
+
+  } catch (err) {
+    return jsonResponse({ error: 'Server error: ' + (err.message || 'unknown') }, 500, origin);
+  }
 }
 
 // Block GET requests
